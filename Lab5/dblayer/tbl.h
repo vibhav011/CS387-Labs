@@ -21,9 +21,17 @@ typedef struct {
 typedef struct {
     Schema *schema;
 
-    UNIMPLEMENTED; 
+    int fd;         // file descriptor of associated file 
+    int *lastPage;   // last page number in file
+    int numPages;   // number of pages in file
     
 } Table ;
+
+typedef struct {
+    int numSlots;
+    unsigned short freeSlotOffset;
+    unsigned short slotOffsets[];
+} Header ;
 
 typedef int RecId;
 

@@ -13,7 +13,7 @@ printRow(void *callbackObj, RecId rid, byte *row, int len) {
     Schema *schema = (Schema *) callbackObj;
     byte *cursor = row;
 
-    UNIMPLEMENTED;
+    // UNIMPLEMENTED;
 }
 
 #define DB_NAME "data.db"
@@ -21,7 +21,7 @@ printRow(void *callbackObj, RecId rid, byte *row, int len) {
 	 
 void
 index_scan(Table *tbl, Schema *schema, int indexFD, int op, int value) {
-    UNIMPLEMENTED;
+    // UNIMPLEMENTED;
     /*
     Open index ...
     while (true) {
@@ -39,9 +39,9 @@ main(int argc, char **argv) {
     Schema *schema = parseSchema(schemaTxt);
     Table *tbl;
 
-    UNIMPLEMENTED;
+    // UNIMPLEMENTED;
     if (argc == 2 && *(argv[1]) == 's') {
-	UNIMPLEMENTED;
+	// UNIMPLEMENTED;
 	// invoke Table_Scan with printRow, which will be invoked for each row in the table.
     } else {
 	// index scan by default
