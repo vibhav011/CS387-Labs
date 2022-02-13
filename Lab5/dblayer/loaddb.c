@@ -92,6 +92,7 @@ loadCSV() {
 
 	// UNIMPLEMENTED;
     err = Table_Insert(tbl, record, len, &rid);
+    // how can record not be of type byte*
     checkerr(err);
 
 	printf("%d %s\n", rid, tokens[0]);
@@ -100,7 +101,8 @@ loadCSV() {
 	int population = atoi(tokens[2]);
 
 	// UNIMPLEMENTED;
-    err = AM_InsertEntry(indexFD, 'i', 4, population, rid);
+    err = AM_InsertEntry(indexFD, 'i', 4, tokens[2], rid);
+    // why has population been defined
 	// Use the population field as the field to index on
 	    
 	checkerr(err);
