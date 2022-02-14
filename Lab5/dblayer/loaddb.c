@@ -31,7 +31,12 @@ encode(Schema *sch, char **fields, byte *record, int spaceLeft) {
     {
         switch(sch->columns[i]->type) {
             case VARCHAR:
-                num_bytes += EncodeCString(fields[i], record, 255);
+                if(255 <= spaceLeft) { // check this 
+                    num_bytes += EncodeCString(fields[i], record, 255);
+                }
+                else {
+                    return -1;
+                }
                 break;
             case INT:
                 num_bytes += EncodeInt(atoi(fields[i]), record);
@@ -91,6 +96,7 @@ loadCSV() {
 	RecId rid;
 
 	// UNIMPLEMENTED;
+    checkerr(len); // for encode errorss
     err = Table_Insert(tbl, record, len, &rid);
     // how can record not be of type byte*
     checkerr(err);
