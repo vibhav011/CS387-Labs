@@ -23,6 +23,7 @@ typedef struct {
 
     int fd;         // file descriptor of associated file 
     int *lastPage;   // last page number in file
+    char **pagebuf; // last page buffer
     int numPages;   // number of pages in file
     
 } Table ;

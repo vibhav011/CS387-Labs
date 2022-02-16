@@ -42,6 +42,7 @@ main(int argc, char **argv) {
     // UNIMPLEMENTED;
     if (argc == 2 && *(argv[1]) == 's') {
 	// UNIMPLEMENTED;
+    // Table_Scan(tbl, , printRow)
 	// invoke Table_Scan with printRow, which will be invoked for each row in the table.
     } else {
 	// index scan by default
