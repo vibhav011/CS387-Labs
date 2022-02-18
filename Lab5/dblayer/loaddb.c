@@ -30,38 +30,49 @@ in codec.c to convert strings into compact binary representations
  */
 int encode(Schema *sch, char **fields, byte *record, int spaceLeft)
 {
-    // UNIMPLEMENTED;
-    int num_bytes = 0;
+    // function for filling record by byte encoded values of the fields
+
+    int num_bytes = 0; // to store the total number of bytes taken up by all attributes in the row
+    int temp_bytes = 0; // to track num bytes returned by encode methods
+
     for (int i = 0; i < sch->numColumns; i++)
     {
+        // cases for each of the column types in the schema
         switch (sch->columns[i]->type)
         {
         case VARCHAR:
-            if (255 <= spaceLeft)
-            { // check this
-                num_bytes += EncodeCString(fields[i], record, 255);
-            }
-            else
+            if (spaceLeft < strlen(fields[i])+2) // checking if space for len+str left
             {
+                printf("no space left for filling fields in record\n");
                 return -1;
             }
+            temp_bytes = EncodeCString(fields[i], record+num_bytes, 257);
+            num_bytes += temp_bytes;
+            spaceLeft -= temp_bytes; // updating space left
             break;
         case INT:
-            num_bytes += EncodeInt(atoi(fields[i]), record);
+            if (spaceLeft < 4)  // checking if space for int left
+            {
+                printf("no space left for filling fields in record\n");
+                return -1;
+            }
+            temp_bytes = EncodeInt(atoi(fields[i]), record+num_bytes);
+            num_bytes += temp_bytes;
+            spaceLeft -= temp_bytes; // updating space left
             break;
         case LONG:
-            num_bytes += EncodeLong(atof(fields[i]), record);
+            if (spaceLeft < 8)  // checking if space for long left
+            {
+                printf("no space left for filling fields in record\n");
+                return -1;
+            }
+            temp_bytes = EncodeLong(atoll(fields[i]), record+num_bytes);
+            num_bytes += temp_bytes;
+            spaceLeft -= temp_bytes; // updating space left
             break;
         }
     }
-
     return num_bytes;
-    // for each field
-    //    switch corresponding schema type is
-    //        VARCHAR : EncodeCString
-    //        INT : EncodeInt
-    //        LONG: EncodeLong
-    // return the total number of bytes encoded into record
 }
 
 Schema *
@@ -87,13 +98,13 @@ loadCSV()
     Schema *sch = parseSchema(line);
     Table *tbl;
 
-    // UNIMPLEMENTED;
     int err;
-    err = Table_Open(DB_NAME, sch, false, &tbl);
-    checkerr(err);
-    err = AM_CreateIndex(DB_NAME, 0, 'i', 4);
-    checkerr(err);
-    int indexFD = PF_OpenFile(INDEX_NAME);
+    err = Table_Open(DB_NAME, sch, false, &tbl); // opening the table (creating if it doesn't exist)
+    checkerr(err); // for table open errors
+    AM_DestroyIndex(DB_NAME, 0); // destroying the index if it already exists
+    err = AM_CreateIndex(DB_NAME, 0, 'i', 4); // creating a new index for type int, size 4 and index no. 0
+    checkerr(err); // for index creation errors
+    int indexFD = PF_OpenFile(INDEX_NAME); // opening file for passing the descriptor to index creation
     checkerr(indexFD);
 
     char *tokens[MAX_TOKENS];
@@ -106,10 +117,8 @@ loadCSV()
         int len = encode(sch, tokens, record, sizeof(record));
         RecId rid;
 
-        // UNIMPLEMENTED;
-        checkerr(len); // for encode errorss
-        err = Table_Insert(tbl, record, len, &rid);
-        // how can record not be of type byte*
+        checkerr(len); // for encode errors
+        err = Table_Insert(tbl, record, len, &rid); // insert encoded record into table
         checkerr(err);
 
         printf("%d %s\n", rid, tokens[0]);
@@ -117,9 +126,8 @@ loadCSV()
         // Indexing on the population column
         int population = atoi(tokens[2]);
 
-        // UNIMPLEMENTED;
-        err = AM_InsertEntry(indexFD, 'i', 4, tokens[2], rid);
-        // why has population been defined
+        err = AM_InsertEntry(indexFD, 'i', 4, (char*)&population, rid); // insert returned rid into index with
+                                                                        // a pointer to the population value
         // Use the population field as the field to index on
 
         checkerr(err);

@@ -93,7 +93,7 @@ Table_Insert(Table *tbl, byte *record, int len, RecId *rid) {
     // Get the next free slot on page, and copy record in the free
     // space
     // Update slot and free space index information on top of page.
-
+    printf("table insert %s\n", record+2);
     if (*tbl->lastPage == -1) {
         if (PF_AllocPage(tbl->fd, tbl->lastPage, tbl->pagebuf) != PFE_OK) {
             PF_PrintError("Error allocating page");
@@ -109,7 +109,7 @@ Table_Insert(Table *tbl, byte *record, int len, RecId *rid) {
     int nslots = header->numSlots;
     int freeSpace = header->freeSlotOffset - sizeof(int) - sizeof(short)*(2+nslots);
 
-    if (freeSpace < len+1) {
+    if (freeSpace < len) {
         PF_UnfixPage(tbl->fd, *tbl->lastPage, true);
         if (PF_AllocPage(tbl->fd, tbl->lastPage, tbl->pagebuf) != PFE_OK) {
             PF_PrintError("Error allocating page");
@@ -121,13 +121,12 @@ Table_Insert(Table *tbl, byte *record, int len, RecId *rid) {
         freeSpace = header->freeSlotOffset - sizeof(int) - sizeof(short)*2;
     }
     
-    assert(freeSpace >= len+1);     // Not enough space on page
-    header->freeSlotOffset -= len+1;
+    assert(freeSpace >= len);     // Not enough space on page
+    header->freeSlotOffset -= len;
     memcpy(*tbl->pagebuf+header->freeSlotOffset, record, len);
-    (*tbl->pagebuf)[header->freeSlotOffset+len] = '\0';
     header->numSlots = nslots+1;
     header->slotOffsets[nslots] = header->freeSlotOffset;
-    *rid = (*tbl->lastPage << 16) + (int)header->freeSlotOffset;
+    *rid = (*tbl->lastPage << 16) + nslots;
     return 0;
 }
 
@@ -161,7 +160,7 @@ Table_Get(Table *tbl, RecId rid, byte *record, int maxlen) {
     
     Header *header = (Header *) *pagebuf;
     int slotOffset = header->slotOffsets[slot];
-    int len = strlen(*pagebuf+slotOffset);
+    int len = ((slot == 0) ? PF_PAGE_SIZE : header->slotOffsets[slot-1])-slotOffset;
     if (len > maxlen) {
         len = maxlen;
     }
@@ -183,7 +182,7 @@ Table_Scan(Table *tbl, void *callbackObj, ReadFunc callbackfn) {
     
     int *pagenum = (int *) malloc(sizeof(int));
     *pagenum = -1;
-    char **pagebuf;
+    char **pagebuf = (char **) malloc(sizeof(char *));
     int prevPage = -1;
 
     PF_UnfixPage(tbl->fd, *tbl->lastPage, true);
@@ -191,13 +190,15 @@ Table_Scan(Table *tbl, void *callbackObj, ReadFunc callbackfn) {
         Header *header = (Header *) *pagebuf;
         int nslots = header->numSlots;
         for (int i = 0; i < nslots; i++) {
-            int len = strlen(*pagebuf+header->slotOffsets[i]);
+            
+            int len = ((i == 0) ? PF_PAGE_SIZE : header->slotOffsets[i-1])-header->slotOffsets[i];
             int rid = (*pagenum << 16) + (int)header->freeSlotOffset;
             callbackfn(callbackObj, rid, *pagebuf+header->slotOffsets[i], len);
         }
         PF_UnfixPage(tbl->fd, prevPage, false);
         prevPage = *pagenum;
     }
+    free(pagebuf);
     free(pagenum);
 }
 
