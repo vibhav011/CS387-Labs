@@ -112,7 +112,7 @@ loadCSV()
     {   
         int n = split(line, ",", tokens);
         assert(n == sch->numColumns);
-        int len = encode(sch, tokens, record, MAX_PAGE_SIZE-sizeof(int)-2*sizeof(short));
+        int len = encode(sch, tokens, record, sizeof(record));
         RecId rid;
 
         checkerr(len); // for encode errors
