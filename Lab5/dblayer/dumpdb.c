@@ -109,8 +109,6 @@ int main(int argc, char **argv)
         int indexFD = PF_OpenFile(INDEX_NAME);
         checkerr(indexFD);
 
-        // Ask for populations less than 100000, then more than 100000. Together they should
-        // yield the complete database.
         if(argc == 4) {
             if (strcmp("EQUAL", argv[2]) == 0){
                 index_scan(tbl, schema, indexFD, EQUAL, atoi(argv[3]));
@@ -130,6 +128,8 @@ int main(int argc, char **argv)
             else {index_scan(tbl, schema, indexFD, LESS_THAN_EQUAL, atoi(argv[3]));}
             
         } else {
+            // Ask for populations less than 100000, then more than 100000. Together they should
+            // yield the complete database.
             index_scan(tbl, schema, indexFD, LESS_THAN_EQUAL, 100000);
             index_scan(tbl, schema, indexFD, GREATER_THAN, 100000);
         }

@@ -29,9 +29,9 @@ typedef struct {
 } Table ;
 
 typedef struct {
-    int numSlots;
-    unsigned short freeSlotOffset;
-    unsigned short slotOffsets[];
+    int numSlots;                       // number of slots in page
+    unsigned short freeSlotOffset;      // offset of next free slot
+    unsigned short slotOffsets[];       // array of slot offsets
 } Header ;
 
 typedef int RecId;

@@ -101,9 +101,7 @@ loadCSV()
     int err;
     err = Table_Open(DB_NAME, sch, false, &tbl); // opening the table (creating if it doesn't exist)
     checkerr(err); // for table open errors
-    AM_DestroyIndex(DB_NAME, 0); // destroying the index if it already exists
-    err = AM_CreateIndex(DB_NAME, 0, 'i', 4); // creating a new index for type int, size 4 and index no. 0
-    checkerr(err); // for index creation errors
+    AM_CreateIndex(DB_NAME, 0, 'i', 4); // creating a new index for type int, size 4 and index no. 0
     int indexFD = PF_OpenFile(INDEX_NAME); // opening file for passing the descriptor to index creation
     checkerr(indexFD);
 
@@ -114,7 +112,7 @@ loadCSV()
     {   
         int n = split(line, ",", tokens);
         assert(n == sch->numColumns);
-        int len = encode(sch, tokens, record, sizeof(record));
+        int len = encode(sch, tokens, record, MAX_PAGE_SIZE-sizeof(int)-2*sizeof(short));
         RecId rid;
 
         checkerr(len); // for encode errors
