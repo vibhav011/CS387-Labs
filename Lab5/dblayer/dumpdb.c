@@ -86,6 +86,7 @@ int main(int argc, char **argv)
     Schema *schema = parseSchema(schemaTxt);
     Table *tbl;
 
+    PF_Init();          // Initialize the pflayer
     int err, fd;
     // checking if database exists
     fd = PF_OpenFile(DB_NAME);

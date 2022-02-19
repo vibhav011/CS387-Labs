@@ -98,6 +98,7 @@ loadCSV()
     Schema *sch = parseSchema(line);
     Table *tbl;
 
+    PF_Init();          // Initialize the pflayer
     int err;
     err = Table_Open(DB_NAME, sch, false, &tbl); // opening the table (creating if it doesn't exist)
     checkerr(err); // for table open errors
