@@ -1,23 +1,34 @@
-387-Spring 2022- Lab5:  Implementing DB internals with ToyDB
+# <b>387-Spring 2022- Lab5:  Implementing DB internals with ToyDB</b>
+# Names and Roll No.:
 
-#Names and Roll No.:
-
-Teammate1 - Vibhav Aggarwal (190050128)
+Teammate1 - Vibhav Aggarwal (190050128)<br>
 Teammate2 - Tulip Pandey (190050125)
 
-#References:
+# References:
 
 https://www.geeksforgeeks.org/introduction-of-b-tree/
 https://en.cppreference.com/w/c/language/operator_precedence
 
 
-#Individual contribution:
+# Individual contribution:
 
-Teammate1 - Task1, Task3 (dumpdb i)
-Teammate2 - Task2, Task3 (dumpdb s)
-together - debugging (lots of!)
+Teammate1 - Task1, Task3 (dumpdb i)<br>
+Teammate2 - Task2, Task3 (dumpdb s)<br>
+Together - debugging (lots of!)
 
-#Small writeup of the execution
+# Small writeup of the execution
 
+## tbl.h and tbl.c
+We have added the following variables in Table struct: `int fd`, `int *lastPage`, `char **pagebuf`, `int numPages`. We have also defined a new struct called Header with the following member variables: `int numSlots`, `unsigned short freeSlotOffset`, `unsigned short slotOffsets[]`.<br>
 
+<b>Working of the code:</b> Whenever a Table is opened, it's last page gets fixed into `pagebuf` (except when the Table has no pages). When a new entry is being added using `Table_Insert`, the remaining size on the last page is calculated using the values stored in the Header and if it has enough space, the entry is added there. In case the last page falls short on size, it is first unfixed and then a new page is allocated, making it the last page. This ensures that at all times, only the last page of the Table is fixed into the buffer. This is done in order to make multiple inserts more efficient by avoiding fixing and unfixing pages everytime on each insert.
 
+## loaddb.c
+<b>`loadCSV` function:</b> This function first creates a table and an index (if they don't already exist) whose names depend on the csv file name. Then the csv file is read and each row is first encoded and the resulting encoded bytes are stored into the table. The `Table_Insert` function sets the rid (record id) of the inserted entry which is then inserted into the index along with the value of the column on which the index is created (population in this case). We have set `overwrite` to false while calling `Table_Open`, so if loaddb is run multiple times, then the csv file entries also get inserted multiple times.
+
+<b>`encode` function:</b> This function takes the row as an array of strings, encodes the value within each individual field using the functions present in `codec.c` and appends the encoded string into the `record` variable. It also does error handling based on the space left in the record so that arbitrarily long rows cannot be fed as input (the row must fit in a single page after being encoded).
+
+## dumpdb.c
+<b>`printRow` function:</b> This function takes the encoded record as an input, decodes it based on the schema using the functions present in `codec.c` and prints it to stdout.
+
+<b>`index_scan` function:</b> This function opens an index scan based on the condition provided, iterates over the record ids of all the matched records, gets the encoded entry from the table and prints it to stdout by calling `printRow`.
