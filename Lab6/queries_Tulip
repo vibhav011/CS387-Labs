@@ -1,0 +1,28 @@
+a)MATCH (u{name:"Thomas"})-[:Sent]->(t)-[:Contains]->(h) MATCH (h)<-[:Contains]-(t2)-[:Mentions]->(u2) 
+RETURN distinct(u2);
+
+b) MATCH (n:User)
+WITH collect(n) as nodes
+UNWIND nodes as n
+UNWIND nodes as m
+WITH * WHERE n.name = "Jessica"
+MATCH p=allShortestPaths((n)-[:Follows*1..12]->(m))
+RETURN p, length(p) ORDER BY length(p) DESC LIMIT 1
+
+d) MATCH (u1)<-[:Follows]-(u2) 
+RETURN u1, count(u2) ORDER BY count(u2) ASC LIMIT 5
+
+f) MATCH (t)-[:Contains]->(h{tag: "proud"}) WHERE SUBSTRING(t.text, 0, 2) = "we"
+RETURN t;
+
+c) MATCH (u1)<-[:Follows]-(u2) MATCH (u3)-[:Follows]->(u{name:"Jessica"}) 
+WITH u1, count(distinct(u2)) as foll_num, count(distinct(u3)) as jess_num
+WHERE foll_num > jess_num
+RETURN u1;
+
+e)MATCH (u)-[:Sent]->(t)<-[:Sent]-(u2)
+with u, count(DISTINCT(u2)) as retweet_num
+RETURN u ORDER BY retweet_num DESC LIMIT 5;
+
+k)MATCH (u{name:"Thomas"})-[:Sent]->(t)-[:Mentions]->(u2)
+DETACH DELETE u2;
