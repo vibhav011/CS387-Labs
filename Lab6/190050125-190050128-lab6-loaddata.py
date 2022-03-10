@@ -10,7 +10,7 @@ def main_function(filename):
         with open('lab6-data/' + k[0] + '.csv', 'r') as f:
             reader = csv.reader(f)
             next(reader)
-            data = [tuple(map(lambda x : str(x), row)) for row in reader]
+            data = [tuple(map(lambda x : str(x).replace('"', '\\"'), row)) for row in reader]
             query = ','.join(list(map(lambda t: f'({k[1]}_{t[0]}:{k[1]}{{{k[2]}: "{t[1]}"}})', data)))
             query_string += 'CREATE ' + query + '\n'
     
