@@ -1,0 +1,39 @@
+a) MATCH (u{name:"Thomas"})-[:Sent]->(t)-[:Contains]->(h) MATCH (h)<-[:Contains]-(t2)-[:Mentions]->(u2) 
+RETURN distinct(u2.name);
+
+b) MATCH p1 = shortestPath((j:User{name:"Jessica"})-[:Follows*]->(u:User)) WHERE u.name <> "Jessica"
+MATCH p2 = shortestPath((j:User{name:"Jessica"})<-[:Follows*]-(u:User)) WHERE u.name <> "Jessica"
+UNWIND [length(p1), length(p2)] as x
+RETURN MAX(x) as hops;
+
+c) MATCH (u1)<-[:Follows]-(u2) MATCH (u3)-[:Follows]->(u{name:"Jessica"}) 
+WITH u1, count(distinct(u2)) as foll_num, count(distinct(u3)) as jess_num
+WHERE foll_num > jess_num
+RETURN u1.name;
+
+d) MATCH (u1:User)
+OPTIONAL MATCH (u1)<-[:Follows]-(u2) 
+RETURN u1.name, count(u2) ORDER BY count(u2) ASC, u1.name ASC LIMIT 5;
+
+e) MATCH (u)-[:Sent]->(t)<-[:Sent]-(u2)
+with u, count(DISTINCT(u2)) as retweet_num
+RETURN u.name, retweet_num ORDER BY retweet_num DESC, u.name ASC LIMIT 5;
+
+f) MATCH (t)-[:Contains]->(h{tag: "proud"}) WHERE SUBSTRING(t.text, 0, 2) = "we"
+RETURN t.text;
+
+g) MATCH (n:Tweet) WHERE n.text =~ ".*run.*" RETURN COUNT(*) as count;
+
+h) MATCH (t:Tweet)-[:Contains]->(h:Hashtag)
+RETURN t.text, COUNT(*) as count
+order by count desc limit 1;
+
+i) MATCH (u:User {name: 'Ashley'}) SET u.name = 'Ash';
+
+j) MATCH (A:User)<-[:Follows*3]-(D:User)-[:Sent]->(T:Tweet)
+MATCH (A)<-[:Follows]-(B:User)<-[:Mentions]-(T)-[:Contains]->(H:Hashtag)
+WHERE size(H.tag) > 15 RETURN DISTINCT A.name, T.text
+ORDER BY T.text;
+
+k) MATCH (u{name:"Thomas"})-[:Sent]->(t)-[:Mentions]->(u2)
+DETACH DELETE u2;

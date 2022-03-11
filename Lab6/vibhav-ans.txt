@@ -2,7 +2,7 @@ g. MATCH (n:Tweet) WHERE n.text =~ ".*run.*" RETURN COUNT(*) as count;
 
 h. MATCH (t:Tweet)-[:Contains]->(h:Hashtag)
 RETURN t.text, COUNT(*) as count
-order by count desc limit 1;   # how to break ties? Also see max command
+order by count desc limit 1;
 
 i. MATCH (u:User {name: 'Ashley'}) SET u.name = 'Ash';
 
