@@ -1,13 +1,10 @@
 a)MATCH (u{name:"Thomas"})-[:Sent]->(t)-[:Contains]->(h) MATCH (h)<-[:Contains]-(t2)-[:Mentions]->(u2) 
 RETURN distinct(u2.name);
 
-b) MATCH (n:User)
-WITH collect(n) as nodes
-UNWIND nodes as n
-UNWIND nodes as m
-WITH * WHERE n.name = "Jessica"
-MATCH p=allShortestPaths((n)-[:Follows*1..12]->(m))
-RETURN p, length(p) ORDER BY length(p) DESC LIMIT 1
+b) MATCH p1 = shortestPath((j:User{name:"Jessica"})-[:Follows*]->(u:User)) WHERE u.name <> "Jessica"
+MATCH p2 = shortestPath((j:User{name:"Jessica"})<-[:Follows*]-(u:User)) WHERE u.name <> "Jessica"
+UNWIND [length(p1), length(p2)] as x
+RETURN MAX(x) as hops;
 
 c) MATCH (u1)<-[:Follows]-(u2) MATCH (u3)-[:Follows]->(u{name:"Jessica"}) 
 WITH u1, count(distinct(u2)) as foll_num, count(distinct(u3)) as jess_num
