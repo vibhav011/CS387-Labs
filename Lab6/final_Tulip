@@ -5,15 +5,6 @@ b) MATCH p1 = shortestPath((j:User{name:"Jessica"})-[:Follows*]->(u:User)) WHERE
 MATCH p2 = shortestPath((j:User{name:"Jessica"})<-[:Follows*]-(u:User)) WHERE u.name <> "Jessica"
 UNWIND [length(p1), length(p2)] as x
 RETURN MAX(x) as hops;
-<<<<<<< HEAD
-=======
-
-d) MATCH (u1)<-[:Follows]-(u2) 
-RETURN u1, count(u2) ORDER BY count(u2) ASC LIMIT 5
-
-f) MATCH (t)-[:Contains]->(h{tag: "proud"}) WHERE SUBSTRING(t.text, 0, 2) = "we"
-RETURN t;
->>>>>>> f5686fe2c74b6d0d5ac2304faf20165ef3c98c11
 
 c) MATCH (u1)<-[:Follows]-(u2) MATCH (u3)-[:Follows]->(u{name:"Jessica"}) 
 WITH u1, count(distinct(u2)) as foll_num, count(distinct(u3)) as jess_num

@@ -1,4 +1,12 @@
-g. match (n:Tweet) where n.text =~ ".*run.*" return count(*);
-h. match (t:Tweet)-[:Contains]->(h:Hashtag) return t.text, count(*) as num_hashtags order by num_hashtags desc limit 1;   # how to break ties? Also see max command
+g. MATCH (n:Tweet) WHERE n.text =~ ".*run.*" RETURN COUNT(*) as count;
+
+h. MATCH (t:Tweet)-[:Contains]->(h:Hashtag)
+RETURN t.text, COUNT(*) as count
+order by count desc limit 1;   # how to break ties? Also see max command
+
 i. MATCH (u:User {name: 'Ashley'}) SET u.name = 'Ash';
-j. match (A:User)<-[:Follows*3]-(D:User)-[:Sent]->(T:Tweet) match (A)<-[:Follows]-(B:User)<-[:Mentions]-(T)-[:Contains]->(H:Hashtag) where size(H.tag) > 15 return A.name, T.text;
+
+j. MATCH (A:User)<-[:Follows*3]-(D:User)-[:Sent]->(T:Tweet)
+MATCH (A)<-[:Follows]-(B:User)<-[:Mentions]-(T)-[:Contains]->(H:Hashtag)
+WHERE size(H.tag) > 15 RETURN DISTINCT A.name, T.text
+ORDER BY T.text;
