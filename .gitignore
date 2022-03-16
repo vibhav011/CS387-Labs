@@ -48,6 +48,9 @@ Lab4
 *.idb
 *.pdb
 
+# Databases
+*.log
+
 # Kernel Module Compile Results
 *.mod*
 *.cmd
