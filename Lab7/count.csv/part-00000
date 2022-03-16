@@ -1,0 +1,4677 @@
+('citrus fruit', 'semi-finished bread'),5
+('citrus fruit', 'margarine'),15
+('citrus fruit', 'ready soups'),1
+('margarine', 'semi-finished bread'),6
+('ready soups', 'semi-finished bread'),1
+('margarine', 'ready soups'),1
+('tropical fruit', 'yogurt'),125
+('coffee', 'tropical fruit'),14
+('coffee', 'yogurt'),18
+('pip fruit', 'yogurt'),63
+('cream cheese', 'pip fruit'),18
+('meat spreads', 'pip fruit'),2
+('cream cheese', 'yogurt'),36
+('meat spreads', 'yogurt'),4
+('cream cheese', 'meat spreads'),3
+('other vegetables', 'whole milk'),494
+('condensed milk', 'other vegetables'),12
+('long life bakery product', 'other vegetables'),9
+('condensed milk', 'whole milk'),16
+('long life bakery product', 'whole milk'),19
+('condensed milk', 'long life bakery product'),1
+('butter', 'whole milk'),149
+('whole milk', 'yogurt'),281
+('rice', 'whole milk'),8
+('butter', 'yogurt'),49
+('butter', 'rice'),2
+('rice', 'yogurt'),1
+('UHT-milk', 'other vegetables'),34
+('other vegetables', 'rolls/buns'),136
+('bottled beer', 'other vegetables'),31
+('UHT-milk', 'rolls/buns'),24
+('UHT-milk', 'bottled beer'),4
+('bottled beer', 'rolls/buns'),43
+('cereals', 'whole milk'),8
+('other vegetables', 'tropical fruit'),230
+('tropical fruit', 'white bread'),18
+('bottled water', 'tropical fruit'),34
+('other vegetables', 'white bread'),37
+('bottled water', 'other vegetables'),40
+('bottled water', 'white bread'),6
+('citrus fruit', 'tropical fruit'),189
+('citrus fruit', 'whole milk'),191
+('butter', 'citrus fruit'),42
+('tropical fruit', 'whole milk'),275
+('butter', 'tropical fruit'),37
+('frankfurter', 'rolls/buns'),95
+('frankfurter', 'soda'),32
+('rolls/buns', 'soda'),157
+('chicken', 'tropical fruit'),53
+('butter', 'sugar'),5
+('butter', 'fruit/vegetable juice'),8
+('butter', 'newspapers'),6
+('fruit/vegetable juice', 'sugar'),6
+('newspapers', 'sugar'),4
+('fruit/vegetable juice', 'newspapers'),13
+('butter milk', 'pastry'),6
+('cream cheese', 'tropical fruit'),29
+('processed cheese', 'tropical fruit'),12
+('detergent', 'tropical fruit'),1
+('cream cheese', 'processed cheese'),4
+('cream cheese', 'detergent'),1
+('detergent', 'processed cheese'),2
+('root vegetables', 'tropical fruit'),160
+('frozen dessert', 'tropical fruit'),9
+('other vegetables', 'root vegetables'),333
+('frozen dessert', 'root vegetables'),5
+('frozen dessert', 'other vegetables'),7
+('bottled water', 'canned beer'),29
+('rolls/buns', 'sausage'),165
+('sausage', 'soda'),76
+('chocolate', 'sausage'),9
+('chocolate', 'rolls/buns'),18
+('chocolate', 'soda'),27
+('brown bread', 'soda'),25
+('brown bread', 'fruit/vegetable juice'),13
+('brown bread', 'canned beer'),14
+('fruit/vegetable juice', 'soda'),47
+('canned beer', 'soda'),57
+('canned beer', 'fruit/vegetable juice'),12
+('beverages', 'yogurt'),33
+('bottled water', 'yogurt'),46
+('specialty bar', 'yogurt'),9
+('beverages', 'bottled water'),13
+('beverages', 'specialty bar'),5
+('bottled water', 'specialty bar'),10
+('hamburger meat', 'other vegetables'),94
+('hamburger meat', 'rolls/buns'),28
+('hamburger meat', 'spices'),2
+('other vegetables', 'spices'),7
+('rolls/buns', 'spices'),3
+('root vegetables', 'whole milk'),297
+('beverages', 'root vegetables'),13
+('beverages', 'other vegetables'),19
+('beverages', 'whole milk'),42
+('berries', 'pork'),25
+('other vegetables', 'pork'),142
+('pork', 'whole milk'),132
+('berries', 'other vegetables'),66
+('berries', 'whole milk'),64
+('beef', 'grapes'),20
+('beef', 'detergent'),2
+('detergent', 'grapes'),1
+('pastry', 'soda'),72
+('dessert', 'root vegetables'),22
+('dessert', 'other vegetables'),53
+('dessert', 'whole milk'),79
+('citrus fruit', 'zwieback'),2
+('citrus fruit', 'newspapers'),9
+('newspapers', 'zwieback'),1
+('canned beer', 'sausage'),23
+('canned beer', 'rolls/buns'),50
+('root vegetables', 'yogurt'),88
+('berries', 'yogurt'),53
+('butter milk', 'yogurt'),33
+('butter milk', 'cream cheese'),12
+('butter milk', 'spread cheese'),4
+('spread cheese', 'yogurt'),15
+('cream cheese', 'spread cheese'),9
+('bottled water', 'pastry'),24
+('butter', 'root vegetables'),51
+('curd', 'root vegetables'),38
+('butter', 'other vegetables'),85
+('curd', 'other vegetables'),75
+('butter', 'curd'),20
+('cat food', 'sausage'),7
+('newspapers', 'sausage'),10
+('cat food', 'rolls/buns'),5
+('newspapers', 'rolls/buns'),38
+('cat food', 'newspapers'),5
+('grapes', 'ham'),11
+('ham', 'other vegetables'),60
+('ham', 'whole milk'),75
+('grapes', 'other vegetables'),48
+('grapes', 'whole milk'),34
+('tropical fruit', 'turkey'),24
+('other vegetables', 'turkey'),21
+('curd', 'turkey'),3
+('curd', 'tropical fruit'),42
+('processed cheese', 'whole milk'),29
+('pickled vegetables', 'whole milk'),11
+('processed cheese', 'yogurt'),8
+('pickled vegetables', 'yogurt'),6
+('pickled vegetables', 'processed cheese'),1
+('curd', 'whole milk'),149
+('pastry', 'whole milk'),128
+('curd', 'yogurt'),68
+('curd', 'pastry'),17
+('pastry', 'yogurt'),45
+('brown bread', 'packaged fruit/vegetables'),4
+('canned beer', 'packaged fruit/vegetables'),3
+('oil', 'rolls/buns'),9
+('bottled water', 'rolls/buns'),70
+('chewing gum', 'rolls/buns'),20
+('bottled water', 'oil'),11
+('chewing gum', 'oil'),1
+('bottled water', 'chewing gum'),13
+('beef', 'ham'),20
+('ham', 'whipped/sour cream'),13
+('ham', 'ice cream'),4
+('beef', 'whipped/sour cream'),19
+('beef', 'ice cream'),5
+('ice cream', 'whipped/sour cream'),9
+('pastry', 'rolls/buns'),76
+('rolls/buns', 'sugar'),18
+('pastry', 'sugar'),12
+('frozen vegetables', 'other vegetables'),50
+('canned fish', 'other vegetables'),10
+('frozen vegetables', 'whole milk'),62
+('canned fish', 'whole milk'),14
+('canned fish', 'frozen vegetables'),1
+('pastry', 'sausage'),38
+('beef', 'sausage'),54
+('sausage', 'whole milk'),192
+('beef', 'whole milk'),125
+('frankfurter', 'tropical fruit'),85
+('brown bread', 'frankfurter'),21
+('rolls/buns', 'tropical fruit'),95
+('brown bread', 'tropical fruit'),28
+('brown bread', 'rolls/buns'),47
+('coffee', 'curd cheese'),2
+('newspapers', 'red/blush wine'),8
+('curd', 'sausage'),33
+('pip fruit', 'tropical fruit'),187
+('berries', 'tropical fruit'),48
+('berries', 'pip fruit'),25
+('pip fruit', 'whole milk'),185
+('margarine', 'whole milk'),67
+('specialty fat', 'whole milk'),2
+('butter', 'margarine'),10
+('butter', 'specialty fat'),3
+('margarine', 'specialty fat'),5
+('citrus fruit', 'frankfurter'),62
+('frankfurter', 'whole milk'),126
+('domestic eggs', 'frankfurter'),16
+('citrus fruit', 'domestic eggs'),29
+('domestic eggs', 'whole milk'),96
+('meat spreads', 'whole milk'),3
+('soda', 'whole milk'),93
+('meat spreads', 'soda'),3
+('other vegetables', 'sugar'),8
+('rolls/buns', 'whole milk'),239
+('sugar', 'whole milk'),32
+('citrus fruit', 'curd'),32
+('butter milk', 'citrus fruit'),24
+('butter milk', 'whole milk'),56
+('butter milk', 'curd'),8
+('flour', 'salt'),2
+('bottled water', 'flour'),2
+('flour', 'fruit/vegetable juice'),2
+('bottled water', 'salt'),2
+('fruit/vegetable juice', 'salt'),3
+('bottled water', 'fruit/vegetable juice'),29
+('bottled water', 'sugar'),10
+('soda', 'sugar'),11
+('bottled beer', 'sugar'),7
+('bottled water', 'soda'),102
+('bottled beer', 'bottled water'),48
+('bottled beer', 'soda'),69
+('coffee', 'frozen meals'),3
+('frozen vegetables', 'root vegetables'),33
+('domestic eggs', 'root vegetables'),30
+('domestic eggs', 'frozen vegetables'),13
+('onions', 'root vegetables'),68
+('hard cheese', 'root vegetables'),14
+('hard cheese', 'onions'),5
+('frozen vegetables', 'onions'),3
+('frozen vegetables', 'hard cheese'),6
+('condensed milk', 'herbs'),1
+('frozen vegetables', 'herbs'),4
+('herbs', 'salt'),1
+('condensed milk', 'frozen vegetables'),3
+('condensed milk', 'salt'),2
+('frozen vegetables', 'salt'),2
+('root vegetables', 'sausage'),112
+('onions', 'sausage'),25
+('sausage', 'yogurt'),89
+('onions', 'yogurt'),25
+('coffee', 'newspapers'),4
+('pork', 'whipped/sour cream'),24
+('other vegetables', 'whipped/sour cream'),98
+('fruit/vegetable juice', 'salty snack'),8
+('candles', 'fruit/vegetable juice'),1
+('candles', 'salty snack'),1
+('citrus fruit', 'yogurt'),101
+('citrus fruit', 'cream cheese'),13
+('hamburger meat', 'pork'),27
+('citrus fruit', 'pork'),59
+('citrus fruit', 'hamburger meat'),34
+('berries', 'hamburger meat'),11
+('berries', 'citrus fruit'),39
+('grapes', 'photo/film'),1
+('sausage', 'sliced cheese'),28
+('brown bread', 'sausage'),31
+('rolls/buns', 'sliced cheese'),26
+('brown bread', 'sliced cheese'),5
+('chicken', 'hamburger meat'),35
+('chicken', 'citrus fruit'),62
+('hamburger meat', 'tropical fruit'),35
+('brown bread', 'whole milk'),89
+('brown bread', 'yogurt'),34
+('misc. beverages', 'soda'),24
+('pork', 'sausage'),63
+('grapes', 'sausage'),23
+('grapes', 'pork'),17
+('bottled water', 'frankfurter'),15
+('coffee', 'sausage'),18
+('coffee', 'whole milk'),49
+('fruit/vegetable juice', 'rolls/buns'),34
+('beef', 'citrus fruit'),77
+('beef', 'berries'),32
+('beef', 'root vegetables'),133
+('citrus fruit', 'root vegetables'),130
+('berries', 'root vegetables'),46
+('whipped/sour cream', 'whole milk'),116
+('rolls/buns', 'whipped/sour cream'),33
+('soda', 'whipped/sour cream'),13
+('frankfurter', 'sausage'),99
+('frankfurter', 'root vegetables'),71
+('frankfurter', 'other vegetables'),108
+('other vegetables', 'sausage'),193
+('bottled water', 'packaged fruit/vegetables'),5
+('dessert', 'frozen vegetables'),6
+('dessert', 'rolls/buns'),23
+('frozen vegetables', 'rolls/buns'),17
+('berries', 'whipped/sour cream'),42
+('UHT-milk', 'citrus fruit'),30
+('citrus fruit', 'processed cheese'),4
+('UHT-milk', 'berries'),7
+('berries', 'processed cheese'),3
+('UHT-milk', 'processed cheese'),1
+('hamburger meat', 'whole milk'),87
+('frozen vegetables', 'hamburger meat'),13
+('cream cheese', 'whole milk'),61
+('cream cheese', 'soda'),12
+('fish', 'other vegetables'),6
+('fish', 'pastry'),2
+('fish', 'margarine'),1
+('other vegetables', 'pastry'),46
+('margarine', 'other vegetables'),36
+('margarine', 'pastry'),16
+('frankfurter', 'long life bakery product'),1
+('frankfurter', 'waffles'),2
+('long life bakery product', 'sausage'),4
+('sausage', 'waffles'),6
+('long life bakery product', 'waffles'),5
+('dessert', 'packaged fruit/vegetables'),8
+('packaged fruit/vegetables', 'semi-finished bread'),1
+('dessert', 'semi-finished bread'),1
+('canned beer', 'dessert'),7
+('canned beer', 'semi-finished bread'),3
+('other vegetables', 'red/blush wine'),11
+('citrus fruit', 'sausage'),106
+('sausage', 'tropical fruit'),125
+('butter milk', 'sausage'),12
+('butter milk', 'rolls/buns'),21
+('dessert', 'frankfurter'),18
+('beverages', 'brown bread'),7
+('berries', 'soda'),11
+('curd', 'flour'),8
+('curd', 'liquor (appetizer)'),2
+('flour', 'liquor (appetizer)'),2
+('coffee', 'other vegetables'),21
+('Instant food products', 'rolls/buns'),4
+('misc. beverages', 'other vegetables'),9
+('canned beer', 'other vegetables'),21
+('canned beer', 'misc. beverages'),12
+('citrus fruit', 'white bread'),9
+('butter', 'cream cheese'),14
+('butter', 'white bread'),6
+('cream cheese', 'white bread'),7
+('frankfurter', 'ham'),25
+('frankfurter', 'pip fruit'),63
+('ham', 'pip fruit'),36
+('other vegetables', 'pip fruit'),161
+('butter milk', 'honey'),1
+('butter milk', 'soda'),7
+('honey', 'yogurt'),1
+('soda', 'yogurt'),46
+('honey', 'soda'),1
+('hamburger meat', 'onions'),16
+('citrus fruit', 'onions'),36
+('citrus fruit', 'rolls/buns'),50
+('onions', 'rolls/buns'),16
+('pasta', 'popcorn'),1
+('meat spreads', 'other vegetables'),3
+('cake bar', 'other vegetables'),3
+('cake bar', 'whole milk'),10
+('cake bar', 'meat spreads'),1
+('dessert', 'sausage'),27
+('dessert', 'pork'),16
+('citrus fruit', 'dessert'),23
+('curd', 'grapes'),8
+('dessert', 'grapes'),4
+('curd', 'dessert'),25
+('other vegetables', 'yogurt'),187
+('coffee', 'shopping bags'),14
+('bottled water', 'whole milk'),96
+('packaged fruit/vegetables', 'tropical fruit'),11
+('other vegetables', 'packaged fruit/vegetables'),22
+('packaged fruit/vegetables', 'whole milk'),25
+('beef', 'herbs'),21
+('beef', 'flour'),5
+('beef', 'cling film/bags'),1
+('flour', 'herbs'),1
+('cling film/bags', 'herbs'),1
+('cling film/bags', 'flour'),1
+('butter', 'dessert'),9
+('butter', 'rolls/buns'),35
+('chewing gum', 'frankfurter'),6
+('chewing gum', 'soda'),23
+('specialty cheese', 'tropical fruit'),3
+('bottled water', 'specialty cheese'),5
+('finished products', 'other vegetables'),13
+('finished products', 'frozen vegetables'),1
+('bottled beer', 'finished products'),1
+('bottled beer', 'frozen vegetables'),6
+('beverages', 'soda'),19
+('hamburger meat', 'root vegetables'),45
+('long life bakery product', 'pastry'),15
+('finished products', 'white wine'),2
+('finished products', 'shopping bags'),4
+('shopping bags', 'white wine'),12
+('ham', 'tropical fruit'),49
+('cocoa drinks', 'curd'),1
+('curd', 'salty snack'),3
+('butter milk', 'cocoa drinks'),1
+('butter milk', 'salty snack'),3
+('cocoa drinks', 'salty snack'),1
+('curd', 'soda'),21
+('dessert', 'soda'),26
+('dessert', 'salty snack'),1
+('salty snack', 'soda'),18
+('dog food', 'whole milk'),4
+('cereals', 'cream cheese'),2
+('cream cheese', 'dog food'),1
+('cereals', 'dog food'),1
+('salt', 'whole milk'),8
+('dessert', 'ice cream'),4
+('sausage', 'soft cheese'),10
+('coffee', 'soft cheese'),3
+('other vegetables', 'waffles'),11
+('dishes', 'other vegetables'),6
+('bottled water', 'waffles'),7
+('bottled water', 'dishes'),4
+('dishes', 'waffles'),1
+('ham', 'rolls/buns'),20
+('ice cream', 'other vegetables'),14
+('soda', 'white wine'),10
+('prosecco', 'soda'),2
+('bottled beer', 'white wine'),13
+('bottled beer', 'prosecco'),6
+('prosecco', 'white wine'),1
+('candy', 'herbs'),2
+('cream cheese', 'curd'),15
+('curd', 'semi-finished bread'),6
+('curd', 'zwieback'),3
+('cream cheese', 'semi-finished bread'),1
+('cream cheese', 'zwieback'),3
+('semi-finished bread', 'zwieback'),2
+('frankfurter', 'spread cheese'),3
+('spread cheese', 'tropical fruit'),9
+('spread cheese', 'whole milk'),15
+('curd', 'salt'),1
+('curd', 'detergent'),1
+('liquor (appetizer)', 'salt'),1
+('detergent', 'salt'),2
+('detergent', 'liquor (appetizer)'),1
+('beef', 'pork'),75
+('pip fruit', 'pork'),53
+('herbs', 'pork'),15
+('beef', 'pip fruit'),44
+('herbs', 'pip fruit'),11
+('UHT-milk', 'frankfurter'),17
+('frankfurter', 'margarine'),20
+('UHT-milk', 'margarine'),11
+('bottled beer', 'sausage'),23
+('liquor (appetizer)', 'sausage'),4
+('bottled beer', 'liquor (appetizer)'),13
+('curd', 'rolls/buns'),22
+('newspapers', 'whole milk'),52
+('bottled water', 'newspapers'),20
+('pork', 'root vegetables'),102
+('citrus fruit', 'pastry'),29
+('bottled water', 'butter'),11
+('butter', 'soda'),15
+('condensed milk', 'sugar'),5
+('coffee', 'condensed milk'),18
+('condensed milk', 'shopping bags'),3
+('coffee', 'sugar'),15
+('shopping bags', 'sugar'),2
+('other vegetables', 'soda'),64
+('UHT-milk', 'whole milk'),18
+('UHT-milk', 'beverages'),5
+('UHT-milk', 'soda'),22
+('cleaner', 'female sanitary products'),2
+('sausage', 'shopping bags'),18
+('newspapers', 'soda'),20
+('shopping bags', 'soda'),41
+('newspapers', 'shopping bags'),10
+('beef', 'other vegetables'),127
+('citrus fruit', 'other vegetables'),193
+('misc. beverages', 'newspapers'),1
+('sliced cheese', 'soda'),5
+('curd', 'meat'),12
+('bottled beer', 'meat'),5
+('cake bar', 'meat'),1
+('bottled beer', 'curd'),9
+('cake bar', 'curd'),3
+('bottled beer', 'cake bar'),2
+('frankfurter', 'meat'),32
+('frankfurter', 'onions'),27
+('meat', 'tropical fruit'),29
+('meat', 'onions'),10
+('onions', 'tropical fruit'),39
+('ice cream', 'rolls/buns'),12
+('canned beer', 'ice cream'),4
+('citrus fruit', 'meat'),31
+('meat', 'other vegetables'),67
+('mustard', 'whole milk'),13
+('bottled water', 'mustard'),4
+('beverages', 'sausage'),13
+('beef', 'beverages'),3
+('beef', 'sliced cheese'),3
+('beverages', 'sliced cheese'),5
+('butter', 'frankfurter'),21
+('butter', 'sausage'),36
+('butter', 'meat'),13
+('meat', 'rolls/buns'),26
+('Instant food products', 'root vegetables'),1
+('pickled vegetables', 'root vegetables'),5
+('Instant food products', 'beverages'),1
+('beverages', 'pickled vegetables'),1
+('Instant food products', 'pickled vegetables'),1
+('herbs', 'root vegetables'),48
+('herbs', 'other vegetables'),49
+('herbs', 'whole milk'),37
+('semi-finished bread', 'whole milk'),24
+('semi-finished bread', 'whipped/sour cream'),4
+('margarine', 'whipped/sour cream'),8
+('curd', 'margarine'),9
+('oil', 'sausage'),7
+('hygiene articles', 'sausage'),2
+('napkins', 'sausage'),2
+('hygiene articles', 'oil'),3
+('napkins', 'oil'),1
+('hygiene articles', 'napkins'),10
+('beef', 'frankfurter'),46
+('frankfurter', 'hamburger meat'),30
+('frankfurter', 'grapes'),17
+('beef', 'hamburger meat'),32
+('grapes', 'hamburger meat'),11
+('hard cheese', 'rolls/buns'),14
+('bottled water', 'hard cheese'),6
+('hard cheese', 'newspapers'),3
+('cream cheese', 'rolls/buns'),37
+('chocolate', 'cream cheese'),7
+('beef', 'turkey'),11
+('frozen vegetables', 'turkey'),2
+('dishes', 'turkey'),2
+('beef', 'frozen vegetables'),14
+('beef', 'dishes'),1
+('dishes', 'frozen vegetables'),1
+('pork', 'rolls/buns'),31
+('pip fruit', 'sausage'),95
+('curd', 'pip fruit'),32
+('fruit/vegetable juice', 'pip fruit'),9
+('fruit/vegetable juice', 'other vegetables'),24
+('pet care', 'root vegetables'),5
+('detergent', 'root vegetables'),4
+('pet care', 'whole milk'),7
+('detergent', 'whole milk'),12
+('detergent', 'pet care'),1
+('coffee', 'pickled vegetables'),5
+('frankfurter', 'whipped/sour cream'),14
+('sausage', 'whipped/sour cream'),21
+('butter', 'whipped/sour cream'),21
+('onions', 'pip fruit'),21
+('onions', 'other vegetables'),90
+('berries', 'meat'),11
+('meat', 'root vegetables'),41
+('frankfurter', 'fruit/vegetable juice'),7
+('margarine', 'tropical fruit'),9
+('rum', 'tropical fruit'),3
+('margarine', 'rum'),2
+('herbs', 'tropical fruit'),13
+('citrus fruit', 'pip fruit'),125
+('pip fruit', 'root vegetables'),117
+('curd', 'hamburger meat'),11
+('chicken', 'pip fruit'),42
+('chicken', 'other vegetables'),122
+('chicken', 'whole milk'),97
+('chicken', 'root vegetables'),76
+('pip fruit', 'turkey'),14
+('salad dressing', 'turkey'),1
+('pastry', 'turkey'),3
+('pip fruit', 'salad dressing'),1
+('pastry', 'pip fruit'),19
+('pastry', 'salad dressing'),1
+('curd', 'packaged fruit/vegetables'),4
+('packaged fruit/vegetables', 'yogurt'),11
+('rolls/buns', 'yogurt'),111
+('frozen meals', 'whole milk'),39
+('fruit/vegetable juice', 'whole milk'),33
+('frozen meals', 'pastry'),7
+('frozen meals', 'fruit/vegetable juice'),6
+('fruit/vegetable juice', 'pastry'),12
+('citrus fruit', 'sugar'),2
+('citrus fruit', 'sauces'),2
+('sauces', 'sugar'),2
+('citrus fruit', 'salty snack'),5
+('other vegetables', 'salty snack'),13
+('rolls/buns', 'salty snack'),10
+('chicken', 'vinegar'),3
+('other vegetables', 'vinegar'),6
+('vinegar', 'whole milk'),5
+('citrus fruit', 'packaged fruit/vegetables'),8
+('bottled water', 'citrus fruit'),25
+('UHT-milk', 'coffee'),16
+('beef', 'yogurt'),43
+('curd', 'frankfurter'),16
+('beef', 'curd'),15
+('onions', 'soda'),6
+('chewing gum', 'onions'),2
+('chocolate', 'onions'),1
+('chewing gum', 'chocolate'),3
+('cream cheese', 'packaged fruit/vegetables'),3
+('packaged fruit/vegetables', 'white bread'),3
+('bottled water', 'white wine'),24
+('beef', 'white bread'),9
+('beef', 'pastry'),14
+('beef', 'pasta'),4
+('pastry', 'white bread'),14
+('pasta', 'white bread'),2
+('pasta', 'pastry'),6
+('chicken', 'sausage'),51
+('chicken', 'spices'),3
+('chicken', 'long life bakery product'),5
+('spices', 'whole milk'),5
+('long life bakery product', 'spices'),1
+('brown bread', 'pork'),17
+('pastry', 'pork'),20
+('brown bread', 'citrus fruit'),16
+('brown bread', 'pastry'),26
+('hard cheese', 'meat'),6
+('bottled beer', 'hard cheese'),4
+('brown bread', 'other vegetables'),51
+('instant coffee', 'other vegetables'),2
+('instant coffee', 'yogurt'),3
+('brown bread', 'instant coffee'),1
+('bottled water', 'cake bar'),4
+('soda', 'tropical fruit'),39
+('salty snack', 'tropical fruit'),4
+('citrus fruit', 'coffee'),12
+('grapes', 'root vegetables'),24
+('brown bread', 'domestic eggs'),13
+('domestic eggs', 'photo/film'),3
+('brown bread', 'photo/film'),2
+('canned fish', 'rolls/buns'),19
+('canned beer', 'canned fish'),5
+('frankfurter', 'yogurt'),40
+('berries', 'curd'),9
+('hygiene articles', 'margarine'),1
+('ham', 'hard cheese'),15
+('hard cheese', 'other vegetables'),25
+('hard cheese', 'whipped/sour cream'),9
+('hamburger meat', 'white bread'),4
+('hamburger meat', 'salty snack'),2
+('salty snack', 'white bread'),4
+('mayonnaise', 'yogurt'),7
+('mayonnaise', 'rolls/buns'),10
+('mayonnaise', 'soda'),5
+('soda', 'specialty chocolate'),23
+('meat', 'sausage'),52
+('hamburger meat', 'sausage'),49
+('rubbing alcohol', 'sausage'),1
+('hamburger meat', 'meat'),16
+('meat', 'rubbing alcohol'),1
+('hamburger meat', 'rubbing alcohol'),1
+('beverages', 'citrus fruit'),4
+('citrus fruit', 'hard cheese'),7
+('beverages', 'pip fruit'),9
+('hard cheese', 'pip fruit'),11
+('beverages', 'hard cheese'),3
+('canned beer', 'citrus fruit'),11
+('canned beer', 'whole milk'),25
+('salt', 'salty snack'),2
+('cookware', 'salt'),1
+('cookware', 'salty snack'),1
+('beverages', 'curd'),5
+('beverages', 'cream cheese'),5
+('beverages', 'rolls/buns'),29
+('other vegetables', 'specialty chocolate'),6
+('butter', 'specialty chocolate'),1
+('butter milk', 'frankfurter'),18
+('processed cheese', 'root vegetables'),6
+('butter', 'processed cheese'),5
+('frozen meals', 'tropical fruit'),15
+('bottled beer', 'tropical fruit'),10
+('bottled beer', 'whole milk'),45
+('bottled beer', 'frozen meals'),7
+('hamburger meat', 'pip fruit'),39
+('berries', 'cereals'),1
+('berries', 'waffles'),5
+('cereals', 'whipped/sour cream'),1
+('waffles', 'whipped/sour cream'),5
+('cereals', 'waffles'),1
+('canned beer', 'whipped/sour cream'),5
+('red/blush wine', 'whipped/sour cream'),3
+('canned beer', 'red/blush wine'),14
+('margarine', 'root vegetables'),19
+('chocolate marshmallow', 'root vegetables'),1
+('domestic eggs', 'margarine'),11
+('chocolate marshmallow', 'domestic eggs'),3
+('chocolate marshmallow', 'margarine'),1
+('hygiene articles', 'whole milk'),6
+('citrus fruit', 'soft cheese'),7
+('soft cheese', 'whole milk'),21
+('curd', 'soft cheese'),2
+('frankfurter', 'pork'),57
+('tropical fruit', 'whipped/sour cream'),31
+('root vegetables', 'whipped/sour cream'),52
+('berries', 'packaged fruit/vegetables'),6
+('packaged fruit/vegetables', 'root vegetables'),20
+('coffee', 'rolls/buns'),36
+('brown bread', 'coffee'),10
+('coffee', 'pastry'),16
+('berries', 'white bread'),4
+('berries', 'coffee'),5
+('butter milk', 'other vegetables'),45
+('frozen meals', 'other vegetables'),22
+('butter milk', 'frozen meals'),2
+('bottled water', 'butter milk'),8
+('bottled water', 'frozen meals'),7
+('citrus fruit', 'ham'),26
+('citrus fruit', 'whipped/sour cream'),24
+('frozen dessert', 'whole milk'),9
+('salty snack', 'whole milk'),16
+('napkins', 'whole milk'),19
+('frozen dessert', 'salty snack'),3
+('frozen dessert', 'napkins'),1
+('napkins', 'salty snack'),5
+('butter milk', 'tropical fruit'),23
+('bottled beer', 'liquor'),42
+('butter', 'onions'),12
+('onions', 'whipped/sour cream'),12
+('butter', 'hard cheese'),10
+('hamburger meat', 'hard cheese'),9
+('frozen meals', 'hamburger meat'),5
+('hamburger meat', 'pasta'),5
+('frozen meals', 'hard cheese'),4
+('hard cheese', 'pasta'),4
+('frozen meals', 'pasta'),7
+('liver loaf', 'sausage'),10
+('cream cheese', 'sausage'),19
+('liver loaf', 'other vegetables'),12
+('cream cheese', 'liver loaf'),2
+('cream cheese', 'other vegetables'),42
+('hard cheese', 'pastry'),6
+('hard cheese', 'napkins'),1
+('napkins', 'pastry'),8
+('condensed milk', 'sausage'),6
+('condensed milk', 'tropical fruit'),9
+('condensed milk', 'rolls/buns'),11
+('onions', 'whole milk'),63
+('beverages', 'onions'),2
+('frozen dessert', 'onions'),1
+('beverages', 'frozen dessert'),2
+('chocolate', 'yogurt'),12
+('domestic eggs', 'rolls/buns'),43
+('dish cleaner', 'domestic eggs'),3
+('domestic eggs', 'hygiene articles'),6
+('dish cleaner', 'rolls/buns'),3
+('hygiene articles', 'rolls/buns'),4
+('dish cleaner', 'hygiene articles'),3
+('meat', 'whole milk'),59
+('meat', 'whipped/sour cream'),8
+('bathroom cleaner', 'dish cleaner'),1
+('dish cleaner', 'napkins'),5
+('bathroom cleaner', 'hygiene articles'),1
+('bathroom cleaner', 'napkins'),1
+('sliced cheese', 'whole milk'),42
+('butter milk', 'sliced cheese'),5
+('sliced cheese', 'yogurt'),22
+('Instant food products', 'other vegetables'),5
+('Instant food products', 'whole milk'),3
+('baking powder', 'bottled water'),4
+('baking powder', 'salty snack'),1
+('baking powder', 'chewing gum'),1
+('bottled water', 'salty snack'),6
+('chewing gum', 'salty snack'),2
+('margarine', 'rolls/buns'),32
+('ham', 'sausage'),49
+('ham', 'hamburger meat'),11
+('domestic eggs', 'specialty bar'),2
+('domestic eggs', 'napkins'),4
+('rolls/buns', 'specialty bar'),17
+('napkins', 'rolls/buns'),10
+('napkins', 'specialty bar'),5
+('pork', 'tropical fruit'),76
+('frozen vegetables', 'specialty cheese'),2
+('coffee', 'specialty cheese'),2
+('soda', 'specialty cheese'),4
+('coffee', 'frozen vegetables'),8
+('frozen vegetables', 'soda'),17
+('coffee', 'soda'),25
+('pork', 'yogurt'),33
+('beef', 'domestic eggs'),11
+('berries', 'domestic eggs'),10
+('domestic eggs', 'whipped/sour cream'),22
+('other vegetables', 'pet care'),5
+('chicken', 'yogurt'),19
+('chicken', 'sliced cheese'),2
+('chicken', 'rolls/buns'),25
+('pastry', 'root vegetables'),23
+('bottled water', 'root vegetables'),24
+('male cosmetics', 'root vegetables'),1
+('male cosmetics', 'pastry'),3
+('bottled water', 'male cosmetics'),5
+('berries', 'pet care'),5
+('berries', 'cake bar'),3
+('berries', 'shopping bags'),5
+('cake bar', 'pet care'),1
+('pet care', 'shopping bags'),4
+('cake bar', 'shopping bags'),3
+('oil', 'whole milk'),17
+('canned fruit', 'whole milk'),2
+('canned fruit', 'oil'),1
+('fruit/vegetable juice', 'oil'),4
+('canned fruit', 'fruit/vegetable juice'),1
+('citrus fruit', 'frozen vegetables'),9
+('UHT-milk', 'cream cheese'),16
+('UHT-milk', 'frozen vegetables'),5
+('cream cheese', 'frozen vegetables'),3
+('canned beer', 'male cosmetics'),4
+('onions', 'pastry'),5
+('bottled water', 'onions'),9
+('dessert', 'oil'),4
+('cat food', 'dessert'),3
+('cat food', 'oil'),3
+('oil', 'soda'),5
+('cat food', 'soda'),8
+('beef', 'frozen potato products'),2
+('frozen potato products', 'other vegetables'),10
+('frozen potato products', 'whole milk'),13
+('rolls/buns', 'zwieback'),6
+('misc. beverages', 'rolls/buns'),12
+('bottled water', 'zwieback'),3
+('misc. beverages', 'zwieback'),2
+('bottled water', 'misc. beverages'),16
+('beef', 'tropical fruit'),65
+('beef', 'onions'),16
+('coffee', 'hygiene articles'),2
+('bottled water', 'brown bread'),20
+('liquor (appetizer)', 'soda'),10
+('hygiene articles', 'soda'),5
+('canned beer', 'liquor (appetizer)'),7
+('canned beer', 'hygiene articles'),6
+('hygiene articles', 'liquor (appetizer)'),2
+('ice cream', 'sausage'),5
+('beef', 'rolls/buns'),35
+('rolls/buns', 'root vegetables'),57
+('bottled beer', 'butter'),11
+('ice cream', 'pork'),5
+('hygiene articles', 'pork'),4
+('house keeping products', 'pork'),1
+('hygiene articles', 'ice cream'),1
+('house keeping products', 'ice cream'),1
+('house keeping products', 'hygiene articles'),3
+('berries', 'ice cream'),2
+('ice cream', 'packaged fruit/vegetables'),2
+('ice cream', 'whole milk'),25
+('bottled water', 'cling film/bags'),3
+('cling film/bags', 'misc. beverages'),2
+('bottled water', 'herbs'),5
+('honey', 'whole milk'),2
+('waffles', 'whole milk'),17
+('honey', 'waffles'),1
+('frankfurter', 'pastry'),15
+('frankfurter', 'snack products'),1
+('rolls/buns', 'snack products'),8
+('pastry', 'snack products'),1
+('frankfurter', 'liver loaf'),7
+('liver loaf', 'root vegetables'),10
+('frankfurter', 'pickled vegetables'),2
+('root vegetables', 'soda'),24
+('pickled vegetables', 'soda'),8
+('dental care', 'frankfurter'),1
+('dental care', 'margarine'),1
+('bottled water', 'shopping bags'),8
+('onions', 'pork'),29
+('butter', 'pork'),19
+('other vegetables', 'specialty cheese'),17
+('domestic eggs', 'other vegetables'),48
+('specialty cheese', 'whipped/sour cream'),4
+('domestic eggs', 'specialty cheese'),3
+('pasta', 'whole milk'),13
+('curd', 'pasta'),4
+('cream cheese', 'fruit/vegetable juice'),5
+('curd', 'ham'),9
+('sausage', 'turkey'),11
+('root vegetables', 'turkey'),17
+('bottled water', 'napkins'),12
+('bottled beer', 'napkins'),3
+('frozen meals', 'meat'),3
+('candy', 'dessert'),3
+('UHT-milk', 'packaged fruit/vegetables'),3
+('UHT-milk', 'bottled water'),24
+('ham', 'mustard'),1
+('canned fish', 'ham'),2
+('canned fish', 'mustard'),2
+('brown bread', 'salty snack'),4
+('brown bread', 'shopping bags'),8
+('salty snack', 'shopping bags'),3
+('coffee', 'cream cheese'),9
+('red/blush wine', 'rolls/buns'),11
+('pastry', 'red/blush wine'),6
+('bottled beer', 'nut snack'),2
+('bottled beer', 'pet care'),5
+('citrus fruit', 'soda'),22
+('frozen vegetables', 'pork'),22
+('hygiene articles', 'other vegetables'),2
+('frozen vegetables', 'hygiene articles'),3
+('other vegetables', 'shopping bags'),20
+('detergent', 'white wine'),1
+('bottled water', 'dessert'),12
+('pip fruit', 'white wine'),6
+('pip fruit', 'shopping bags'),6
+('pip fruit', 'rolls/buns'),44
+('coffee', 'pip fruit'),15
+('cream cheese', 'root vegetables'),14
+('root vegetables', 'spread cheese'),5
+('cream cheese', 'frozen dessert'),1
+('frozen dessert', 'spread cheese'),1
+('brown bread', 'white bread'),15
+('brown bread', 'sugar'),6
+('brown bread', 'hygiene articles'),1
+('hygiene articles', 'sugar'),2
+('coffee', 'root vegetables'),8
+('bottled water', 'coffee'),18
+('coffee', 'detergent'),5
+('coffee', 'photo/film'),3
+('detergent', 'hygiene articles'),4
+('detergent', 'photo/film'),2
+('hygiene articles', 'photo/film'),3
+('packaged fruit/vegetables', 'pork'),6
+('beef', 'packaged fruit/vegetables'),10
+('dishes', 'yogurt'),4
+('bottled water', 'candy'),5
+('berries', 'butter milk'),12
+('packaged fruit/vegetables', 'seasonal products'),1
+('frozen potato products', 'yogurt'),5
+('margarine', 'yogurt'),20
+('frozen potato products', 'margarine'),3
+('herbs', 'yogurt'),11
+('citrus fruit', 'spread cheese'),6
+('rolls/buns', 'spread cheese'),20
+('soda', 'spread cheese'),7
+('beverages', 'tropical fruit'),17
+('white bread', 'whole milk'),54
+('beverages', 'white bread'),5
+('female sanitary products', 'soda'),3
+('soda', 'white bread'),18
+('waffles', 'white bread'),2
+('soda', 'waffles'),21
+('chewing gum', 'coffee'),5
+('chocolate marshmallow', 'coffee'),3
+('chewing gum', 'chocolate marshmallow'),2
+('frozen vegetables', 'tropical fruit'),20
+('butter milk', 'pork'),7
+('butter milk', 'pip fruit'),17
+('fruit/vegetable juice', 'yogurt'),21
+('newspapers', 'yogurt'),20
+('fruit/vegetable juice', 'onions'),4
+('domestic eggs', 'hamburger meat'),6
+('snack products', 'soda'),6
+('newspapers', 'snack products'),1
+('curd', 'frozen meals'),4
+('curd', 'frozen potato products'),2
+('frozen meals', 'frozen potato products'),3
+('curd', 'whipped/sour cream'),34
+('whipped/sour cream', 'zwieback'),1
+('domestic eggs', 'yogurt'),30
+('fruit/vegetable juice', 'long life bakery product'),13
+('long life bakery product', 'rolls/buns'),10
+('detergent', 'rolls/buns'),7
+('coffee', 'long life bakery product'),4
+('detergent', 'long life bakery product'),4
+('bottled water', 'pip fruit'),27
+('candy', 'pip fruit'),2
+('candy', 'whole milk'),9
+('frozen vegetables', 'liquor (appetizer)'),2
+('chewing gum', 'frozen vegetables'),2
+('bottled beer', 'chewing gum'),4
+('chewing gum', 'liquor (appetizer)'),3
+('UHT-milk', 'hamburger meat'),9
+('UHT-milk', 'salty snack'),2
+('pip fruit', 'rum'),1
+('rum', 'whole milk'),5
+('curd', 'rum'),1
+('frozen vegetables', 'grapes'),3
+('domestic eggs', 'grapes'),3
+('butter', 'packaged fruit/vegetables'),3
+('packaged fruit/vegetables', 'whipped/sour cream'),5
+('canned beer', 'frozen vegetables'),3
+('cling film/bags', 'potted plants'),1
+('red/blush wine', 'whole milk'),6
+('curd', 'pork'),18
+('chicken', 'pastry'),8
+('dish cleaner', 'sausage'),3
+('dishes', 'sausage'),2
+('dish cleaner', 'dishes'),1
+('pastry', 'whipped/sour cream'),17
+('specialty bar', 'whipped/sour cream'),2
+('pastry', 'specialty bar'),8
+('brown bread', 'root vegetables'),21
+('bottled beer', 'red/blush wine'),24
+('brown bread', 'processed cheese'),3
+('pastry', 'processed cheese'),4
+('ham', 'white wine'),1
+('rolls/buns', 'white wine'),6
+('canned fish', 'pip fruit'),3
+('butter', 'pip fruit'),28
+('frozen meals', 'pip fruit'),12
+('pasta', 'pip fruit'),2
+('butter', 'frozen meals'),7
+('butter', 'pasta'),6
+('meat', 'pork'),27
+('beef', 'meat'),18
+('meat', 'packaged fruit/vegetables'),3
+('hamburger meat', 'packaged fruit/vegetables'),5
+('bottled water', 'red/blush wine'),7
+('bottled water', 'long life bakery product'),6
+('red/blush wine', 'soda'),11
+('long life bakery product', 'soda'),14
+('long life bakery product', 'red/blush wine'),2
+('canned beer', 'pastry'),20
+('pork', 'sauces'),2
+('sauces', 'whole milk'),4
+('pastry', 'sauces'),1
+('pip fruit', 'sliced cheese'),9
+('pastry', 'sliced cheese'),5
+('sliced cheese', 'white wine'),1
+('pastry', 'white wine'),4
+('beef', 'brown bread'),10
+('berries', 'brown bread'),5
+('citrus fruit', 'herbs'),11
+('herbs', 'meat'),3
+('beverages', 'pastry'),15
+('ham', 'white bread'),11
+('ham', 'margarine'),2
+('margarine', 'white bread'),7
+('hamburger meat', 'oil'),1
+('hamburger meat', 'ketchup'),2
+('ketchup', 'whole milk'),3
+('ketchup', 'oil'),2
+('beef', 'butter milk'),6
+('citrus fruit', 'grapes'),34
+('grapes', 'tropical fruit'),51
+('frankfurter', 'newspapers'),8
+('newspapers', 'root vegetables'),4
+('meat spreads', 'rolls/buns'),6
+('bottled water', 'meat spreads'),3
+('hamburger meat', 'yogurt'),17
+('domestic eggs', 'sausage'),25
+('domestic eggs', 'soda'),24
+('domestic eggs', 'tropical fruit'),26
+('pastry', 'tropical fruit'),29
+('domestic eggs', 'pastry'),21
+('chicken', 'herbs'),12
+('chicken', 'whipped/sour cream'),17
+('hamburger meat', 'herbs'),11
+('hamburger meat', 'whipped/sour cream'),10
+('herbs', 'whipped/sour cream'),7
+('bottled water', 'cream cheese'),7
+('canned beer', 'cream cheese'),4
+('newspapers', 'pastry'),17
+('UHT-milk', 'butter milk'),10
+('butter', 'ham'),14
+('bottled beer', 'frankfurter'),11
+('frankfurter', 'salty snack'),1
+('bottled beer', 'citrus fruit'),2
+('bottled beer', 'salty snack'),4
+('curd', 'onions'),7
+('bottled beer', 'newspapers'),12
+('hard cheese', 'whole milk'),36
+('chocolate marshmallow', 'whole milk'),3
+('chocolate marshmallow', 'hard cheese'),1
+('beverages', 'butter milk'),5
+('butter', 'chicken'),19
+('chicken', 'newspapers'),5
+('meat', 'pip fruit'),24
+('beverages', 'pork'),9
+('beverages', 'whipped/sour cream'),10
+('cat food', 'whole milk'),17
+('margarine', 'sliced cheese'),4
+('cat food', 'sliced cheese'),2
+('cat food', 'margarine'),4
+('ham', 'yogurt'),20
+('beef', 'specialty chocolate'),6
+('specialty chocolate', 'whole milk'),14
+('brown bread', 'specialty chocolate'),2
+('beef', 'chicken'),46
+('chicken', 'specialty chocolate'),3
+('root vegetables', 'sliced cheese'),9
+('other vegetables', 'sliced cheese'),21
+('frozen meals', 'rolls/buns'),16
+('salt', 'yogurt'),7
+('jam', 'yogurt'),4
+('sparkling wine', 'yogurt'),1
+('jam', 'salt'),1
+('salt', 'sparkling wine'),1
+('jam', 'sparkling wine'),1
+('sliced cheese', 'tropical fruit'),13
+('curd', 'sliced cheese'),7
+('UHT-milk', 'curd'),8
+('artif. sweetener', 'curd'),3
+('curd', 'dental care'),1
+('UHT-milk', 'artif. sweetener'),2
+('UHT-milk', 'dental care'),1
+('artif. sweetener', 'dental care'),1
+('berries', 'onions'),9
+('berries', 'rolls/buns'),10
+('brown bread', 'pasta'),5
+('brown bread', 'margarine'),15
+('margarine', 'pasta'),3
+('UHT-milk', 'pork'),15
+('bottled water', 'pork'),16
+('pork', 'soda'),31
+('curd cheese', 'other vegetables'),3
+('curd', 'curd cheese'),1
+('curd cheese', 'yogurt'),1
+('hygiene articles', 'yogurt'),4
+('shopping bags', 'yogurt'),15
+('hygiene articles', 'newspapers'),4
+('hygiene articles', 'shopping bags'),4
+('cat food', 'curd'),6
+('beef', 'butter'),17
+('rolls/buns', 'shopping bags'),30
+('shopping bags', 'snack products'),1
+('hygiene articles', 'pastry'),4
+('bottled water', 'hygiene articles'),5
+('chicken', 'onions'),17
+('turkey', 'yogurt'),6
+('UHT-milk', 'frozen dessert'),3
+('UHT-milk', 'fruit/vegetable juice'),9
+('UHT-milk', 'decalcifier'),1
+('frozen dessert', 'fruit/vegetable juice'),1
+('decalcifier', 'frozen dessert'),1
+('decalcifier', 'fruit/vegetable juice'),1
+('citrus fruit', 'sliced cheese'),12
+('coffee', 'domestic eggs'),5
+('bottled water', 'spread cheese'),4
+('newspapers', 'spread cheese'),2
+('candles', 'packaged fruit/vegetables'),1
+('candles', 'canned beer'),3
+('white wine', 'whole milk'),5
+('bottled beer', 'yogurt'),10
+('white wine', 'yogurt'),12
+('bottled beer', 'onions'),4
+('liquor (appetizer)', 'onions'),2
+('liquor (appetizer)', 'whole milk'),4
+('butter milk', 'grapes'),2
+('beef', 'bottled beer'),9
+('chicken', 'hygiene articles'),1
+('herbs', 'onions'),10
+('hygiene articles', 'onions'),4
+('herbs', 'hygiene articles'),2
+('abrasive cleaner', 'frankfurter'),1
+('abrasive cleaner', 'rolls/buns'),1
+('abrasive cleaner', 'soda'),1
+('sausage', 'semi-finished bread'),7
+('semi-finished bread', 'tropical fruit'),8
+('flour', 'tropical fruit'),2
+('flour', 'pastry'),5
+('pastry', 'rum'),1
+('flour', 'rum'),1
+('frankfurter', 'mustard'),6
+('mustard', 'rolls/buns'),6
+('grapes', 'soda'),6
+('curd', 'potted plants'),2
+('bottled beer', 'potted plants'),2
+('ice cream', 'sugar'),3
+('flower (seeds)', 'ice cream'),1
+('flower (seeds)', 'sugar'),1
+('beverages', 'dessert'),6
+('pork', 'semi-finished bread'),2
+('rolls/buns', 'semi-finished bread'),8
+('chicken', 'frankfurter'),35
+('chicken', 'pork'),56
+('domestic eggs', 'pork'),13
+('brandy', 'frozen dessert'),1
+('chicken', 'packaged fruit/vegetables'),6
+('chicken', 'condensed milk'),3
+('condensed milk', 'packaged fruit/vegetables'),3
+('oil', 'vinegar'),1
+('soda', 'specialty bar'),28
+('grapes', 'zwieback'),2
+('Instant food products', 'grapes'),1
+('other vegetables', 'zwieback'),4
+('Instant food products', 'zwieback'),2
+('cream cheese', 'frankfurter'),11
+('cream cheese', 'whipped/sour cream'),9
+('finished products', 'root vegetables'),4
+('finished products', 'packaged fruit/vegetables'),1
+('finished products', 'yogurt'),6
+('flour', 'onions'),2
+('flour', 'other vegetables'),6
+('other vegetables', 'tea'),2
+('chocolate', 'other vegetables'),15
+('cream cheese', 'tea'),2
+('chocolate', 'tea'),1
+('ham', 'turkey'),5
+('bottled beer', 'margarine'),10
+('canned beer', 'chewing gum'),8
+('chicken', 'ham'),16
+('berries', 'ham'),7
+('berries', 'chicken'),22
+('dessert', 'yogurt'),38
+('meat', 'soda'),14
+('meat', 'specialty bar'),2
+('UHT-milk', 'chicken'),11
+('chicken', 'coffee'),9
+('bottled water', 'pet care'),5
+('root vegetables', 'shopping bags'),13
+('chicken', 'grapes'),15
+('grapes', 'whipped/sour cream'),5
+('frozen dessert', 'semi-finished bread'),4
+('grapes', 'yogurt'),13
+('berries', 'sausage'),36
+('onions', 'packaged fruit/vegetables'),4
+('canned beer', 'frankfurter'),7
+('butter', 'coffee'),3
+('UHT-milk', 'whipped/sour cream'),11
+('beverages', 'frankfurter'),4
+('frankfurter', 'frozen meals'),5
+('frozen meals', 'pork'),6
+('beverages', 'frozen meals'),6
+('frankfurter', 'frozen fish'),4
+('frozen fish', 'sausage'),5
+('margarine', 'sausage'),12
+('frozen fish', 'margarine'),3
+('brown bread', 'frozen vegetables'),6
+('fish', 'pork'),4
+('fish', 'whole milk'),5
+('butter', 'fish'),1
+('chewing gum', 'whole milk'),13
+('UHT-milk', 'grapes'),4
+('brown bread', 'grapes'),5
+('UHT-milk', 'brown bread'),15
+('potted plants', 'root vegetables'),4
+('cream cheese', 'dessert'),9
+('organic products', 'tropical fruit'),1
+('curd', 'organic products'),1
+('organic products', 'rolls/buns'),1
+('grapes', 'rolls/buns'),11
+('beverages', 'meat'),3
+('packaged fruit/vegetables', 'rolls/buns'),8
+('packaged fruit/vegetables', 'pastry'),7
+('nuts/prunes', 'whole milk'),10
+('nuts/prunes', 'semi-finished bread'),1
+('jam', 'nuts/prunes'),1
+('jam', 'whole milk'),7
+('jam', 'semi-finished bread'),2
+('frozen vegetables', 'yogurt'),33
+('berries', 'fish'),2
+('curd', 'frozen vegetables'),9
+('frozen fish', 'pork'),5
+('frozen fish', 'other vegetables'),14
+('berries', 'margarine'),3
+('frozen meals', 'misc. beverages'),1
+('beef', 'chocolate'),4
+('bottled beer', 'root vegetables'),11
+('chocolate', 'root vegetables'),5
+('bottled beer', 'chocolate'),6
+('packaged fruit/vegetables', 'pickled vegetables'),1
+('berries', 'frozen vegetables'),5
+('berries', 'instant coffee'),1
+('frozen vegetables', 'pet care'),1
+('frozen vegetables', 'instant coffee'),1
+('instant coffee', 'pet care'),2
+('napkins', 'soda'),11
+('chewing gum', 'napkins'),4
+('UHT-milk', 'domestic eggs'),18
+('root vegetables', 'white bread'),20
+('sausage', 'specialty chocolate'),4
+('rolls/buns', 'specialty chocolate'),14
+('beef', 'cream cheese'),7
+('beverages', 'coffee'),3
+('bottled beer', 'shopping bags'),15
+('Instant food products', 'beef'),2
+('beef', 'canned beer'),5
+('Instant food products', 'canned beer'),1
+('berries', 'beverages'),6
+('grapes', 'processed cheese'),1
+('processed cheese', 'rolls/buns'),15
+('flower (seeds)', 'potato products'),1
+('chicken', 'soda'),12
+('hamburger meat', 'soda'),10
+('chicken', 'salt'),1
+('other vegetables', 'salt'),11
+('cream cheese', 'fish'),2
+('coffee', 'fish'),2
+('chicken', 'frozen vegetables'),23
+('cake bar', 'newspapers'),2
+('hamburger meat', 'pastry'),13
+('berries', 'pastry'),11
+('chocolate', 'whole milk'),18
+('artif. sweetener', 'whole milk'),4
+('domestic eggs', 'sliced cheese'),6
+('artif. sweetener', 'sliced cheese'),1
+('artif. sweetener', 'domestic eggs'),1
+('bottled beer', 'pastry'),10
+('newspapers', 'sliced cheese'),1
+('dessert', 'ham'),16
+('flour', 'whole milk'),17
+('cream cheese', 'flour'),2
+('canned beer', 'shopping bags'),27
+('curd', 'roll products'),5
+('bottled water', 'curd'),13
+('margarine', 'roll products'),2
+('bottled water', 'roll products'),2
+('bottled water', 'margarine'),21
+('bottled beer', 'fruit/vegetable juice'),14
+('packaged fruit/vegetables', 'potted plants'),2
+('ice cream', 'tropical fruit'),13
+('ice cream', 'root vegetables'),7
+('frozen vegetables', 'ice cream'),3
+('beverages', 'misc. beverages'),7
+('frankfurter', 'turkey'),8
+('frankfurter', 'popcorn'),1
+('berries', 'pickled vegetables'),2
+('pickled vegetables', 'whipped/sour cream'),3
+('frankfurter', 'white bread'),16
+('canned vegetables', 'frankfurter'),2
+('pork', 'white bread'),12
+('canned vegetables', 'pork'),1
+('canned vegetables', 'white bread'),2
+('butter', 'hamburger meat'),12
+('frozen fish', 'newspapers'),2
+('newspapers', 'tropical fruit'),16
+('berries', 'grapes'),18
+('instant coffee', 'rolls/buns'),6
+('coffee', 'instant coffee'),3
+('coffee', 'salty snack'),6
+('instant coffee', 'salty snack'),2
+('potted plants', 'specialty chocolate'),2
+('dish cleaner', 'sparkling wine'),2
+('citrus fruit', 'napkins'),4
+('citrus fruit', 'shopping bags'),8
+('napkins', 'shopping bags'),2
+('bottled beer', 'herbs'),1
+('candles', 'whole milk'),4
+('detergent', 'pastry'),2
+('candles', 'pastry'),4
+('candles', 'detergent'),1
+('chewing gum', 'other vegetables'),14
+('chewing gum', 'white bread'),2
+('shopping bags', 'whole milk'),24
+('hard cheese', 'pork'),7
+('hard cheese', 'tropical fruit'),12
+('grapes', 'hard cheese'),6
+('bottled water', 'sausage'),25
+('red/blush wine', 'sausage'),5
+('baking powder', 'whole milk'),19
+('baking powder', 'whipped/sour cream'),7
+('ice cream', 'newspapers'),2
+('curd', 'domestic eggs'),6
+('flour', 'whipped/sour cream'),6
+('domestic eggs', 'flour'),6
+('frozen meals', 'newspapers'),1
+('dessert', 'onions'),5
+('domestic eggs', 'onions'),6
+('dessert', 'domestic eggs'),8
+('finished products', 'organic sausage'),2
+('finished products', 'sliced cheese'),1
+('finished products', 'white bread'),2
+('organic sausage', 'sliced cheese'),1
+('organic sausage', 'white bread'),2
+('sliced cheese', 'white bread'),4
+('dog food', 'salt'),1
+('long life bakery product', 'salt'),1
+('dog food', 'long life bakery product'),1
+('oil', 'tropical fruit'),7
+('cat food', 'tropical fruit'),6
+('butter', 'canned fish'),2
+('butter', 'softener'),1
+('canned fish', 'pasta'),3
+('pasta', 'softener'),1
+('canned fish', 'softener'),1
+('butter milk', 'frozen fish'),2
+('frozen fish', 'salty snack'),3
+('canned beer', 'tropical fruit'),4
+('chocolate', 'tropical fruit'),9
+('chocolate', 'pastry'),13
+('canned beer', 'chocolate'),7
+('UHT-milk', 'salt'),2
+('UHT-milk', 'specialty chocolate'),4
+('salt', 'soda'),1
+('salt', 'specialty chocolate'),1
+('curd', 'spread cheese'),3
+('curd', 'sugar'),1
+('sugar', 'yogurt'),14
+('spread cheese', 'sugar'),1
+('bottled beer', 'brown bread'),13
+('brown bread', 'white wine'),6
+('liquor', 'red/blush wine'),17
+('artif. sweetener', 'soda'),1
+('artif. sweetener', 'photo/film'),1
+('photo/film', 'soda'),2
+('frankfurter', 'processed cheese'),11
+('onions', 'processed cheese'),2
+('dessert', 'pip fruit'),16
+('coffee', 'frankfurter'),11
+('detergent', 'frankfurter'),2
+('domestic eggs', 'flower soil/fertilizer'),1
+('flower soil/fertilizer', 'hygiene articles'),1
+('flower soil/fertilizer', 'photo/film'),1
+('mayonnaise', 'packaged fruit/vegetables'),1
+('oil', 'packaged fruit/vegetables'),2
+('dessert', 'mayonnaise'),3
+('mayonnaise', 'oil'),1
+('frozen vegetables', 'whipped/sour cream'),15
+('cream cheese', 'margarine'),6
+('margarine', 'tea'),2
+('frozen meals', 'sausage'),11
+('domestic eggs', 'frozen meals'),10
+('other vegetables', 'roll products'),6
+('roll products', 'whipped/sour cream'),4
+('grapes', 'pip fruit'),28
+('bottled water', 'whipped/sour cream'),13
+('berries', 'butter'),14
+('berries', 'dessert'),7
+('dessert', 'whipped/sour cream'),10
+('dessert', 'white bread'),10
+('whipped/sour cream', 'white bread'),5
+('ice cream', 'long life bakery product'),5
+('coffee', 'fruit/vegetable juice'),6
+('coffee', 'dishes'),2
+('dishes', 'fruit/vegetable juice'),3
+('misc. beverages', 'whole milk'),10
+('butter', 'misc. beverages'),2
+('misc. beverages', 'pasta'),1
+('beef', 'nuts/prunes'),1
+('grapes', 'nuts/prunes'),1
+('nuts/prunes', 'root vegetables'),4
+('margarine', 'newspapers'),6
+('domestic eggs', 'pip fruit'),14
+('bottled water', 'domestic eggs'),14
+('butter milk', 'chicken'),4
+('chicken', 'margarine'),9
+('butter milk', 'margarine'),3
+('dish cleaner', 'root vegetables'),1
+('grapes', 'waffles'),3
+('soda', 'zwieback'),5
+('waffles', 'zwieback'),2
+('pasta', 'root vegetables'),5
+('other vegetables', 'pasta'),7
+('cream cheese', 'pasta'),2
+('beef', 'bottled water'),8
+('beef', 'misc. beverages'),1
+('bottled water', 'specialty chocolate'),11
+('misc. beverages', 'specialty chocolate'),4
+('bottled beer', 'pork'),8
+('canned beer', 'specialty chocolate'),5
+('candy', 'canned beer'),5
+('candy', 'specialty chocolate'),5
+('shopping bags', 'specialty chocolate'),4
+('candy', 'shopping bags'),5
+('whipped/sour cream', 'yogurt'),65
+('flour', 'yogurt'),5
+('flour', 'margarine'),5
+('chicken', 'meat'),23
+('coffee', 'misc. beverages'),2
+('bottled beer', 'coffee'),9
+('bottled beer', 'misc. beverages'),10
+('pasta', 'sausage'),2
+('pasta', 'whipped/sour cream'),1
+('frankfurter', 'specialty cheese'),2
+('chewing gum', 'specialty cheese'),2
+('other vegetables', 'spread cheese'),12
+('margarine', 'spread cheese'),3
+('grapes', 'soft cheese'),3
+('UHT-milk', 'yogurt'),44
+('soft cheese', 'yogurt'),13
+('UHT-milk', 'soft cheese'),1
+('butter', 'salt'),3
+('rolls/buns', 'salt'),8
+('cake bar', 'pork'),2
+('ice cream', 'soda'),24
+('cake bar', 'ice cream'),1
+('cake bar', 'soda'),11
+('roll products', 'whole milk'),8
+('whole milk', 'zwieback'),5
+('roll products', 'rolls/buns'),4
+('roll products', 'zwieback'),1
+('canned beer', 'frozen fish'),3
+('frozen fish', 'red/blush wine'),2
+('butter', 'grapes'),11
+('citrus fruit', 'liquor'),2
+('citrus fruit', 'specialty bar'),6
+('liquor', 'white bread'),3
+('specialty bar', 'white bread'),2
+('liquor', 'specialty bar'),3
+('hard cheese', 'yogurt'),12
+('specialty cheese', 'whole milk'),11
+('specialty cheese', 'yogurt'),6
+('chicken', 'curd'),14
+('dessert', 'tropical fruit'),29
+('dessert', 'pastry'),16
+('butter', 'pastry'),15
+('liquor (appetizer)', 'whipped/sour cream'),1
+('beverages', 'liquor (appetizer)'),1
+('citrus fruit', 'turkey'),17
+('chicken', 'white wine'),6
+('other vegetables', 'white wine'),5
+('specialty chocolate', 'white wine'),2
+('finished products', 'sausage'),10
+('finished products', 'tropical fruit'),6
+('finished products', 'pip fruit'),7
+('coffee', 'ice cream'),6
+('ice cream', 'waffles'),2
+('coffee', 'waffles'),4
+('frankfurter', 'herbs'),5
+('UHT-milk', 'herbs'),4
+('UHT-milk', 'vinegar'),1
+('UHT-milk', 'waffles'),4
+('UHT-milk', 'chocolate'),3
+('vinegar', 'waffles'),1
+('chocolate', 'vinegar'),1
+('chocolate', 'waffles'),7
+('UHT-milk', 'butter'),7
+('ham', 'processed cheese'),13
+('processed cheese', 'white bread'),6
+('candy', 'popcorn'),2
+('UHT-milk', 'sausage'),17
+('UHT-milk', 'frozen meals'),2
+('candy', 'soda'),13
+('frozen meals', 'yogurt'),21
+('frozen vegetables', 'sliced cheese'),3
+('frozen meals', 'sliced cheese'),5
+('frozen meals', 'frozen vegetables'),17
+('meat', 'yogurt'),20
+('UHT-milk', 'instant coffee'),1
+('misc. beverages', 'shopping bags'),7
+('cat food', 'dish cleaner'),3
+('cat food', 'shopping bags'),6
+('dish cleaner', 'shopping bags'),3
+('cream cheese', 'meat'),5
+('root vegetables', 'salt'),3
+('fruit/vegetable juice', 'root vegetables'),8
+('salt', 'whipped/sour cream'),6
+('fruit/vegetable juice', 'whipped/sour cream'),8
+('brown bread', 'oil'),7
+('oil', 'sugar'),2
+('bottled beer', 'grapes'),3
+('grapes', 'white wine'),3
+('cream cheese', 'ham'),5
+('root vegetables', 'skin care'),2
+('ice cream', 'misc. beverages'),4
+('ice cream', 'napkins'),3
+('misc. beverages', 'napkins'),3
+('canned beer', 'napkins'),5
+('finished products', 'soda'),6
+('finished products', 'fruit/vegetable juice'),2
+('oil', 'other vegetables'),13
+('dental care', 'other vegetables'),2
+('oil', 'yogurt'),6
+('dental care', 'yogurt'),1
+('dental care', 'oil'),2
+('nut snack', 'other vegetables'),1
+('UHT-milk', 'dessert'),14
+('ham', 'onions'),13
+('bottled water', 'grapes'),3
+('pork', 'shopping bags'),11
+('frozen fish', 'frozen meals'),5
+('frozen meals', 'shopping bags'),10
+('frozen fish', 'shopping bags'),2
+('ham', 'spread cheese'),3
+('grapes', 'spread cheese'),1
+('grapes', 'ice cream'),4
+('ice cream', 'spread cheese'),2
+('grapes', 'specialty cheese'),1
+('grapes', 'pasta'),2
+('coffee', 'grapes'),3
+('pasta', 'specialty cheese'),1
+('coffee', 'pasta'),1
+('citrus fruit', 'red/blush wine'),4
+('citrus fruit', 'photo/film'),2
+('bottled water', 'photo/film'),2
+('photo/film', 'red/blush wine'),2
+('citrus fruit', 'long life bakery product'),2
+('long life bakery product', 'tropical fruit'),8
+('long life bakery product', 'pip fruit'),3
+('bottled beer', 'sliced cheese'),1
+('turkey', 'whole milk'),14
+('UHT-milk', 'turkey'),4
+('fruit/vegetable juice', 'turkey'),1
+('candy', 'tropical fruit'),10
+('candy', 'other vegetables'),7
+('oil', 'pasta'),3
+('brown bread', 'meat'),14
+('mayonnaise', 'sausage'),8
+('citrus fruit', 'mayonnaise'),3
+('mayonnaise', 'pip fruit'),1
+('chocolate', 'grapes'),2
+('grapes', 'light bulbs'),2
+('chocolate', 'light bulbs'),1
+('grapes', 'pastry'),9
+('grapes', 'salty snack'),3
+('pastry', 'salty snack'),10
+('light bulbs', 'pastry'),1
+('light bulbs', 'salty snack'),1
+('other vegetables', 'processed cheese'),16
+('ketchup', 'other vegetables'),1
+('ketchup', 'yogurt'),2
+('ketchup', 'processed cheese'),2
+('bottled water', 'potted plants'),4
+('hygiene articles', 'prosecco'),1
+('potted plants', 'prosecco'),1
+('hygiene articles', 'potted plants'),1
+('UHT-milk', 'dish cleaner'),1
+('UHT-milk', 'napkins'),4
+('dish cleaner', 'soda'),1
+('chewing gum', 'specialty chocolate'),7
+('pasta', 'tropical fruit'),3
+('bottled water', 'pasta'),2
+('berries', 'roll products'),1
+('roll products', 'root vegetables'),7
+('brown bread', 'chocolate'),5
+('UHT-milk', 'tropical fruit'),24
+('bottled beer', 'ham'),3
+('chewing gum', 'ham'),1
+('other vegetables', 'pickled vegetables'),10
+('curd', 'pickled vegetables'),1
+('margarine', 'pork'),13
+('margarine', 'soda'),19
+('pork', 'sugar'),6
+('cake bar', 'citrus fruit'),1
+('baby cosmetics', 'citrus fruit'),1
+('baby cosmetics', 'cake bar'),1
+('baby cosmetics', 'shopping bags'),1
+('ham', 'liver loaf'),3
+('ham', 'pork'),17
+('pork', 'specialty fat'),4
+('root vegetables', 'specialty fat'),1
+('other vegetables', 'specialty fat'),3
+('bottled water', 'condensed milk'),3
+('condensed milk', 'misc. beverages'),2
+('bottled beer', 'condensed milk'),3
+('bottled beer', 'chicken'),4
+('chicken', 'red/blush wine'),3
+('domestic eggs', 'meat'),4
+('butter', 'domestic eggs'),25
+('finished products', 'whole milk'),5
+('finished products', 'whipped/sour cream'),2
+('frozen potato products', 'root vegetables'),4
+('domestic eggs', 'seasonal products'),4
+('domestic eggs', 'shopping bags'),5
+('seasonal products', 'shopping bags'),8
+('seasonal products', 'specialty bar'),2
+('shopping bags', 'specialty bar'),2
+('canned beer', 'mayonnaise'),3
+('tropical fruit', 'zwieback'),3
+('sliced cheese', 'zwieback'),1
+('domestic eggs', 'zwieback'),3
+('frozen potato products', 'potted plants'),1
+('frankfurter', 'packaged fruit/vegetables'),6
+('packaged fruit/vegetables', 'sausage'),11
+('packaged fruit/vegetables', 'soda'),5
+('frankfurter', 'zwieback'),1
+('chicken', 'mayonnaise'),1
+('berries', 'mayonnaise'),1
+('frozen vegetables', 'mayonnaise'),2
+('bottled water', 'frozen potato products'),3
+('frozen potato products', 'soda'),5
+('curd cheese', 'frankfurter'),2
+('curd cheese', 'whole milk'),4
+('curd cheese', 'whipped/sour cream'),2
+('sweet spreads', 'tropical fruit'),3
+('fruit/vegetable juice', 'tropical fruit'),11
+('dessert', 'sweet spreads'),1
+('dessert', 'fruit/vegetable juice'),11
+('fruit/vegetable juice', 'sweet spreads'),1
+('softener', 'yogurt'),2
+('pork', 'turkey'),3
+('hamburger meat', 'turkey'),5
+('soda', 'softener'),1
+('newspapers', 'oil'),3
+('dental care', 'newspapers'),2
+('flour', 'rolls/buns'),8
+('baking powder', 'curd'),5
+('baking powder', 'flour'),4
+('ham', 'root vegetables'),27
+('liver loaf', 'pet care'),1
+('liver loaf', 'waffles'),1
+('root vegetables', 'waffles'),2
+('pet care', 'waffles'),2
+('liver loaf', 'turkey'),2
+('UHT-milk', 'liver loaf'),2
+('chocolate', 'whipped/sour cream'),1
+('beverages', 'fruit/vegetable juice'),6
+('beverages', 'chocolate'),4
+('chocolate', 'fruit/vegetable juice'),5
+('frozen vegetables', 'specialty chocolate'),2
+('rolls/buns', 'waffles'),12
+('citrus fruit', 'pasta'),3
+('pasta', 'yogurt'),3
+('chocolate', 'specialty chocolate'),8
+('chocolate', 'newspapers'),5
+('newspapers', 'specialty chocolate'),5
+('chicken', 'shopping bags'),7
+('coffee', 'whipped/sour cream'),8
+('shopping bags', 'whipped/sour cream'),4
+('frozen meals', 'ham'),6
+('butter', 'herbs'),7
+('chewing gum', 'tropical fruit'),5
+('chewing gum', 'pip fruit'),6
+('berries', 'frankfurter'),16
+('onions', 'salt'),1
+('organic sausage', 'sausage'),5
+('citrus fruit', 'organic sausage'),4
+('berries', 'organic sausage'),2
+('other vegetables', 'soft cheese'),10
+('rolls/buns', 'soft cheese'),18
+('canned beer', 'hamburger meat'),4
+('dish cleaner', 'oil'),1
+('dish cleaner', 'newspapers'),1
+('red/blush wine', 'specialty chocolate'),1
+('onions', 'vinegar'),2
+('onions', 'pet care'),2
+('onions', 'specialty bar'),1
+('pet care', 'vinegar'),1
+('specialty bar', 'vinegar'),1
+('pet care', 'specialty bar'),1
+('canned fish', 'soda'),7
+('bottled beer', 'canned fish'),3
+('dessert', 'dishes'),1
+('baking powder', 'hamburger meat'),2
+('hamburger meat', 'sweet spreads'),2
+('baking powder', 'sweet spreads'),2
+('chewing gum', 'dishes'),1
+('dishes', 'napkins'),6
+('bottled water', 'prosecco'),1
+('fruit/vegetable juice', 'prosecco'),1
+('beverages', 'long life bakery product'),7
+('beverages', 'chocolate marshmallow'),1
+('chocolate marshmallow', 'pastry'),2
+('chocolate marshmallow', 'long life bakery product'),1
+('frozen meals', 'sugar'),1
+('salty snack', 'sausage'),10
+('salty snack', 'yogurt'),7
+('bottled beer', 'pip fruit'),8
+('chicken', 'roll products'),1
+('root vegetables', 'vinegar'),3
+('roll products', 'vinegar'),2
+('hard cheese', 'sausage'),18
+('canned vegetables', 'sausage'),3
+('canned vegetables', 'hard cheese'),4
+('canned vegetables', 'rolls/buns'),3
+('citrus fruit', 'frozen potato products'),1
+('chicken', 'dessert'),6
+('ice cream', 'salty snack'),5
+('salty snack', 'waffles'),4
+('ham', 'meat'),9
+('long life bakery product', 'root vegetables'),4
+('fruit/vegetable juice', 'potted plants'),3
+('long life bakery product', 'potted plants'),4
+('grapes', 'onions'),6
+('citrus fruit', 'frozen meals'),9
+('canned beer', 'frozen meals'),5
+('frozen meals', 'red/blush wine'),5
+('oil', 'zwieback'),1
+('mustard', 'zwieback'),1
+('chocolate', 'zwieback'),1
+('mustard', 'oil'),2
+('chocolate', 'oil'),2
+('chocolate', 'mustard'),1
+('chicken', 'domestic eggs'),6
+('butter', 'dog food'),1
+('dog food', 'yogurt'),3
+('frozen dessert', 'ham'),2
+('dessert', 'frozen meals'),3
+('dessert', 'frozen dessert'),4
+('frozen dessert', 'frozen meals'),8
+('butter milk', 'chewing gum'),2
+('citrus fruit', 'misc. beverages'),6
+('citrus fruit', 'cling film/bags'),2
+('liquor', 'misc. beverages'),3
+('cling film/bags', 'liquor'),1
+('ham', 'herbs'),5
+('curd', 'herbs'),7
+('margarine', 'packaged fruit/vegetables'),1
+('candy', 'chicken'),2
+('shopping bags', 'tropical fruit'),8
+('cream cheese', 'dishes'),2
+('grapes', 'meat'),3
+('frozen meals', 'pet care'),1
+('frozen meals', 'soda'),17
+('pet care', 'soda'),10
+('canned fruit', 'meat spreads'),1
+('bottled water', 'canned fruit'),1
+('butter', 'waffles'),2
+('butter', 'chocolate'),7
+('semi-finished bread', 'yogurt'),4
+('pastry', 'semi-finished bread'),10
+('semi-finished bread', 'soda'),8
+('canned beer', 'soft cheese'),4
+('root vegetables', 'salty snack'),3
+('butter', 'frozen vegetables'),13
+('butter', 'salty snack'),2
+('frozen vegetables', 'salty snack'),1
+('instant coffee', 'sugar'),1
+('root vegetables', 'sparkling wine'),5
+('other vegetables', 'sparkling wine'),3
+('sparkling wine', 'white bread'),2
+('butter milk', 'root vegetables'),20
+('dessert', 'misc. beverages'),5
+('curd', 'jam'),1
+('curd', 'shopping bags'),6
+('jam', 'shopping bags'),1
+('dog food', 'soda'),7
+('dog food', 'fruit/vegetable juice'),4
+('bottled beer', 'dog food'),2
+('frankfurter', 'specialty fat'),2
+('frankfurter', 'specialty bar'),2
+('pork', 'specialty bar'),1
+('specialty bar', 'specialty fat'),1
+('beef', 'finished products'),7
+('finished products', 'spread cheese'),1
+('beef', 'spread cheese'),4
+('herbs', 'potted plants'),2
+('pudding powder', 'whole milk'),3
+('pudding powder', 'sugar'),1
+('brandy', 'root vegetables'),1
+('brandy', 'whole milk'),1
+('brandy', 'brown bread'),1
+('long life bakery product', 'misc. beverages'),4
+('chocolate', 'misc. beverages'),3
+('chocolate', 'long life bakery product'),7
+('detergent', 'frozen fruits'),1
+('grapes', 'salt'),1
+('domestic eggs', 'salt'),2
+('meat', 'spices'),2
+('coffee', 'meat'),3
+('coffee', 'hamburger meat'),6
+('coffee', 'spices'),2
+('bottled beer', 'ice cream'),6
+('chocolate marshmallow', 'ice cream'),2
+('chocolate marshmallow', 'soda'),6
+('bottled beer', 'chocolate marshmallow'),1
+('female sanitary products', 'oil'),1
+('cling film/bags', 'oil'),2
+('cling film/bags', 'female sanitary products'),1
+('ice cream', 'pip fruit'),11
+('meat', 'shopping bags'),2
+('liver loaf', 'tropical fruit'),4
+('liver loaf', 'pip fruit'),7
+('grapes', 'liver loaf'),2
+('beef', 'soda'),11
+('fruit/vegetable juice', 'pork'),4
+('butter milk', 'shopping bags'),2
+('herbs', 'roll products'),1
+('herbs', 'vinegar'),1
+('curd', 'vinegar'),1
+('long life bakery product', 'sugar'),2
+('bottled beer', 'long life bakery product'),2
+('cream cheese', 'jam'),2
+('cream cheese', 'sweet spreads'),4
+('jam', 'pasta'),1
+('pasta', 'sweet spreads'),1
+('jam', 'sweet spreads'),1
+('liquor', 'rolls/buns'),4
+('hard cheese', 'soda'),9
+('hard cheese', 'shopping bags'),2
+('salty snack', 'whipped/sour cream'),2
+('butter milk', 'whipped/sour cream'),3
+('other vegetables', 'soups'),5
+('soups', 'whole milk'),5
+('bottled water', 'soups'),1
+('coffee', 'liquor (appetizer)'),3
+('frozen vegetables', 'ham'),4
+('dessert', 'newspapers'),6
+('dessert', 'fish'),1
+('fish', 'yogurt'),2
+('cling film/bags', 'fish'),1
+('cling film/bags', 'dessert'),1
+('cling film/bags', 'yogurt'),3
+('fruit/vegetable juice', 'meat'),4
+('margarine', 'oil'),7
+('dishes', 'oil'),3
+('dishes', 'margarine'),2
+('tropical fruit', 'waffles'),4
+('napkins', 'tropical fruit'),7
+('napkins', 'other vegetables'),14
+('napkins', 'waffles'),4
+('beef', 'margarine'),17
+('beef', 'candles'),1
+('candles', 'other vegetables'),1
+('candles', 'margarine'),4
+('canned beer', 'salty snack'),9
+('shopping bags', 'waffles'),4
+('beverages', 'newspapers'),6
+('brown bread', 'potted plants'),1
+('onions', 'shopping bags'),4
+('brown bread', 'butter milk'),8
+('frozen potato products', 'meat'),1
+('margarine', 'meat'),1
+('butter', 'jam'),1
+('jam', 'rolls/buns'),1
+('fish', 'sausage'),5
+('brown bread', 'fish'),2
+('grapes', 'turkey'),8
+('onions', 'roll products'),3
+('oil', 'onions'),3
+('butter', 'roll products'),1
+('butter', 'oil'),4
+('oil', 'roll products'),1
+('curd', 'ice cream'),4
+('Instant food products', 'curd'),3
+('Instant food products', 'ice cream'),2
+('sweet spreads', 'yogurt'),4
+('frozen vegetables', 'sweet spreads'),2
+('bottled water', 'frozen vegetables'),11
+('bottled water', 'sweet spreads'),1
+('flower (seeds)', 'whipped/sour cream'),2
+('canned fruit', 'citrus fruit'),2
+('canned fruit', 'domestic eggs'),1
+('butter', 'napkins'),3
+('frankfurter', 'sugar'),2
+('domestic eggs', 'white wine'),3
+('condensed milk', 'napkins'),1
+('coffee', 'napkins'),5
+('chewing gum', 'meat'),2
+('frozen vegetables', 'fruit/vegetable juice'),6
+('frozen vegetables', 'long life bakery product'),1
+('beef', 'liver loaf'),4
+('liver loaf', 'packaged fruit/vegetables'),1
+('packaged fruit/vegetables', 'pip fruit'),4
+('frankfurter', 'vinegar'),2
+('rolls/buns', 'vinegar'),7
+('chicken', 'flour'),2
+('condensed milk', 'whipped/sour cream'),6
+('pastry', 'shopping bags'),12
+('long life bakery product', 'shopping bags'),7
+('detergent', 'sausage'),4
+('pip fruit', 'whipped/sour cream'),16
+('detergent', 'pip fruit'),1
+('detergent', 'whipped/sour cream'),1
+('processed cheese', 'red/blush wine'),2
+('newspapers', 'processed cheese'),1
+('meat', 'oil'),2
+('oil', 'whipped/sour cream'),5
+('frankfurter', 'frozen dessert'),2
+('frankfurter', 'white wine'),2
+('frozen dessert', 'white wine'),1
+('chewing gum', 'frozen dessert'),1
+('chewing gum', 'white wine'),2
+('margarine', 'sugar'),7
+('domestic eggs', 'herbs'),3
+('soft cheese', 'whipped/sour cream'),1
+('cream', 'sausage'),3
+('cream', 'cream cheese'),1
+('canned beer', 'cream'),1
+('herbs', 'oil'),2
+('dog food', 'herbs'),2
+('dog food', 'oil'),3
+('UHT-milk', 'fish'),2
+('curd', 'mustard'),2
+('canned beer', 'curd'),3
+('canned beer', 'mustard'),2
+('frankfurter', 'semi-finished bread'),5
+('frankfurter', 'shopping bags'),10
+('frozen meals', 'semi-finished bread'),1
+('semi-finished bread', 'shopping bags'),1
+('curd', 'processed cheese'),4
+('liver loaf', 'organic sausage'),1
+('liver loaf', 'pastry'),1
+('fruit/vegetable juice', 'liver loaf'),2
+('organic sausage', 'pastry'),1
+('fruit/vegetable juice', 'organic sausage'),1
+('canned fish', 'pork'),3
+('cat food', 'pork'),2
+('canned fish', 'cat food'),2
+('curd', 'photo/film'),1
+('male cosmetics', 'yogurt'),1
+('pip fruit', 'sweet spreads'),3
+('napkins', 'pip fruit'),6
+('coffee', 'sweet spreads'),3
+('napkins', 'sweet spreads'),1
+('chocolate', 'coffee'),4
+('sauces', 'softener'),1
+('condensed milk', 'yogurt'),7
+('condensed milk', 'pickled vegetables'),1
+('pickled vegetables', 'rolls/buns'),10
+('bottled water', 'chicken'),11
+('margarine', 'onions'),2
+('house keeping products', 'soda'),3
+('bottled beer', 'house keeping products'),2
+('soft cheese', 'tropical fruit'),3
+('chocolate', 'soft cheese'),1
+('brown bread', 'pip fruit'),12
+('meat', 'specialty chocolate'),3
+('female sanitary products', 'whole milk'),2
+('coffee', 'female sanitary products'),2
+('female sanitary products', 'shopping bags'),3
+('UHT-milk', 'pastry'),12
+('mustard', 'sausage'),5
+('mustard', 'other vegetables'),5
+('mustard', 'sliced cheese'),1
+('butter milk', 'onions'),2
+('canned beer', 'waffles'),9
+('domestic eggs', 'long life bakery product'),2
+('long life bakery product', 'seasonal products'),1
+('sausage', 'white bread'),15
+('bottled beer', 'white bread'),8
+('pip fruit', 'soda'),32
+('grapes', 'roll products'),1
+('newspapers', 'other vegetables'),18
+('white bread', 'yogurt'),15
+('newspapers', 'white bread'),11
+('mustard', 'yogurt'),2
+('beverages', 'mustard'),1
+('curd', 'mayonnaise'),3
+('brown bread', 'curd'),7
+('brown bread', 'mayonnaise'),1
+('butter milk', 'coffee'),8
+('oil', 'turkey'),1
+('butter', 'butter milk'),6
+('brown bread', 'butter'),13
+('processed cheese', 'sausage'),10
+('sausage', 'specialty bar'),4
+('pickled vegetables', 'tropical fruit'),7
+('pet care', 'tropical fruit'),1
+('pet care', 'pickled vegetables'),1
+('nuts/prunes', 'rolls/buns'),5
+('nuts/prunes', 'soda'),3
+('ham', 'newspapers'),4
+('beef', 'newspapers'),8
+('butter', 'liquor'),2
+('canned beer', 'meat'),3
+('mayonnaise', 'whole milk'),10
+('mayonnaise', 'pastry'),2
+('root vegetables', 'sugar'),7
+('liquor', 'root vegetables'),4
+('sugar', 'white bread'),5
+('liquor', 'sugar'),1
+('meat', 'salad dressing'),1
+('pork', 'salad dressing'),2
+('onions', 'salad dressing'),1
+('candy', 'chocolate'),10
+('frozen meals', 'oil'),1
+('bottled beer', 'oil'),4
+('baking powder', 'pip fruit'),3
+('baking powder', 'grapes'),2
+('candles', 'grapes'),1
+('baking powder', 'candles'),1
+('butter', 'cleaner'),1
+('fruit/vegetable juice', 'nut snack'),2
+('chocolate', 'pip fruit'),3
+('chocolate', 'curd'),1
+('dog food', 'frankfurter'),1
+('dog food', 'white bread'),2
+('dog food', 'pastry'),2
+('mayonnaise', 'tropical fruit'),4
+('mayonnaise', 'sliced cheese'),3
+('candy', 'rolls/buns'),12
+('candy', 'specialty bar'),8
+('domestic eggs', 'pasta'),2
+('domestic eggs', 'fruit/vegetable juice'),6
+('fruit/vegetable juice', 'pasta'),4
+('pastry', 'spread cheese'),3
+('citrus fruit', 'potted plants'),2
+('potted plants', 'tropical fruit'),1
+('other vegetables', 'potted plants'),5
+('pip fruit', 'roll products'),2
+('pip fruit', 'potted plants'),1
+('potted plants', 'roll products'),1
+('baking powder', 'soda'),3
+('dessert', 'sliced cheese'),7
+('dessert', 'hard cheese'),1
+('hard cheese', 'sliced cheese'),4
+('hard cheese', 'white bread'),3
+('candy', 'citrus fruit'),3
+('butter', 'candy'),3
+('frozen vegetables', 'pip fruit'),20
+('butter milk', 'frozen vegetables'),3
+('canned beer', 'pork'),11
+('dishes', 'grapes'),3
+('dishes', 'whole milk'),2
+('dishes', 'white wine'),2
+('frozen fish', 'hygiene articles'),1
+('potato products', 'sausage'),1
+('pip fruit', 'potato products'),1
+('potato products', 'whole milk'),2
+('sausage', 'specialty cheese'),4
+('misc. beverages', 'sausage'),8
+('misc. beverages', 'specialty cheese'),1
+('bottled beer', 'specialty cheese'),1
+('shopping bags', 'white bread'),7
+('sausage', 'spices'),4
+('dessert', 'spices'),1
+('canned fish', 'tropical fruit'),4
+('canned fish', 'grapes'),1
+('specialty chocolate', 'yogurt'),5
+('seasonal products', 'yogurt'),2
+('seasonal products', 'specialty chocolate'),2
+('bottled water', 'finished products'),3
+('finished products', 'popcorn'),1
+('popcorn', 'tropical fruit'),2
+('bottled water', 'popcorn'),1
+('candy', 'sausage'),3
+('mayonnaise', 'misc. beverages'),1
+('candy', 'mayonnaise'),2
+('candy', 'misc. beverages'),4
+('red/blush wine', 'yogurt'),4
+('UHT-milk', 'red/blush wine'),2
+('beef', 'frozen fish'),3
+('frozen fish', 'rolls/buns'),5
+('flour', 'frankfurter'),2
+('citrus fruit', 'flour'),7
+('UHT-milk', 'zwieback'),2
+('frozen vegetables', 'sugar'),2
+('rice', 'whipped/sour cream'),1
+('popcorn', 'whipped/sour cream'),1
+('popcorn', 'rice'),1
+('citrus fruit', 'salt'),3
+('frozen vegetables', 'pastry'),10
+('pip fruit', 'zwieback'),2
+('root vegetables', 'zwieback'),2
+('fruit/vegetable juice', 'zwieback'),3
+('onions', 'soups'),2
+('canned vegetables', 'tropical fruit'),4
+('grapes', 'oil'),1
+('canned vegetables', 'grapes'),1
+('canned vegetables', 'oil'),1
+('ice cream', 'yogurt'),14
+('canned beer', 'newspapers'),13
+('meat', 'organic sausage'),2
+('organic sausage', 'whole milk'),6
+('butter', 'organic sausage'),2
+('red/blush wine', 'root vegetables'),2
+('butter', 'canned beer'),4
+('butter', 'white wine'),4
+('red/blush wine', 'sauces'),2
+('dish cleaner', 'sauces'),1
+('dish cleaner', 'red/blush wine'),1
+('butter milk', 'ham'),2
+('ham', 'sweet spreads'),1
+('pork', 'sweet spreads'),1
+('butter milk', 'sweet spreads'),1
+('canned beer', 'root vegetables'),5
+('napkins', 'sliced cheese'),1
+('coffee', 'red/blush wine'),4
+('domestic eggs', 'sugar'),6
+('brown bread', 'newspapers'),8
+('dessert', 'zwieback'),1
+('canned fish', 'frozen meals'),3
+('cream cheese', 'pork'),8
+('cream cheese', 'hamburger meat'),8
+('frozen potato products', 'rolls/buns'),6
+('bottled water', 'ham'),6
+('ham', 'soda'),6
+('butter', 'condensed milk'),4
+('frozen dessert', 'packaged fruit/vegetables'),1
+('frozen dessert', 'rolls/buns'),7
+('potted plants', 'whole milk'),9
+('margarine', 'potted plants'),1
+('meat', 'turkey'),7
+('liver loaf', 'pork'),3
+('citrus fruit', 'liver loaf'),4
+('bottled water', 'liquor (appetizer)'),3
+('liquor (appetizer)', 'specialty bar'),2
+('dessert', 'hamburger meat'),10
+('canned vegetables', 'citrus fruit'),2
+('canned vegetables', 'pip fruit'),3
+('canned vegetables', 'other vegetables'),10
+('beverages', 'shopping bags'),4
+('canned beer', 'onions'),4
+('butter', 'semi-finished bread'),2
+('semi-finished bread', 'white wine'),1
+('butter', 'potted plants'),1
+('chicken', 'napkins'),1
+('Instant food products', 'pastry'),2
+('female sanitary products', 'whipped/sour cream'),1
+('chocolate', 'sweet spreads'),1
+('seasonal products', 'sweet spreads'),1
+('coffee', 'seasonal products'),3
+('chocolate', 'seasonal products'),1
+('beef', 'potted plants'),3
+('dishes', 'ice cream'),3
+('napkins', 'sugar'),2
+('dishes', 'sugar'),1
+('ice cream', 'roll products'),1
+('Instant food products', 'roll products'),1
+('coffee', 'roll products'),2
+('Instant food products', 'coffee'),1
+('brown bread', 'whipped/sour cream'),5
+('ham', 'specialty cheese'),1
+('ham', 'long life bakery product'),3
+('long life bakery product', 'specialty cheese'),2
+('soda', 'soups'),1
+('shopping bags', 'soups'),1
+('fruit/vegetable juice', 'ice cream'),2
+('artif. sweetener', 'citrus fruit'),1
+('artif. sweetener', 'pip fruit'),1
+('pip fruit', 'sugar'),7
+('cake bar', 'misc. beverages'),1
+('beef', 'pickled vegetables'),2
+('frozen vegetables', 'pickled vegetables'),3
+('cat food', 'chocolate'),3
+('cat food', 'specialty chocolate'),3
+('citrus fruit', 'fish'),4
+('bottled water', 'ice cream'),11
+('ice cream', 'specialty chocolate'),4
+('curd', 'waffles'),3
+('waffles', 'yogurt'),9
+('bottled beer', 'vinegar'),2
+('canned vegetables', 'root vegetables'),3
+('canned vegetables', 'soda'),2
+('canned vegetables', 'shopping bags'),3
+('other vegetables', 'specialty bar'),6
+('frozen vegetables', 'specialty bar'),1
+('chocolate', 'potted plants'),3
+('citrus fruit', 'rice'),4
+('other vegetables', 'rice'),4
+('frozen meals', 'rice'),2
+('fruit/vegetable juice', 'shopping bags'),9
+('frozen meals', 'root vegetables'),5
+('root vegetables', 'snack products'),1
+('frozen meals', 'white bread'),4
+('frozen meals', 'snack products'),1
+('snack products', 'white bread'),1
+('pip fruit', 'vinegar'),2
+('bottled water', 'vinegar'),1
+('shopping bags', 'vinegar'),1
+('cream cheese', 'oil'),4
+('mustard', 'soda'),6
+('fruit/vegetable juice', 'mustard'),1
+('citrus fruit', 'ketchup'),1
+('citrus fruit', 'fruit/vegetable juice'),11
+('ketchup', 'white bread'),1
+('fruit/vegetable juice', 'white bread'),6
+('fruit/vegetable juice', 'ketchup'),1
+('beef', 'fruit/vegetable juice'),3
+('fruit/vegetable juice', 'grapes'),3
+('frankfurter', 'specialty chocolate'),2
+('butter milk', 'specialty chocolate'),2
+('ice cream', 'pastry'),5
+('canned beer', 'liquor'),2
+('UHT-milk', 'root vegetables'),21
+('UHT-milk', 'onions'),5
+('light bulbs', 'other vegetables'),2
+('dessert', 'waffles'),5
+('dessert', 'light bulbs'),1
+('light bulbs', 'waffles'),1
+('cat food', 'domestic eggs'),2
+('bottled water', 'cat food'),6
+('pip fruit', 'spices'),4
+('onions', 'spices'),2
+('citrus fruit', 'dish cleaner'),1
+('specialty bar', 'whole milk'),12
+('dish cleaner', 'whole milk'),1
+('dish cleaner', 'specialty bar'),1
+('frozen potato products', 'pork'),6
+('spices', 'yogurt'),1
+('margarine', 'pip fruit'),10
+('berries', 'chewing gum'),2
+('berries', 'seasonal products'),2
+('berries', 'newspapers'),3
+('chewing gum', 'seasonal products'),3
+('chewing gum', 'newspapers'),4
+('newspapers', 'seasonal products'),2
+('canned beer', 'chicken'),7
+('pork', 'potato products'),2
+('onions', 'potato products'),1
+('pastry', 'potato products'),2
+('soda', 'specialty fat'),1
+('citrus fruit', 'finished products'),7
+('finished products', 'pastry'),2
+('brown bread', 'long life bakery product'),2
+('brown bread', 'flower (seeds)'),3
+('long life bakery product', 'margarine'),5
+('flower (seeds)', 'margarine'),3
+('flower (seeds)', 'long life bakery product'),1
+('berries', 'bottled water'),5
+('domestic eggs', 'ham'),11
+('ham', 'pastry'),10
+('fish', 'pet care'),1
+('fish', 'napkins'),1
+('brown bread', 'pet care'),2
+('brown bread', 'napkins'),7
+('napkins', 'pet care'),1
+('semi-finished bread', 'spread cheese'),1
+('roll products', 'sausage'),2
+('roll products', 'white bread'),2
+('chocolate', 'chocolate marshmallow'),4
+('dessert', 'processed cheese'),5
+('bottled beer', 'canned beer'),9
+('sausage', 'white wine'),10
+('beverages', 'domestic eggs'),9
+('baking powder', 'citrus fruit'),5
+('citrus fruit', 'cocoa drinks'),1
+('cocoa drinks', 'whole milk'),5
+('baking powder', 'cocoa drinks'),1
+('ice cream', 'white bread'),5
+('ice cream', 'sweet spreads'),1
+('sweet spreads', 'white bread'),2
+('UHT-milk', 'mayonnaise'),2
+('UHT-milk', 'pickled vegetables'),3
+('mayonnaise', 'pickled vegetables'),1
+('butter milk', 'ice cream'),6
+('rolls/buns', 'sweet spreads'),3
+('sugar', 'sweet spreads'),2
+('chewing gum', 'sugar'),2
+('chewing gum', 'sweet spreads'),2
+('bottled beer', 'frozen fish'),2
+('baking powder', 'other vegetables'),6
+('baking powder', 'coffee'),3
+('butter milk', 'hard cheese'),5
+('butter milk', 'soft cheese'),2
+('fruit/vegetable juice', 'spread cheese'),1
+('canned fish', 'sweet spreads'),1
+('canned fish', 'chewing gum'),1
+('candy', 'frankfurter'),1
+('candy', 'onions'),1
+('detergent', 'onions'),2
+('candy', 'detergent'),1
+('newspapers', 'pip fruit'),4
+('condensed milk', 'pastry'),4
+('condensed milk', 'soda'),7
+('cake bar', 'frankfurter'),1
+('brown bread', 'cake bar'),1
+('rolls/buns', 'white bread'),16
+('dish cleaner', 'white bread'),1
+('chocolate', 'flour'),1
+('flour', 'specialty chocolate'),1
+('bottled water', 'chocolate'),6
+('artif. sweetener', 'pork'),1
+('artif. sweetener', 'rolls/buns'),3
+('cat food', 'sweet spreads'),2
+('beef', 'hard cheese'),1
+('finished products', 'ham'),2
+('finished products', 'frozen meals'),3
+('liver loaf', 'whole milk'),13
+('liver loaf', 'yogurt'),6
+('frankfurter', 'soft cheese'),6
+('onions', 'soft cheese'),2
+('onions', 'white bread'),3
+('soft cheese', 'white bread'),3
+('brown bread', 'onions'),5
+('curd', 'tidbits'),1
+('soda', 'tidbits'),2
+('cat food', 'cream cheese'),1
+('cat food', 'white bread'),3
+('onions', 'spread cheese'),4
+('mayonnaise', 'other vegetables'),9
+('hamburger meat', 'semi-finished bread'),2
+('Instant food products', 'hamburger meat'),4
+('Instant food products', 'semi-finished bread'),1
+('frankfurter', 'frozen potato products'),4
+('sausage', 'sweet spreads'),2
+('beef', 'sweet spreads'),2
+('citrus fruit', 'sweet spreads'),2
+('brown bread', 'ham'),2
+('cake bar', 'pip fruit'),2
+('pip fruit', 'specialty chocolate'),2
+('cake bar', 'specialty chocolate'),2
+('pasta', 'vinegar'),1
+('pasta', 'soda'),6
+('soda', 'vinegar'),1
+('fruit/vegetable juice', 'vinegar'),1
+('nuts/prunes', 'pip fruit'),5
+('frozen dessert', 'pip fruit'),2
+('curd', 'nuts/prunes'),1
+('frozen dessert', 'nuts/prunes'),1
+('curd', 'frozen dessert'),3
+('dessert', 'shopping bags'),5
+('frankfurter', 'hard cheese'),9
+('rolls/buns', 'rum'),2
+('citrus fruit', 'male cosmetics'),2
+('rolls/buns', 'tea'),2
+('meat', 'sweet spreads'),1
+('beverages', 'sweet spreads'),2
+('margarine', 'napkins'),3
+('hamburger meat', 'ice cream'),2
+('domestic eggs', 'ice cream'),3
+('dessert', 'specialty bar'),4
+('beef', 'napkins'),3
+('napkins', 'whipped/sour cream'),3
+('mustard', 'tropical fruit'),3
+('soda', 'sweet spreads'),1
+('sweet spreads', 'waffles'),3
+('instant coffee', 'pastry'),2
+('jam', 'root vegetables'),2
+('canned fish', 'whipped/sour cream'),2
+('canned fish', 'pastry'),4
+('coffee', 'hard cheese'),5
+('pork', 'sliced cheese'),7
+('meat spreads', 'sausage'),1
+('canned fish', 'sausage'),6
+('brown bread', 'meat spreads'),3
+('brown bread', 'canned fish'),3
+('canned fish', 'meat spreads'),1
+('liver loaf', 'specialty cheese'),1
+('liver loaf', 'soda'),5
+('canned beer', 'white bread'),3
+('canned beer', 'margarine'),5
+('liver loaf', 'rolls/buns'),6
+('frankfurter', 'oil'),3
+('brown bread', 'chicken'),5
+('chicken', 'oil'),3
+('cat food', 'white wine'),5
+('candy', 'curd'),2
+('candy', 'waffles'),3
+('hard cheese', 'white wine'),2
+('organic products', 'yogurt'),1
+('organic products', 'shopping bags'),1
+('sauces', 'specialty chocolate'),1
+('cream cheese', 'ice cream'),3
+('cream cheese', 'specialty chocolate'),5
+('specialty chocolate', 'white bread'),1
+('beverages', 'soft cheese'),1
+('beverages', 'sugar'),2
+('soft cheese', 'sugar'),1
+('curd', 'pudding powder'),3
+('pudding powder', 'whipped/sour cream'),3
+('candy', 'whipped/sour cream'),4
+('candy', 'pudding powder'),1
+('decalcifier', 'detergent'),1
+('decalcifier', 'hygiene articles'),1
+('bottled water', 'dental care'),2
+('dental care', 'soda'),2
+('bottled beer', 'dental care'),2
+('oil', 'pip fruit'),3
+('canned vegetables', 'dessert'),1
+('UHT-milk', 'pip fruit'),18
+('frozen dessert', 'ice cream'),4
+('butter', 'sliced cheese'),11
+('misc. beverages', 'sliced cheese'),1
+('fruit/vegetable juice', 'sliced cheese'),2
+('fruit/vegetable juice', 'misc. beverages'),12
+('beverages', 'waffles'),2
+('chicken', 'cream cheese'),5
+('liquor (appetizer)', 'yogurt'),2
+('chewing gum', 'yogurt'),5
+('flour', 'pasta'),1
+('UHT-milk', 'hygiene articles'),2
+('UHT-milk', 'cling film/bags'),4
+('UHT-milk', 'newspapers'),7
+('cling film/bags', 'hygiene articles'),3
+('cling film/bags', 'newspapers'),1
+('sweet spreads', 'whole milk'),5
+('newspapers', 'whipped/sour cream'),8
+('pork', 'processed cheese'),6
+('herbs', 'processed cheese'),1
+('chocolate', 'specialty bar'),6
+('specialty fat', 'sugar'),1
+('cat food', 'specialty fat'),1
+('cat food', 'sugar'),6
+('brown bread', 'spread cheese'),5
+('beverages', 'cake bar'),2
+('artif. sweetener', 'hamburger meat'),1
+('artif. sweetener', 'yogurt'),4
+('flour', 'pork'),1
+('beverages', 'flour'),3
+('beverages', 'margarine'),3
+('cat food', 'napkins'),3
+('beverages', 'processed cheese'),3
+('pip fruit', 'sauces'),1
+('rolls/buns', 'sauces'),2
+('oil', 'red/blush wine'),1
+('margarine', 'red/blush wine'),4
+('processed cheese', 'soda'),11
+('sausage', 'spread cheese'),11
+('frozen vegetables', 'sausage'),11
+('pork', 'spread cheese'),3
+('frozen vegetables', 'spread cheese'),1
+('sugar', 'whipped/sour cream'),4
+('packaged fruit/vegetables', 'processed cheese'),1
+('frozen vegetables', 'packaged fruit/vegetables'),3
+('frozen vegetables', 'processed cheese'),2
+('bottled water', 'processed cheese'),3
+('butter milk', 'domestic eggs'),4
+('flour', 'white bread'),4
+('oil', 'white bread'),1
+('flour', 'oil'),2
+('flour', 'sugar'),10
+('frankfurter', 'napkins'),4
+('frankfurter', 'salt'),3
+('canned beer', 'salt'),2
+('canned beer', 'sliced cheese'),5
+('long life bakery product', 'newspapers'),5
+('condensed milk', 'pork'),2
+('beef', 'condensed milk'),2
+('frozen fish', 'onions'),1
+('frozen fish', 'whole milk'),10
+('butter', 'frozen fish'),1
+('hamburger meat', 'roll products'),1
+('brown bread', 'frozen potato products'),3
+('chocolate', 'snack products'),1
+('chicken', 'turkey'),6
+('chocolate', 'frozen meals'),3
+('chocolate', 'frozen fish'),1
+('onions', 'sugar'),2
+('condensed milk', 'frankfurter'),5
+('condensed milk', 'root vegetables'),9
+('condensed milk', 'onions'),2
+('canned beer', 'yogurt'),11
+('herbs', 'misc. beverages'),1
+('herbs', 'shopping bags'),1
+('tea', 'whole milk'),2
+('bottled beer', 'tea'),4
+('napkins', 'tea'),1
+('meat', 'white bread'),5
+('curd', 'white bread'),6
+('citrus fruit', 'softener'),2
+('softener', 'whole milk'),2
+('chicken', 'liquor (appetizer)'),4
+('canned beer', 'pip fruit'),10
+('baking powder', 'sausage'),3
+('baking powder', 'white bread'),2
+('liquor', 'shopping bags'),5
+('jam', 'other vegetables'),4
+('jam', 'white bread'),1
+('cat food', 'spread cheese'),2
+('butter', 'cling film/bags'),1
+('house keeping products', 'whole milk'),2
+('brown bread', 'house keeping products'),1
+('chocolate', 'house keeping products'),1
+('sliced cheese', 'whipped/sour cream'),7
+('frozen dessert', 'whipped/sour cream'),2
+('hygiene articles', 'whipped/sour cream'),3
+('frozen dessert', 'sliced cheese'),2
+('hygiene articles', 'sliced cheese'),1
+('frozen dessert', 'hygiene articles'),1
+('frozen fish', 'yogurt'),7
+('frozen fish', 'ice cream'),2
+('butter milk', 'tea'),1
+('butter milk', 'fruit/vegetable juice'),3
+('bottled beer', 'butter milk'),2
+('fruit/vegetable juice', 'tea'),2
+('ketchup', 'whipped/sour cream'),2
+('hard cheese', 'ketchup'),1
+('misc. beverages', 'yogurt'),4
+('citrus fruit', 'snack products'),3
+('frankfurter', 'photo/film'),1
+('flour', 'root vegetables'),3
+('frankfurter', 'frozen vegetables'),12
+('meat', 'spread cheese'),1
+('canned beer', 'sugar'),4
+('UHT-milk', 'sugar'),6
+('beef', 'cat food'),4
+('cat food', 'yogurt'),9
+('chocolate marshmallow', 'rolls/buns'),2
+('dishes', 'rolls/buns'),5
+('chocolate marshmallow', 'zwieback'),2
+('dishes', 'zwieback'),2
+('chocolate marshmallow', 'dishes'),1
+('pastry', 'salt'),2
+('cat food', 'coffee'),5
+('hard cheese', 'honey'),1
+('candy', 'hard cheese'),3
+('candy', 'honey'),1
+('meat', 'white wine'),1
+('beef', 'white wine'),5
+('onions', 'white wine'),2
+('curd', 'napkins'),3
+('UHT-milk', 'hard cheese'),3
+('cream cheese', 'hard cheese'),3
+('newspapers', 'white wine'),5
+('photo/film', 'whole milk'),2
+('curd', 'fruit/vegetable juice'),3
+('condensed milk', 'pip fruit'),9
+('condensed milk', 'nuts/prunes'),2
+('red/blush wine', 'white wine'),4
+('UHT-milk', 'ice cream'),6
+('UHT-milk', 'oil'),4
+('ice cream', 'oil'),4
+('domestic eggs', 'oil'),4
+('chicken', 'organic sausage'),2
+('grapes', 'organic sausage'),1
+('meat', 'newspapers'),4
+('hard cheese', 'soft cheese'),4
+('bottled water', 'soft cheese'),4
+('soda', 'soft cheese'),6
+('finished products', 'misc. beverages'),2
+('frozen meals', 'margarine'),3
+('liquor (appetizer)', 'shopping bags'),2
+('candles', 'yogurt'),2
+('UHT-milk', 'candles'),1
+('candles', 'rolls/buns'),2
+('finished products', 'specialty chocolate'),1
+('chicken', 'sugar'),1
+('chicken', 'photo/film'),1
+('photo/film', 'sugar'),1
+('chewing gum', 'chicken'),2
+('brown bread', 'hard cheese'),4
+('mustard', 'pastry'),3
+('bottled beer', 'mustard'),1
+('newspapers', 'pork'),6
+('candy', 'pastry'),5
+('candy', 'napkins'),3
+('dessert', 'sugar'),4
+('liver loaf', 'onions'),2
+('liver loaf', 'specialty chocolate'),1
+('onions', 'specialty chocolate'),1
+('root vegetables', 'specialty chocolate'),5
+('butter milk', 'canned fish'),3
+('onions', 'specialty cheese'),3
+('popcorn', 'whole milk'),3
+('cat food', 'popcorn'),2
+('sugar', 'white wine'),2
+('chewing gum', 'waffles'),1
+('misc. beverages', 'pork'),2
+('frozen vegetables', 'misc. beverages'),1
+('misc. beverages', 'pastry'),4
+('chewing gum', 'photo/film'),1
+('newspapers', 'photo/film'),3
+('bottled beer', 'dishes'),5
+('dishes', 'liquor (appetizer)'),3
+('bottled beer', 'dish cleaner'),1
+('grapes', 'pickled vegetables'),1
+('butter milk', 'herbs'),2
+('brandy', 'sausage'),1
+('brandy', 'rolls/buns'),2
+('fruit/vegetable juice', 'hamburger meat'),3
+('hamburger meat', 'white wine'),2
+('fruit/vegetable juice', 'white wine'),4
+('canned beer', 'white wine'),10
+('margarine', 'shopping bags'),4
+('finished products', 'meat'),2
+('long life bakery product', 'meat'),1
+('finished products', 'long life bakery product'),2
+('long life bakery product', 'white bread'),6
+('fruit/vegetable juice', 'specialty bar'),3
+('photo/film', 'root vegetables'),1
+('other vegetables', 'photo/film'),2
+('chewing gum', 'red/blush wine'),1
+('hygiene articles', 'specialty cheese'),1
+('newspapers', 'specialty cheese'),1
+('shopping bags', 'specialty cheese'),2
+('dental care', 'male cosmetics'),1
+('ham', 'tea'),1
+('domestic eggs', 'tea'),1
+('chicken', 'finished products'),4
+('finished products', 'pork'),4
+('beverages', 'ice cream'),1
+('fruit/vegetable juice', 'sausage'),15
+('liver loaf', 'misc. beverages'),2
+('cream', 'yogurt'),1
+('oil', 'root vegetables'),4
+('mustard', 'root vegetables'),2
+('organic sausage', 'rolls/buns'),1
+('coffee', 'pork'),4
+('dessert', 'meat spreads'),1
+('canned fruit', 'rolls/buns'),1
+('condensed milk', 'ham'),2
+('condensed milk', 'domestic eggs'),2
+('snack products', 'whole milk'),2
+('frozen dessert', 'margarine'),3
+('frozen dessert', 'snack products'),1
+('margarine', 'snack products'),1
+('beverages', 'bottled beer'),2
+('beverages', 'dishes'),1
+('condensed milk', 'flour'),2
+('chicken', 'ice cream'),5
+('candles', 'chicken'),1
+('candles', 'pork'),1
+('butter', 'candles'),1
+('beverages', 'frozen vegetables'),5
+('ham', 'shopping bags'),2
+('pasta', 'rolls/buns'),4
+('nuts/prunes', 'tropical fruit'),7
+('nuts/prunes', 'whipped/sour cream'),1
+('chewing gum', 'pastry'),2
+('mustard', 'sugar'),1
+('chewing gum', 'mustard'),2
+('berries', 'cookware'),1
+('berries', 'flower (seeds)'),1
+('cookware', 'flower (seeds)'),1
+('photo/film', 'shopping bags'),1
+('cream cheese', 'sliced cheese'),5
+('candy', 'sliced cheese'),2
+('candy', 'cream cheese'),6
+('hamburger meat', 'margarine'),4
+('hamburger meat', 'sugar'),1
+('chewing gum', 'ice cream'),3
+('canned vegetables', 'hamburger meat'),4
+('canned vegetables', 'pasta'),2
+('soda', 'sparkling wine'),2
+('misc. beverages', 'sparkling wine'),1
+('chewing gum', 'misc. beverages'),6
+('chewing gum', 'sparkling wine'),1
+('coffee', 'onions'),4
+('coffee', 'spread cheese'),1
+('cat food', 'waffles'),1
+('pickled vegetables', 'pip fruit'),2
+('beverages', 'ham'),5
+('seasonal products', 'whole milk'),3
+('dessert', 'soft cheese'),5
+('canned fish', 'newspapers'),3
+('beverages', 'finished products'),1
+('domestic eggs', 'finished products'),2
+('citrus fruit', 'frozen dessert'),2
+('liquor', 'sausage'),4
+('pip fruit', 'waffles'),2
+('pastry', 'waffles'),10
+('chocolate', 'napkins'),4
+('pip fruit', 'salty snack'),1
+('salty snack', 'zwieback'),4
+('cake bar', 'zwieback'),1
+('cake bar', 'salty snack'),3
+('pork', 'salt'),1
+('liquor', 'pork'),2
+('brown bread', 'salt'),6
+('brown bread', 'liquor'),1
+('liquor', 'salt'),1
+('domestic eggs', 'newspapers'),5
+('beef', 'shopping bags'),2
+('root vegetables', 'white wine'),3
+('fish', 'rolls/buns'),2
+('fish', 'potted plants'),1
+('potted plants', 'rolls/buns'),4
+('long life bakery product', 'sliced cheese'),1
+('candy', 'long life bakery product'),4
+('hamburger meat', 'photo/film'),1
+('decalcifier', 'yogurt'),1
+('decalcifier', 'frozen vegetables'),1
+('candy', 'frozen meals'),4
+('candy', 'pasta'),2
+('canned fruit', 'ice cream'),1
+('ice cream', 'shopping bags'),2
+('canned beer', 'canned fruit'),1
+('canned fruit', 'shopping bags'),2
+('dessert', 'frozen potato products'),1
+('dessert', 'specialty chocolate'),3
+('frozen potato products', 'specialty chocolate'),1
+('misc. beverages', 'onions'),2
+('misc. beverages', 'spread cheese'),2
+('berries', 'salt'),1
+('berries', 'organic products'),1
+('berries', 'cat food'),3
+('organic products', 'salt'),1
+('cat food', 'salt'),2
+('cat food', 'organic products'),1
+('candy', 'root vegetables'),2
+('finished products', 'frozen potato products'),1
+('frozen potato products', 'pip fruit'),2
+('coffee', 'margarine'),6
+('instant coffee', 'margarine'),1
+('instant coffee', 'soda'),5
+('canned vegetables', 'whole milk'),2
+('cream cheese', 'shopping bags'),2
+('liquor', 'soda'),13
+('hard cheese', 'sugar'),3
+('misc. beverages', 'roll products'),2
+('frozen potato products', 'oil'),2
+('canned beer', 'coffee'),12
+('misc. beverages', 'salty snack'),3
+('butter', 'detergent'),3
+('detergent', 'yogurt'),6
+('butter', 'ice cream'),4
+('ice cream', 'margarine'),1
+('chicken', 'liquor'),1
+('liquor', 'white wine'),1
+('cereals', 'other vegetables'),2
+('hard cheese', 'processed cheese'),3
+('cereals', 'hard cheese'),1
+('cereals', 'processed cheese'),1
+('butter milk', 'dessert'),6
+('chocolate', 'salty snack'),5
+('female sanitary products', 'salty snack'),1
+('skin care', 'soda'),3
+('citrus fruit', 'ice cream'),4
+('berries', 'herbs'),4
+('beef', 'frozen meals'),4
+('frankfurter', 'roll products'),1
+('meat', 'roll products'),3
+('butter milk', 'oil'),3
+('citrus fruit', 'condensed milk'),7
+('condensed milk', 'dessert'),1
+('cream cheese', 'salty snack'),4
+('candy', 'salty snack'),6
+('cake bar', 'fruit/vegetable juice'),4
+('candy', 'fruit/vegetable juice'),3
+('cake bar', 'candy'),3
+('frozen fruits', 'root vegetables'),1
+('frozen fruits', 'onions'),1
+('frozen fruits', 'other vegetables'),3
+('pasta', 'snack products'),1
+('cake bar', 'pasta'),2
+('cake bar', 'snack products'),1
+('abrasive cleaner', 'other vegetables'),1
+('abrasive cleaner', 'dessert'),1
+('abrasive cleaner', 'candy'),1
+('frankfurter', 'nuts/prunes'),2
+('nuts/prunes', 'onions'),1
+('rice', 'soft cheese'),1
+('cat food', 'flour'),1
+('flour', 'misc. beverages'),1
+('misc. beverages', 'sugar'),1
+('cat food', 'misc. beverages'),2
+('frozen meals', 'specialty chocolate'),3
+('herbs', 'sausage'),5
+('long life bakery product', 'zwieback'),2
+('dental care', 'zwieback'),2
+('dental care', 'long life bakery product'),1
+('baking powder', 'semi-finished bread'),3
+('brandy', 'frozen fish'),1
+('berries', 'frozen meals'),3
+('berries', 'frozen dessert'),1
+('ice cream', 'onions'),2
+('herbs', 'packaged fruit/vegetables'),4
+('root vegetables', 'semi-finished bread'),2
+('cat food', 'root vegetables'),5
+('cat food', 'semi-finished bread'),3
+('rum', 'soft cheese'),1
+('UHT-milk', 'cat food'),3
+('bottled beer', 'cat food'),1
+('mayonnaise', 'processed cheese'),1
+('margarine', 'processed cheese'),1
+('margarine', 'mayonnaise'),2
+('processed cheese', 'tea'),1
+('curd cheese', 'tropical fruit'),2
+('butter milk', 'curd cheese'),1
+('beef', 'fish'),2
+('UHT-milk', 'canned beer'),6
+('root vegetables', 'specialty bar'),5
+('semi-finished bread', 'specialty bar'),1
+('pip fruit', 'soft cheese'),6
+('pip fruit', 'tidbits'),1
+('soft cheese', 'tidbits'),1
+('brown bread', 'dessert'),9
+('cereals', 'specialty chocolate'),1
+('cereals', 'potted plants'),1
+('cream cheese', 'domestic eggs'),5
+('UHT-milk', 'spread cheese'),5
+('tropical fruit', 'white wine'),5
+('meat spreads', 'specialty bar'),1
+('brown bread', 'specialty bar'),4
+('hard cheese', 'sweet spreads'),1
+('mayonnaise', 'white bread'),1
+('chewing gum', 'fruit/vegetable juice'),6
+('bottled beer', 'dessert'),4
+('cling film/bags', 'dog food'),1
+('chicken', 'spread cheese'),3
+('butter', 'spread cheese'),3
+('frozen vegetables', 'meat'),3
+('brown bread', 'roll products'),1
+('canned beer', 'specialty bar'),7
+('pet care', 'yogurt'),3
+('house keeping products', 'yogurt'),1
+('condensed milk', 'pet care'),1
+('condensed milk', 'house keeping products'),1
+('house keeping products', 'pet care'),1
+('sugar', 'tropical fruit'),4
+('beef', 'salty snack'),4
+('margarine', 'salty snack'),2
+('bottled beer', 'waffles'),3
+('napkins', 'yogurt'),9
+('frozen vegetables', 'napkins'),2
+('frozen vegetables', 'newspapers'),3
+('napkins', 'newspapers'),5
+('frozen fish', 'vinegar'),1
+('cling film/bags', 'whole milk'),4
+('cling film/bags', 'domestic eggs'),1
+('pork', 'specialty chocolate'),1
+('sliced cheese', 'specialty chocolate'),2
+('frankfurter', 'sliced cheese'),3
+('frozen chicken', 'salty snack'),1
+('pastry', 'soft cheese'),5
+('house keeping products', 'other vegetables'),2
+('dishes', 'salty snack'),1
+('house keeping products', 'salty snack'),1
+('dishes', 'house keeping products'),1
+('hamburger meat', 'sauces'),4
+('other vegetables', 'sauces'),3
+('sauces', 'soda'),2
+('turkey', 'whipped/sour cream'),3
+('canned vegetables', 'turkey'),1
+('canned vegetables', 'whipped/sour cream'),1
+('canned fish', 'pickled vegetables'),1
+('bottled beer', 'pickled vegetables'),3
+('frozen meals', 'roll products'),1
+('bottled beer', 'roll products'),3
+('butter milk', 'pet care'),3
+('butter milk', 'long life bakery product'),2
+('beverages', 'detergent'),2
+('detergent', 'fruit/vegetable juice'),1
+('organic sausage', 'yogurt'),1
+('organic sausage', 'soft cheese'),1
+('frozen fish', 'waffles'),1
+('specialty bar', 'specialty chocolate'),3
+('rice', 'rolls/buns'),1
+('cocoa drinks', 'rolls/buns'),1
+('canned fish', 'rice'),1
+('cocoa drinks', 'rice'),1
+('canned fish', 'cocoa drinks'),1
+('pet care', 'specialty chocolate'),1
+('instant coffee', 'specialty chocolate'),1
+('herbs', 'napkins'),3
+('dessert', 'meat'),8
+('UHT-milk', 'meat'),3
+('meat', 'rice'),1
+('dessert', 'rice'),2
+('UHT-milk', 'rice'),1
+('domestic eggs', 'soft cheese'),4
+('coffee', 'frozen potato products'),2
+('frozen potato products', 'salty snack'),1
+('frozen potato products', 'ham'),1
+('frozen potato products', 'white bread'),2
+('frozen potato products', 'pastry'),3
+('canned vegetables', 'coffee'),1
+('bottled beer', 'specialty bar'),3
+('dishes', 'soda'),1
+('pastry', 'syrup'),1
+('pastry', 'vinegar'),5
+('domestic eggs', 'misc. beverages'),3
+('chewing gum', 'whipped/sour cream'),2
+('frozen fish', 'root vegetables'),3
+('cream cheese', 'frozen fish'),4
+('organic sausage', 'whipped/sour cream'),1
+('organic sausage', 'pip fruit'),4
+('organic sausage', 'root vegetables'),2
+('organic sausage', 'other vegetables'),2
+('dish cleaner', 'processed cheese'),1
+('detergent', 'dish cleaner'),1
+('bottled water', 'pickled vegetables'),7
+('fruit/vegetable juice', 'pickled vegetables'),5
+('other vegetables', 'semi-finished bread'),5
+('liquor (appetizer)', 'pastry'),2
+('liquor (appetizer)', 'sugar'),1
+('frozen chicken', 'fruit/vegetable juice'),1
+('bottled beer', 'frozen chicken'),1
+('frozen chicken', 'shopping bags'),1
+('dessert', 'nut snack'),2
+('nut snack', 'specialty bar'),1
+('bottled water', 'liquor'),5
+('chewing gum', 'liquor'),2
+('pip fruit', 'white bread'),8
+('coffee', 'white bread'),4
+('pork', 'rum'),1
+('pork', 'white wine'),4
+('bottled water', 'rum'),4
+('rum', 'white wine'),1
+('salty snack', 'specialty bar'),3
+('specialty bar', 'white wine'),2
+('chewing gum', 'whisky'),1
+('misc. beverages', 'white wine'),1
+('margarine', 'misc. beverages'),4
+('candles', 'chocolate'),1
+('processed cheese', 'seasonal products'),1
+('ketchup', 'seasonal products'),1
+('chicken', 'frozen potato products'),1
+('frozen potato products', 'whipped/sour cream'),1
+('frozen potato products', 'ice cream'),3
+('berries', 'long life bakery product'),1
+('berries', 'specialty chocolate'),2
+('long life bakery product', 'specialty chocolate'),3
+('fruit/vegetable juice', 'waffles'),6
+('long life bakery product', 'yogurt'),10
+('beef', 'cake bar'),1
+('beef', 'canned fish'),1
+('meat', 'specialty cheese'),1
+('canned beer', 'tidbits'),1
+('red/blush wine', 'tidbits'),1
+('specialty chocolate', 'waffles'),5
+('skin care', 'tropical fruit'),2
+('other vegetables', 'skin care'),3
+('frozen fish', 'frozen vegetables'),4
+('mayonnaise', 'onions'),2
+('mustard', 'onions'),1
+('mayonnaise', 'mustard'),2
+('pastry', 'specialty chocolate'),4
+('detergent', 'soda'),6
+('frozen dessert', 'white bread'),1
+('chicken', 'frozen meals'),7
+('brown bread', 'cream cheese'),10
+('cream cheese', 'misc. beverages'),2
+('brown bread', 'misc. beverages'),5
+('sugar', 'waffles'),1
+('cleaner', 'sugar'),1
+('kitchen towels', 'sugar'),1
+('cleaner', 'waffles'),2
+('kitchen towels', 'waffles'),1
+('cleaner', 'kitchen towels'),1
+('hamburger meat', 'soft cheese'),4
+('hamburger meat', 'mayonnaise'),2
+('UHT-milk', 'brandy'),2
+('UHT-milk', 'liquor (appetizer)'),2
+('UHT-milk', 'specialty bar'),2
+('brandy', 'liquor (appetizer)'),3
+('brandy', 'specialty bar'),2
+('canned fish', 'condensed milk'),2
+('beef', 'dessert'),6
+('misc. beverages', 'pip fruit'),4
+('brown bread', 'chewing gum'),1
+('mayonnaise', 'rice'),1
+('canned beer', 'rice'),1
+('pet care', 'sausage'),1
+('coffee', 'pet care'),3
+('frozen fish', 'tropical fruit'),3
+('frozen meals', 'salty snack'),4
+('cereals', 'detergent'),1
+('nuts/prunes', 'sausage'),2
+('nuts/prunes', 'other vegetables'),5
+('dog food', 'whipped/sour cream'),4
+('cream cheese', 'nuts/prunes'),1
+('chocolate', 'hamburger meat'),1
+('detergent', 'hamburger meat'),1
+('chocolate', 'detergent'),1
+('chocolate', 'white bread'),2
+('chocolate', 'shopping bags'),8
+('canned vegetables', 'frozen vegetables'),2
+('curd', 'meat spreads'),1
+('UHT-milk', 'pasta'),2
+('pasta', 'spread cheese'),1
+('chocolate', 'dishes'),1
+('mayonnaise', 'soft cheese'),1
+('ice cream', 'soft cheese'),2
+('ice cream', 'mayonnaise'),1
+('citrus fruit', 'waffles'),2
+('canned beer', 'dog food'),3
+('hamburger meat', 'sliced cheese'),3
+('hamburger meat', 'pickled vegetables'),4
+('dessert', 'pickled vegetables'),2
+('pickled vegetables', 'sliced cheese'),2
+('rolls/buns', 'tidbits'),5
+('coffee', 'tidbits'),2
+('salty snack', 'tidbits'),1
+('chicken', 'pickled vegetables'),2
+('brown bread', 'pickled vegetables'),1
+('jam', 'whipped/sour cream'),3
+('red/blush wine', 'shopping bags'),3
+('chocolate marshmallow', 'curd'),1
+('chocolate marshmallow', 'yogurt'),2
+('finished products', 'seasonal products'),1
+('artif. sweetener', 'bottled water'),1
+('candy', 'ice cream'),1
+('candy', 'frozen dessert'),1
+('UHT-milk', 'sauces'),1
+('fruit/vegetable juice', 'sauces'),1
+('grapes', 'sliced cheese'),1
+('cream cheese', 'grapes'),3
+('frozen meals', 'ice cream'),6
+('Instant food products', 'canned vegetables'),1
+('Instant food products', 'salty snack'),1
+('canned vegetables', 'salty snack'),1
+('frozen vegetables', 'margarine'),6
+('cleaner', 'frozen vegetables'),2
+('cleaner', 'margarine'),1
+('oil', 'specialty fat'),1
+('frozen vegetables', 'waffles'),1
+('brown bread', 'condensed milk'),2
+('flour', 'sausage'),3
+('butter', 'flour'),2
+('cream cheese', 'mayonnaise'),3
+('fruit/vegetable juice', 'napkins'),3
+('prosecco', 'rolls/buns'),4
+('prosecco', 'salty snack'),1
+('butter milk', 'specialty cheese'),3
+('brown bread', 'soft cheese'),7
+('canned beer', 'long life bakery product'),3
+('candles', 'long life bakery product'),2
+('fish', 'liquor'),1
+('brown bread', 'frozen meals'),5
+('rolls/buns', 'skin care'),4
+('bottled water', 'skin care'),1
+('frankfurter', 'ice cream'),5
+('brown bread', 'liver loaf'),1
+('bottled water', 'liver loaf'),1
+('canned beer', 'liver loaf'),1
+('frozen fish', 'pastry'),3
+('herbs', 'red/blush wine'),1
+('pickled vegetables', 'sausage'),6
+('brown bread', 'hamburger meat'),8
+('hamburger meat', 'salt'),2
+('bottled water', 'cooking chocolate'),1
+('cooking chocolate', 'misc. beverages'),1
+('salt', 'tropical fruit'),6
+('red/blush wine', 'tropical fruit'),3
+('ice cream', 'red/blush wine'),2
+('pet care', 'pip fruit'),2
+('pet care', 'rolls/buns'),2
+('UHT-milk', 'popcorn'),1
+('UHT-milk', 'snack products'),1
+('popcorn', 'rolls/buns'),1
+('popcorn', 'snack products'),1
+('domestic eggs', 'frozen dessert'),2
+('frozen fish', 'white bread'),1
+('baking powder', 'root vegetables'),3
+('napkins', 'root vegetables'),3
+('baking powder', 'brown bread'),1
+('baking powder', 'napkins'),2
+('mayonnaise', 'root vegetables'),4
+('domestic eggs', 'mayonnaise'),2
+('beverages', 'spread cheese'),1
+('domestic eggs', 'spread cheese'),4
+('liver loaf', 'mustard'),1
+('liver loaf', 'shopping bags'),1
+('mustard', 'shopping bags'),1
+('fruit/vegetable juice', 'margarine'),5
+('butter', 'mayonnaise'),1
+('butter', 'instant coffee'),1
+('instant coffee', 'mayonnaise'),1
+('grapes', 'specialty bar'),1
+('candy', 'grapes'),2
+('other vegetables', 'sweet spreads'),4
+('sausage', 'seasonal products'),4
+('salty snack', 'seasonal products'),1
+('beef', 'soups'),1
+('butter milk', 'soups'),1
+('bottled water', 'semi-finished bread'),3
+('coffee', 'flower (seeds)'),1
+('cream cheese', 'onions'),3
+('chicken', 'white bread'),2
+('citrus fruit', 'specialty cheese'),3
+('hard cheese', 'specialty cheese'),2
+('canned beer', 'cat food'),4
+('cleaner', 'frozen meals'),1
+('frankfurter', 'red/blush wine'),2
+('nut snack', 'specialty chocolate'),1
+('pip fruit', 'prosecco'),1
+('pip fruit', 'seasonal products'),1
+('rolls/buns', 'seasonal products'),4
+('prosecco', 'seasonal products'),1
+('meat', 'pastry'),5
+('pet care', 'snack products'),1
+('bottled beer', 'snack products'),1
+('UHT-milk', 'baking powder'),3
+('canned beer', 'domestic eggs'),7
+('butter milk', 'specialty bar'),3
+('popcorn', 'specialty bar'),2
+('butter', 'specialty cheese'),1
+('pork', 'soft cheese'),2
+('brown bread', 'dog food'),3
+('photo/film', 'rolls/buns'),2
+('UHT-milk', 'dishes'),1
+('baking powder', 'photo/film'),1
+('chewing gum', 'sausage'),4
+('cat food', 'onions'),1
+('onions', 'popcorn'),1
+('cat food', 'pet care'),3
+('pet care', 'popcorn'),1
+('margarine', 'pickled vegetables'),2
+('pork', 'roll products'),2
+('coffee', 'potted plants'),1
+('chicken', 'frozen fish'),1
+('domestic eggs', 'frozen fish'),3
+('potted plants', 'whipped/sour cream'),5
+('long life bakery product', 'oil'),1
+('flower (seeds)', 'sausage'),1
+('UHT-milk', 'flour'),1
+('UHT-milk', 'flower (seeds)'),1
+('flour', 'flower (seeds)'),2
+('mayonnaise', 'pork'),1
+('butter milk', 'meat'),2
+('frozen meals', 'pickled vegetables'),1
+('pasta', 'shopping bags'),1
+('oil', 'shopping bags'),2
+('frozen potato products', 'frozen vegetables'),3
+('cream', 'hamburger meat'),2
+('hamburger meat', 'spread cheese'),2
+('cream', 'spread cheese'),1
+('beef', 'frozen dessert'),2
+('abrasive cleaner', 'napkins'),1
+('processed cheese', 'sliced cheese'),1
+('frozen dessert', 'sausage'),3
+('frozen dessert', 'mustard'),1
+('bottled water', 'spices'),1
+('seasonal products', 'tropical fruit'),4
+('bathroom cleaner', 'tropical fruit'),1
+('bathroom cleaner', 'rolls/buns'),1
+('bathroom cleaner', 'seasonal products'),1
+('butter', 'soups'),3
+('frozen meals', 'whipped/sour cream'),2
+('frozen meals', 'napkins'),2
+('baking powder', 'rolls/buns'),4
+('light bulbs', 'specialty chocolate'),2
+('curd', 'liver loaf'),3
+('soft cheese', 'white wine'),1
+('pork', 'potted plants'),1
+('hamburger meat', 'mustard'),1
+('hamburger meat', 'soups'),2
+('mustard', 'soups'),1
+('Instant food products', 'mustard'),1
+('Instant food products', 'soups'),1
+('popcorn', 'yogurt'),2
+('cleaner', 'yogurt'),1
+('cleaner', 'popcorn'),1
+('newspapers', 'popcorn'),1
+('cleaner', 'newspapers'),1
+('berries', 'specialty bar'),2
+('margarine', 'specialty bar'),2
+('coffee', 'specialty bar'),2
+('butter', 'turkey'),3
+('dog food', 'pork'),1
+('dog food', 'root vegetables'),2
+('nuts/prunes', 'yogurt'),3
+('berries', 'sliced cheese'),2
+('vinegar', 'yogurt'),3
+('frozen meals', 'specialty cheese'),1
+('baking powder', 'yogurt'),7
+('coffee', 'curd'),3
+('coffee', 'pudding powder'),1
+('pastry', 'potted plants'),4
+('bottled water', 'frozen dessert'),5
+('finished products', 'specialty bar'),2
+('finished products', 'newspapers'),1
+('newspapers', 'specialty bar'),4
+('beef', 'rice'),2
+('frozen vegetables', 'rice'),1
+('cocoa drinks', 'pip fruit'),1
+('cocoa drinks', 'margarine'),1
+('canned beer', 'grapes'),2
+('butter', 'soft cheese'),3
+('beef', 'jam'),1
+('beef', 'toilet cleaner'),1
+('root vegetables', 'toilet cleaner'),1
+('jam', 'toilet cleaner'),1
+('pet care', 'pork'),1
+('newspapers', 'pet care'),2
+('cat food', 'pip fruit'),2
+('processed cheese', 'whipped/sour cream'),4
+('frozen fruits', 'whipped/sour cream'),1
+('frozen fruits', 'processed cheese'),1
+('chewing gum', 'long life bakery product'),1
+('beverages', 'candy'),2
+('pet care', 'whipped/sour cream'),2
+('canned beer', 'pet care'),1
+('butter', 'ketchup'),1
+('UHT-milk', 'ketchup'),1
+('frozen vegetables', 'ketchup'),1
+('canned beer', 'seasonal products'),2
+('seasonal products', 'white wine'),1
+('baking powder', 'pastry'),2
+('baking powder', 'sugar'),3
+('baking powder', 'rum'),1
+('berries', 'oil'),2
+('berries', 'dog food'),1
+('herbs', 'sliced cheese'),2
+('herbs', 'rolls/buns'),1
+('sausage', 'sugar'),5
+('root vegetables', 'sweet spreads'),1
+('syrup', 'tropical fruit'),2
+('dessert', 'syrup'),1
+('syrup', 'yogurt'),3
+('chicken', 'liver loaf'),3
+('curd cheese', 'rolls/buns'),4
+('cake bar', 'curd cheese'),1
+('cake bar', 'rolls/buns'),2
+('frankfurter', 'liquor'),1
+('domestic eggs', 'white bread'),8
+('domestic eggs', 'specialty fat'),1
+('domestic eggs', 'mustard'),2
+('specialty fat', 'white bread'),1
+('mustard', 'white bread'),2
+('mustard', 'specialty fat'),1
+('finished products', 'hamburger meat'),1
+('hard cheese', 'herbs'),1
+('hygiene articles', 'tropical fruit'),2
+('bottled beer', 'hygiene articles'),4
+('canned fish', 'citrus fruit'),3
+('canned fish', 'waffles'),4
+('specialty chocolate', 'tropical fruit'),4
+('chocolate marshmallow', 'tropical fruit'),2
+('chocolate marshmallow', 'specialty chocolate'),1
+('frozen meals', 'specialty bar'),3
+('berries', 'liver loaf'),1
+('berries', 'turkey'),1
+('canned fish', 'shopping bags'),3
+('pork', 'salty snack'),5
+('liquor', 'salty snack'),2
+('pip fruit', 'semi-finished bread'),5
+('UHT-milk', 'semi-finished bread'),4
+('chocolate', 'finished products'),3
+('sausage', 'skin care'),2
+('bottled beer', 'skin care'),2
+('candy', 'pork'),4
+('chocolate', 'white wine'),2
+('cake bar', 'whipped/sour cream'),1
+('berries', 'fruit/vegetable juice'),2
+('specialty bar', 'waffles'),2
+('dessert', 'turkey'),1
+('cleaner', 'whole milk'),3
+('baking powder', 'waffles'),2
+('baking powder', 'cleaner'),1
+('napkins', 'onions'),2
+('light bulbs', 'root vegetables'),1
+('light bulbs', 'rolls/buns'),2
+('oil', 'pork'),5
+('frozen vegetables', 'oil'),1
+('flower soil/fertilizer', 'newspapers'),2
+('UHT-milk', 'beef'),1
+('curd cheese', 'pork'),5
+('butter', 'curd cheese'),1
+('hamburger meat', 'potted plants'),2
+('beef', 'soft cheese'),5
+('domestic eggs', 'roll products'),1
+('UHT-milk', 'ham'),4
+('coffee', 'ham'),3
+('frozen vegetables', 'semi-finished bread'),3
+('cling film/bags', 'soda'),1
+('cling film/bags', 'house keeping products'),1
+('condensed milk', 'frozen meals'),1
+('salt', 'sweet spreads'),1
+('sausage', 'tidbits'),1
+('citrus fruit', 'tidbits'),1
+('tidbits', 'yogurt'),4
+('dishes', 'pork'),1
+('rice', 'tropical fruit'),1
+('berries', 'rice'),2
+('herbs', 'rice'),1
+('canned vegetables', 'white wine'),1
+('canned vegetables', 'newspapers'),2
+('canned vegetables', 'flower soil/fertilizer'),1
+('flower soil/fertilizer', 'white wine'),1
+('chicken', 'processed cheese'),3
+('dishes', 'frankfurter'),1
+('dishes', 'shopping bags'),1
+('newspapers', 'pickled vegetables'),1
+('bottled water', 'potato products'),1
+('potato products', 'soda'),1
+('bottled beer', 'potato products'),1
+('honey', 'root vegetables'),1
+('pudding powder', 'root vegetables'),1
+('honey', 'pudding powder'),1
+('citrus fruit', 'nut snack'),1
+('baking powder', 'nut snack'),1
+('nut snack', 'sweet spreads'),1
+('citrus fruit', 'specialty chocolate'),3
+('Instant food products', 'tropical fruit'),2
+('Instant food products', 'UHT-milk'),1
+('Instant food products', 'brown bread'),1
+('citrus fruit', 'mustard'),2
+('mustard', 'semi-finished bread'),1
+('fruit/vegetable juice', 'seasonal products'),1
+('ice cream', 'meat'),5
+('hamburger meat', 'misc. beverages'),3
+('soft cheese', 'syrup'),1
+('rolls/buns', 'syrup'),2
+('brown bread', 'syrup'),1
+('cat food', 'finished products'),1
+('frankfurter', 'sweet spreads'),1
+('condensed milk', 'hamburger meat'),1
+('condensed milk', 'fruit/vegetable juice'),3
+('frozen dessert', 'yogurt'),5
+('herbs', 'pastry'),1
+('chocolate', 'frankfurter'),4
+('packaged fruit/vegetables', 'sugar'),1
+('canned vegetables', 'yogurt'),2
+('potted plants', 'yogurt'),2
+('canned vegetables', 'potted plants'),1
+('cling film/bags', 'sugar'),2
+('candy', 'salt'),1
+('cereals', 'frozen vegetables'),1
+('cereals', 'frozen meals'),2
+('fish', 'tropical fruit'),3
+('fish', 'pip fruit'),1
+('UHT-milk', 'condensed milk'),8
+('frozen vegetables', 'liver loaf'),2
+('prosecco', 'root vegetables'),1
+('prosecco', 'red/blush wine'),2
+('dog food', 'roll products'),1
+('roll products', 'soda'),2
+('fruit/vegetable juice', 'roll products'),1
+('condensed milk', 'semi-finished bread'),1
+('butter milk', 'misc. beverages'),1
+('ice cream', 'nuts/prunes'),1
+('domestic eggs', 'processed cheese'),2
+('dental care', 'salty snack'),1
+('instant coffee', 'whole milk'),3
+('mayonnaise', 'newspapers'),2
+('candy', 'newspapers'),1
+('hamburger meat', 'zwieback'),1
+('butter', 'zwieback'),1
+('Instant food products', 'butter'),1
+('candles', 'whipped/sour cream'),1
+('candles', 'domestic eggs'),1
+('Instant food products', 'dessert'),1
+('hamburger meat', 'processed cheese'),2
+('cream', 'other vegetables'),2
+('UHT-milk', 'cream'),1
+('finished products', 'grapes'),4
+('baking powder', 'tropical fruit'),3
+('baking powder', 'butter milk'),1
+('citrus fruit', 'pickled vegetables'),3
+('canned fish', 'yogurt'),4
+('beverages', 'butter'),5
+('dessert', 'photo/film'),1
+('photo/film', 'seasonal products'),1
+('hygiene articles', 'pip fruit'),3
+('beverages', 'hygiene articles'),1
+('citrus fruit', 'hygiene articles'),2
+('cling film/bags', 'condensed milk'),1
+('cling film/bags', 'coffee'),3
+('cookware', 'pip fruit'),1
+('cookware', 'cream cheese'),1
+('oil', 'pet care'),1
+('pasta', 'pork'),2
+('organic sausage', 'turkey'),1
+('organic sausage', 'tropical fruit'),3
+('canned fruit', 'frozen meals'),1
+('meat', 'processed cheese'),1
+('pip fruit', 'processed cheese'),6
+('house keeping products', 'long life bakery product'),1
+('cream cheese', 'waffles'),4
+('canned beer', 'oil'),4
+('oil', 'waffles'),1
+('sausage', 'specialty fat'),2
+('hard cheese', 'specialty fat'),2
+('rolls/buns', 'specialty fat'),2
+('beverages', 'sauces'),1
+('beverages', 'potted plants'),2
+('sauces', 'sweet spreads'),2
+('potted plants', 'sauces'),1
+('potted plants', 'sweet spreads'),1
+('kitchen towels', 'sausage'),1
+('UHT-milk', 'kitchen towels'),1
+('bottled beer', 'kitchen towels'),1
+('sliced cheese', 'soft cheese'),3
+('flower (seeds)', 'root vegetables'),1
+('flower (seeds)', 'other vegetables'),2
+('flower (seeds)', 'yogurt'),1
+('bathroom cleaner', 'hamburger meat'),1
+('bathroom cleaner', 'margarine'),1
+('bathroom cleaner', 'soda'),2
+('nuts/prunes', 'rum'),1
+('other vegetables', 'rum'),1
+('cat food', 'pastry'),3
+('candy', 'finished products'),1
+('oil', 'pastry'),4
+('photo/film', 'specialty chocolate'),2
+('liquor', 'tropical fruit'),1
+('liquor', 'pip fruit'),2
+('napkins', 'skin care'),1
+('pip fruit', 'ready soups'),1
+('ready soups', 'whole milk'),1
+('canned fish', 'ready soups'),1
+('root vegetables', 'soups'),1
+('brown bread', 'detergent'),1
+('brown bread', 'softener'),1
+('canned beer', 'detergent'),1
+('canned beer', 'softener'),1
+('detergent', 'softener'),2
+('Instant food products', 'hard cheese'),1
+('butter', 'cat food'),3
+('cream cheese', 'instant coffee'),1
+('instant coffee', 'waffles'),1
+('canned vegetables', 'soups'),2
+('chocolate', 'soups'),1
+('canned vegetables', 'chocolate'),1
+('pickled vegetables', 'skin care'),1
+('rolls/buns', 'turkey'),4
+('citrus fruit', 'specialty fat'),1
+('spread cheese', 'white bread'),2
+('curd', 'misc. beverages'),1
+('root vegetables', 'soft cheese'),1
+('instant coffee', 'photo/film'),1
+('cream cheese', 'frozen meals'),3
+('cream cheese', 'pastry'),4
+('canned beer', 'dishes'),2
+('finished products', 'rolls/buns'),4
+('specialty bar', 'tropical fruit'),1
+('cream', 'whole milk'),1
+('salt', 'sausage'),3
+('male cosmetics', 'sausage'),2
+('male cosmetics', 'other vegetables'),1
+('male cosmetics', 'salt'),1
+('bottled beer', 'soft cheese'),3
+('syrup', 'whole milk'),3
+('condensed milk', 'liver loaf'),1
+('processed cheese', 'spread cheese'),1
+('dessert', 'napkins'),2
+('chicken', 'fruit/vegetable juice'),2
+('rum', 'waffles'),1
+('pasta', 'sauces'),2
+('frozen potato products', 'sausage'),2
+('frozen potato products', 'sliced cheese'),1
+('grapes', 'packaged fruit/vegetables'),1
+('baking powder', 'fruit/vegetable juice'),2
+('pasta', 'specialty chocolate'),1
+('dishes', 'pasta'),2
+('dishes', 'specialty chocolate'),1
+('bottled beer', 'semi-finished bread'),5
+('liquor', 'semi-finished bread'),3
+('pet care', 'white bread'),3
+('cooking chocolate', 'whole milk'),1
+('coffee', 'cooking chocolate'),1
+('cooking chocolate', 'newspapers'),1
+('ham', 'soft cheese'),2
+('coffee', 'sparkling wine'),2
+('coffee', 'dish cleaner'),2
+('brown bread', 'mustard'),2
+('brown bread', 'cat food'),3
+('cat food', 'mustard'),1
+('house keeping products', 'specialty bar'),1
+('ham', 'sparkling wine'),1
+('onions', 'sparkling wine'),1
+('herbs', 'sparkling wine'),1
+('hard cheese', 'margarine'),3
+('fruit/vegetable juice', 'red/blush wine'),2
+('coffee', 'dessert'),2
+('hair spray', 'other vegetables'),1
+('hair spray', 'rolls/buns'),1
+('napkins', 'white wine'),2
+('ham', 'ketchup'),1
+('ketchup', 'root vegetables'),1
+('long life bakery product', 'whipped/sour cream'),2
+('jam', 'tropical fruit'),1
+('pip fruit', 'sparkling wine'),1
+('other vegetables', 'prosecco'),2
+('prosecco', 'whole milk'),4
+('mustard', 'prosecco'),1
+('candy', 'margarine'),4
+('misc. beverages', 'oil'),2
+('cat food', 'citrus fruit'),4
+('fish', 'frankfurter'),2
+('fish', 'root vegetables'),2
+('liver loaf', 'processed cheese'),1
+('frozen fruits', 'soda'),1
+('frozen fruits', 'specialty bar'),1
+('hard cheese', 'waffles'),1
+('pasta', 'waffles'),1
+('ham', 'sliced cheese'),6
+('cat food', 'female sanitary products'),2
+('female sanitary products', 'misc. beverages'),1
+('finished products', 'turkey'),1
+('finished products', 'onions'),2
+('onions', 'turkey'),3
+('misc. beverages', 'tropical fruit'),4
+('detergent', 'pork'),3
+('bottled water', 'dog food'),6
+('ice cream', 'sparkling wine'),1
+('bottled beer', 'processed cheese'),3
+('liquor', 'processed cheese'),2
+('beverages', 'photo/film'),1
+('dessert', 'spread cheese'),2
+('canned beer', 'instant coffee'),2
+('bottled water', 'meat'),3
+('instant coffee', 'long life bakery product'),1
+('coffee', 'semi-finished bread'),3
+('grapes', 'semi-finished bread'),1
+('root vegetables', 'specialty cheese'),2
+('domestic eggs', 'hard cheese'),5
+('cream cheese', 'herbs'),2
+('chewing gum', 'citrus fruit'),5
+('chewing gum', 'root vegetables'),2
+('beverages', 'seasonal products'),1
+('seasonal products', 'soda'),4
+('frankfurter', 'tidbits'),2
+('meat', 'tidbits'),1
+('butter milk', 'tidbits'),1
+('meat', 'semi-finished bread'),1
+('semi-finished bread', 'white bread'),2
+('bottled beer', 'zwieback'),1
+('hygiene articles', 'zwieback'),1
+('chocolate', 'ice cream'),2
+('fish', 'specialty chocolate'),1
+('butter', 'syrup'),1
+('frozen dessert', 'frozen vegetables'),5
+('fish', 'frozen meals'),1
+('domestic eggs', 'fish'),1
+('bottled beer', 'fish'),1
+('bottled beer', 'domestic eggs'),2
+('UHT-milk', 'canned fish'),1
+('cake bar', 'oil'),1
+('margarine', 'salt'),2
+('liquor', 'napkins'),2
+('brown bread', 'seasonal products'),3
+('domestic eggs', 'waffles'),3
+('specialty vegetables', 'tropical fruit'),2
+('specialty vegetables', 'yogurt'),1
+('salt', 'specialty vegetables'),1
+('chewing gum', 'shopping bags'),4
+('dog food', 'other vegetables'),3
+('dessert', 'dog food'),1
+('chewing gum', 'dessert'),2
+('ham', 'light bulbs'),1
+('processed cheese', 'sugar'),1
+('cat food', 'processed cheese'),1
+('pastry', 'sweet spreads'),1
+('beef', 'red/blush wine'),1
+('meat', 'salty snack'),1
+('domestic eggs', 'red/blush wine'),1
+('ice cream', 'semi-finished bread'),3
+('ice cream', 'prosecco'),2
+('dishes', 'prosecco'),1
+('coffee', 'tea'),1
+('chicken', 'specialty fat'),1
+('coffee', 'dental care'),1
+('dishes', 'misc. beverages'),1
+('fruit/vegetable juice', 'meat spreads'),2
+('frozen meals', 'onions'),2
+('Instant food products', 'soda'),2
+('canned beer', 'processed cheese'),1
+('bottled beer', 'flower (seeds)'),2
+('cake bar', 'processed cheese'),1
+('UHT-milk', 'mustard'),2
+('cat food', 'herbs'),1
+('curd', 'frozen fruits'),1
+('cream cheese', 'frozen fruits'),2
+('frozen fruits', 'margarine'),1
+('frankfurter', 'mayonnaise'),4
+('margarine', 'mustard'),1
+('berries', 'cream cheese'),2
+('newspapers', 'softener'),1
+('fish', 'ice cream'),1
+('chewing gum', 'specialty bar'),4
+('UHT-milk', 'detergent'),1
+('meat', 'misc. beverages'),2
+('pip fruit', 'snack products'),1
+('meat', 'soft cheese'),2
+('oil', 'soft cheese'),1
+('frozen potato products', 'mayonnaise'),1
+('bottled water', 'sliced cheese'),6
+('jam', 'margarine'),1
+('butter', 'liver loaf'),1
+('baking powder', 'cream cheese'),1
+('frankfurter', 'organic sausage'),3
+('curd', 'newspapers'),7
+('curd', 'oil'),3
+('mayonnaise', 'spread cheese'),1
+('frozen dessert', 'pastry'),4
+('hamburger meat', 'red/blush wine'),3
+('misc. beverages', 'red/blush wine'),1
+('dessert', 'herbs'),4
+('frankfurter', 'potato products'),2
+('brown bread', 'potato products'),1
+('frozen fish', 'ham'),1
+('frozen fish', 'sliced cheese'),2
+('skin care', 'whole milk'),1
+('root vegetables', 'sauces'),1
+('hard cheese', 'sauces'),3
+('cat food', 'zwieback'),1
+('dish cleaner', 'zwieback'),1
+('brown bread', 'ice cream'),7
+('beef', 'flower (seeds)'),2
+('baking powder', 'chocolate'),2
+('hamburger meat', 'tidbits'),1
+('frozen fish', 'hamburger meat'),1
+('tidbits', 'whole milk'),4
+('frozen fish', 'tidbits'),1
+('pickled vegetables', 'white bread'),1
+('cat food', 'ham'),2
+('herbs', 'turkey'),2
+('grapes', 'sugar'),2
+('sauces', 'tropical fruit'),3
+('candy', 'coffee'),3
+('curd', 'fish'),1
+('fish', 'processed cheese'),1
+('frozen fish', 'pickled vegetables'),2
+('mayonnaise', 'specialty chocolate'),1
+('candles', 'hard cheese'),1
+('citrus fruit', 'jam'),1
+('domestic eggs', 'jam'),1
+('condensed milk', 'margarine'),1
+('canned beer', 'condensed milk'),1
+('domestic eggs', 'specialty chocolate'),3
+('oil', 'salad dressing'),1
+('salad dressing', 'sauces'),1
+('oil', 'sauces'),1
+('misc. beverages', 'white bread'),2
+('butter', 'seasonal products'),1
+('cling film/bags', 'salt'),1
+('potted plants', 'sausage'),2
+('chocolate', 'dog food'),1
+('bottled water', 'curd cheese'),1
+('curd cheese', 'white wine'),1
+('chicken', 'frozen dessert'),3
+('butter milk', 'salt'),2
+('butter milk', 'sugar'),1
+('salt', 'sugar'),5
+('curd cheese', 'frozen vegetables'),1
+('finished products', 'frankfurter'),3
+('female sanitary products', 'root vegetables'),1
+('domestic eggs', 'female sanitary products'),1
+('meat', 'sliced cheese'),3
+('canned vegetables', 'cream cheese'),1
+('canned vegetables', 'margarine'),1
+('male cosmetics', 'newspapers'),1
+('chicken', 'semi-finished bread'),1
+('chicken', 'jam'),1
+('misc. beverages', 'root vegetables'),1
+('flour', 'semi-finished bread'),1
+('hamburger meat', 'shopping bags'),3
+('flower (seeds)', 'processed cheese'),1
+('flower (seeds)', 'rolls/buns'),2
+('flower (seeds)', 'soda'),3
+('semi-finished bread', 'turkey'),1
+('beef', 'semi-finished bread'),3
+('hard cheese', 'salt'),1
+('canned vegetables', 'salt'),1
+('Instant food products', 'long life bakery product'),1
+('Instant food products', 'specialty chocolate'),1
+('Instant food products', 'cling film/bags'),1
+('cling film/bags', 'long life bakery product'),2
+('cling film/bags', 'specialty chocolate'),1
+('chicken', 'flower (seeds)'),1
+('pip fruit', 'specialty cheese'),4
+('long life bakery product', 'salty snack'),4
+('long life bakery product', 'napkins'),2
+('napkins', 'potted plants'),1
+('liquor (appetizer)', 'organic sausage'),1
+('organic sausage', 'red/blush wine'),1
+('liquor (appetizer)', 'other vegetables'),1
+('liquor (appetizer)', 'red/blush wine'),2
+('light bulbs', 'whole milk'),2
+('curd', 'light bulbs'),1
+('light bulbs', 'soda'),1
+('ham', 'organic sausage'),1
+('UHT-milk', 'chewing gum'),1
+('chewing gum', 'cling film/bags'),1
+('popcorn', 'root vegetables'),2
+('other vegetables', 'popcorn'),1
+('popcorn', 'sparkling wine'),1
+('condensed milk', 'female sanitary products'),1
+('female sanitary products', 'pastry'),2
+('newspapers', 'waffles'),7
+('beverages', 'zwieback'),1
+('UHT-milk', 'misc. beverages'),1
+('citrus fruit', 'frozen fish'),3
+('frozen fish', 'pip fruit'),1
+('berries', 'frozen fish'),2
+('red/blush wine', 'white bread'),1
+('red/blush wine', 'salty snack'),2
+('cleaner', 'pastry'),1
+('butter milk', 'instant coffee'),3
+('hard cheese', 'instant coffee'),2
+('condensed milk', 'tidbits'),1
+('bottled water', 'female sanitary products'),1
+('bottled beer', 'curd cheese'),2
+('chocolate', 'hard cheese'),1
+('cream cheese', 'roll products'),1
+('cream cheese', 'napkins'),1
+('napkins', 'roll products'),1
+('dog food', 'ham'),1
+('dog food', 'tropical fruit'),2
+('detergent', 'other vegetables'),5
+('condensed milk', 'detergent'),1
+('misc. beverages', 'waffles'),3
+('frozen meals', 'soft cheese'),2
+('dessert', 'detergent'),1
+('frozen meals', 'processed cheese'),1
+('berries', 'sugar'),5
+('chocolate marshmallow', 'other vegetables'),1
+('other vegetables', 'pudding powder'),1
+('curd', 'soups'),1
+('pudding powder', 'soups'),1
+('coffee', 'mustard'),1
+('dessert', 'liver loaf'),1
+('domestic eggs', 'liver loaf'),1
+('liquor (appetizer)', 'pet care'),1
+('dessert', 'long life bakery product'),3
+('soap', 'soda'),3
+('bottled beer', 'rum'),2
+('citrus fruit', 'dishes'),1
+('candy', 'meat'),1
+('brown bread', 'sauces'),2
+('pet care', 'sauces'),1
+('UHT-milk', 'shopping bags'),2
+('chewing gum', 'organic sausage'),1
+('brown bread', 'jam'),2
+('fruit/vegetable juice', 'jam'),1
+('jam', 'pastry'),1
+('cat food', 'other vegetables'),3
+('packaged fruit/vegetables', 'sliced cheese'),2
+('canned fruit', 'frozen dessert'),1
+('frozen dessert', 'soda'),5
+('canned fruit', 'margarine'),1
+('canned fruit', 'soda'),1
+('pork', 'specialty vegetables'),2
+('bottled water', 'specialty vegetables'),1
+('soda', 'specialty vegetables'),1
+('dental care', 'rolls/buns'),3
+('dental care', 'shopping bags'),1
+('domestic eggs', 'salty snack'),2
+('domestic eggs', 'popcorn'),1
+('popcorn', 'salty snack'),3
+('napkins', 'popcorn'),1
+('canned fish', 'jam'),1
+('jam', 'waffles'),1
+('candy', 'sugar'),2
+('frozen fish', 'sugar'),3
+('cake bar', 'frozen fish'),1
+('chocolate marshmallow', 'frozen fish'),2
+('cake bar', 'sugar'),1
+('chocolate marshmallow', 'sugar'),1
+('cake bar', 'chocolate marshmallow'),2
+('onions', 'sliced cheese'),2
+('frozen meals', 'long life bakery product'),4
+('make up remover', 'pork'),1
+('napkins', 'pork'),3
+('make up remover', 'white bread'),1
+('napkins', 'white bread'),1
+('make up remover', 'napkins'),1
+('curd', 'dog food'),1
+('pastry', 'seasonal products'),2
+('cake bar', 'domestic eggs'),1
+('instant coffee', 'tidbits'),1
+('curd', 'long life bakery product'),3
+('canned fish', 'spread cheese'),1
+('berries', 'misc. beverages'),1
+('berries', 'canned beer'),2
+('long life bakery product', 'semi-finished bread'),1
+('semi-finished bread', 'waffles'),1
+('detergent', 'semi-finished bread'),1
+('detergent', 'waffles'),2
+('cling film/bags', 'ham'),1
+('flower soil/fertilizer', 'tropical fruit'),1
+('flower soil/fertilizer', 'pip fruit'),1
+('flower soil/fertilizer', 'whole milk'),1
+('citrus fruit', 'white wine'),6
+('packaged fruit/vegetables', 'white wine'),1
+('hard cheese', 'long life bakery product'),1
+('dessert', 'seasonal products'),3
+('frozen meals', 'seasonal products'),1
+('pork', 'rice'),2
+('pork', 'sparkling wine'),1
+('rice', 'root vegetables'),3
+('rice', 'sparkling wine'),1
+('canned fish', 'frankfurter'),3
+('chicken', 'specialty cheese'),1
+('cream cheese', 'specialty cheese'),1
+('canned fish', 'hard cheese'),1
+('canned fish', 'canned vegetables'),1
+('canned beer', 'flour'),1
+('cat food', 'hygiene articles'),2
+('hygiene articles', 'specialty chocolate'),1
+('nut snack', 'soda'),1
+('flower (seeds)', 'nut snack'),1
+('fruit/vegetable juice', 'hygiene articles'),3
+('mustard', 'sauces'),1
+('UHT-milk', 'canned vegetables'),1
+('bottled water', 'canned vegetables'),2
+('candy', 'photo/film'),1
+('beverages', 'hamburger meat'),1
+('candles', 'tropical fruit'),1
+('canned fruit', 'yogurt'),1
+('detergent', 'snack products'),1
+('candy', 'semi-finished bread'),1
+('bottled beer', 'candy'),2
+('candy', 'liquor'),1
+('onions', 'pickled vegetables'),1
+('packaged fruit/vegetables', 'soft cheese'),1
+('citrus fruit', 'prosecco'),2
+('prosecco', 'tropical fruit'),2
+('beverages', 'cat food'),1
+('beverages', 'dish cleaner'),1
+('beverages', 'napkins'),1
+('flour', 'grapes'),1
+('cake bar', 'pastry'),1
+('bottled water', 'syrup'),1
+('specialty bar', 'syrup'),1
+('coffee', 'liquor'),1
+('soft cheese', 'specialty bar'),1
+('cling film/bags', 'napkins'),1
+('bottled water', 'canned fish'),2
+('butter milk', 'vinegar'),1
+('butter milk', 'cat food'),1
+('salt', 'vinegar'),1
+('cat food', 'vinegar'),1
+('bottled water', 'flower soil/fertilizer'),1
+('flower soil/fertilizer', 'soda'),1
+('flower soil/fertilizer', 'misc. beverages'),1
+('frozen fish', 'packaged fruit/vegetables'),1
+('napkins', 'packaged fruit/vegetables'),2
+('frozen fish', 'napkins'),1
+('berries', 'candy'),1
+('frozen meals', 'packaged fruit/vegetables'),1
+('ham', 'pasta'),1
+('butter milk', 'dog food'),1
+('coffee', 'dog food'),1
+('citrus fruit', 'detergent'),1
+('beef', 'dog food'),4
+('citrus fruit', 'dog food'),2
+('dog food', 'rice'),1
+('baking powder', 'shopping bags'),2
+('meat', 'pickled vegetables'),1
+('butter milk', 'meat spreads'),1
+('citrus fruit', 'instant coffee'),1
+('fruit/vegetable juice', 'instant coffee'),2
+('citrus fruit', 'spices'),2
+('hard cheese', 'spices'),1
+('other vegetables', 'snack products'),3
+('canned fish', 'salty snack'),1
+('specialty chocolate', 'whipped/sour cream'),2
+('abrasive cleaner', 'whipped/sour cream'),1
+('curd cheese', 'specialty chocolate'),1
+('abrasive cleaner', 'curd cheese'),2
+('abrasive cleaner', 'specialty chocolate'),1
+('newspapers', 'salty snack'),2
+('photo/film', 'salty snack'),1
+('citrus fruit', 'seasonal products'),2
+('brown bread', 'waffles'),1
+('hamburger meat', 'instant coffee'),1
+('frozen potato products', 'liver loaf'),1
+('bottled beer', 'pasta'),2
+('fish', 'white bread'),2
+('fish', 'soda'),1
+('potted plants', 'shopping bags'),4
+('pork', 'waffles'),1
+('berries', 'salty snack'),1
+('berries', 'nut snack'),1
+('nut snack', 'salty snack'),1
+('chewing gum', 'cream cheese'),2
+('ice cream', 'kitchen towels'),1
+('cream cheese', 'finished products'),2
+('cream cheese', 'specialty bar'),2
+('grapes', 'pet care'),1
+('grapes', 'potted plants'),1
+('berries', 'potted plants'),2
+('pet care', 'potted plants'),1
+('napkins', 'soap'),2
+('cereals', 'pet care'),1
+('cereals', 'salty snack'),2
+('cereals', 'shopping bags'),2
+('pet care', 'salty snack'),1
+('butter', 'hygiene articles'),1
+('berries', 'specialty fat'),1
+('packaged fruit/vegetables', 'specialty fat'),1
+('frozen vegetables', 'white bread'),2
+('cooking chocolate', 'female sanitary products'),1
+('soups', 'yogurt'),2
+('pastry', 'soups'),1
+('detergent', 'soups'),1
+('citrus fruit', 'pet care'),1
+('UHT-milk', 'pet care'),1
+('hamburger meat', 'rice'),2
+('rice', 'soups'),1
+('rice', 'sauces'),1
+('sauces', 'soups'),1
+('chocolate marshmallow', 'liquor'),1
+('chocolate marshmallow', 'newspapers'),1
+('fish', 'packaged fruit/vegetables'),1
+('cat food', 'fish'),1
+('cat food', 'packaged fruit/vegetables'),1
+('candy', 'frozen fish'),1
+('frozen fish', 'male cosmetics'),1
+('candy', 'chocolate marshmallow'),2
+('chocolate marshmallow', 'male cosmetics'),1
+('candy', 'male cosmetics'),1
+('dessert', 'roll products'),2
+('berries', 'semi-finished bread'),3
+('liquor', 'pastry'),1
+('pet care', 'white wine'),1
+('bottled beer', 'canned vegetables'),2
+('pork', 'tidbits'),2
+('beef', 'tidbits'),1
+('cream cheese', 'tidbits'),1
+('finished products', 'hard cheese'),1
+('dishes', 'domestic eggs'),2
+('beef', 'hygiene articles'),1
+('hygiene articles', 'root vegetables'),1
+('dog food', 'frozen fish'),1
+('dog food', 'pickled vegetables'),2
+('long life bakery product', 'sweet spreads'),1
+('detergent', 'sweet spreads'),1
+('canned beer', 'potted plants'),1
+('citrus fruit', 'oil'),5
+('newspapers', 'spices'),1
+('UHT-milk', 'sliced cheese'),2
+('curd', 'specialty cheese'),1
+('flour', 'specialty cheese'),1
+('flour', 'long life bakery product'),1
+('condensed milk', 'dog food'),1
+('ketchup', 'pastry'),1
+('chocolate', 'ketchup'),2
+('ketchup', 'napkins'),1
+('flower (seeds)', 'pork'),1
+('frozen potato products', 'rice'),1
+('flower (seeds)', 'frozen potato products'),1
+('flower (seeds)', 'rice'),1
+('abrasive cleaner', 'root vegetables'),1
+('abrasive cleaner', 'whole milk'),2
+('abrasive cleaner', 'bottled water'),1
+('finished products', 'pet care'),2
+('mustard', 'pasta'),1
+('ketchup', 'pasta'),1
+('ketchup', 'mustard'),1
+('domestic eggs', 'turkey'),1
+('detergent', 'shopping bags'),1
+('shopping bags', 'softener'),1
+('rolls/buns', 'soups'),1
+('berries', 'hard cheese'),3
+('pickled vegetables', 'pork'),2
+('chicken', 'soft cheese'),2
+('red/blush wine', 'specialty bar'),1
+('roll products', 'semi-finished bread'),1
+('potted plants', 'soda'),2
+('long life bakery product', 'soft cheese'),1
+('cat food', 'condensed milk'),1
+('dog food', 'rolls/buns'),2
+('butter', 'cake bar'),1
+('cake bar', 'frozen vegetables'),1
+('cake bar', 'margarine'),1
+('beverages', 'packaged fruit/vegetables'),1
+('frozen potato products', 'shopping bags'),1
+('UHT-milk', 'white bread'),3
+('specialty fat', 'whipped/sour cream'),1
+('specialty fat', 'waffles'),1
+('specialty chocolate', 'specialty fat'),1
+('popcorn', 'zwieback'),1
+('popcorn', 'waffles'),1
+('bottled beer', 'detergent'),1
+('detergent', 'salty snack'),1
+('cat food', 'roll products'),1
+('roll products', 'shopping bags'),1
+('mustard', 'spread cheese'),1
+('chicken', 'salty snack'),2
+('bottled beer', 'packaged fruit/vegetables'),1
+('frozen fish', 'oil'),1
+('onions', 'potted plants'),1
+('cereals', 'ice cream'),1
+('cereals', 'chewing gum'),1
+('ice cream', 'potted plants'),1
+('liquor', 'liquor (appetizer)'),2
+('liquor', 'long life bakery product'),2
+('liquor (appetizer)', 'long life bakery product'),3
+('detergent', 'flower (seeds)'),2
+('coffee', 'sliced cheese'),2
+('bottled water', 'flower (seeds)'),1
+('dessert', 'finished products'),1
+('soap', 'specialty cheese'),1
+('newspapers', 'semi-finished bread'),2
+('packaged fruit/vegetables', 'turkey'),1
+('butter milk', 'turkey'),1
+('butter milk', 'packaged fruit/vegetables'),1
+('dog food', 'packaged fruit/vegetables'),1
+('beverages', 'chicken'),1
+('beverages', 'spices'),1
+('canned fruit', 'other vegetables'),1
+('canned fruit', 'pastry'),1
+('canned fruit', 'chocolate'),1
+('hamburger meat', 'tea'),1
+('bottled beer', 'hamburger meat'),1
+('pip fruit', 'tea'),1
+('baking powder', 'butter'),2
+('baking powder', 'frozen vegetables'),1
+('frozen potato products', 'seasonal products'),1
+('baking powder', 'oil'),1
+('candy', 'oil'),2
+('baking powder', 'candy'),1
+('abrasive cleaner', 'canned fish'),1
+('abrasive cleaner', 'bottled beer'),1
+('beef', 'roll products'),1
+('canned vegetables', 'female sanitary products'),1
+('misc. beverages', 'specialty bar'),1
+('semi-finished bread', 'sugar'),3
+('frozen dessert', 'vinegar'),1
+('semi-finished bread', 'vinegar'),1
+('dessert', 'flower soil/fertilizer'),1
+('dessert', 'flower (seeds)'),1
+('flower (seeds)', 'flower soil/fertilizer'),1
+('chocolate', 'condensed milk'),1
+('sausage', 'sparkling wine'),1
+('UHT-milk', 'frozen potato products'),2
+('baking powder', 'frozen potato products'),1
+('hygiene articles', 'waffles'),1
+('butter milk', 'white bread'),2
+('butter milk', 'newspapers'),1
+('artif. sweetener', 'frankfurter'),1
+('artif. sweetener', 'dessert'),1
+('frozen dessert', 'softener'),1
+('hard cheese', 'popcorn'),1
+('hard cheese', 'potted plants'),1
+('pastry', 'popcorn'),3
+('popcorn', 'potted plants'),1
+('hygiene articles', 'white bread'),2
+('cake bar', 'chocolate'),1
+('chewing gum', 'margarine'),1
+('chewing gum', 'hygiene articles'),1
+('hygiene articles', 'sweet spreads'),1
+('house keeping products', 'sweet spreads'),1
+('fruit/vegetable juice', 'packaged fruit/vegetables'),1
+('packaged fruit/vegetables', 'salty snack'),1
+('frozen dessert', 'frozen fish'),1
+('flour', 'hygiene articles'),1
+('pastry', 'pickled vegetables'),2
+('canned beer', 'pickled vegetables'),1
+('canned fish', 'nuts/prunes'),1
+('nuts/prunes', 'shopping bags'),1
+('oil', 'pickled vegetables'),2
+('hygiene articles', 'pickled vegetables'),2
+('shopping bags', 'sliced cheese'),2
+('dish cleaner', 'pip fruit'),1
+('candy', 'domestic eggs'),1
+('frankfurter', 'hygiene articles'),1
+('bathroom cleaner', 'curd'),1
+('bathroom cleaner', 'yogurt'),1
+('baking powder', 'margarine'),2
+('light bulbs', 'yogurt'),1
+('chicken', 'specialty bar'),1
+('curd', 'specialty bar'),2
+('candles', 'hamburger meat'),1
+('fish', 'roll products'),1
+('cling film/bags', 'tropical fruit'),1
+('citrus fruit', 'soups'),1
+('salty snack', 'white wine'),2
+('chocolate marshmallow', 'frankfurter'),1
+('beef', 'chocolate marshmallow'),1
+('berries', 'liquor'),1
+('soap', 'whole milk'),3
+('rolls/buns', 'soap'),2
+('beverages', 'salt'),3
+('pork', 'seasonal products'),1
+('sliced cheese', 'sugar'),1
+('candles', 'oil'),1
+('female sanitary products', 'napkins'),1
+('male cosmetics', 'rolls/buns'),1
+('dish cleaner', 'frankfurter'),1
+('dish cleaner', 'white wine'),1
+('beef', 'processed cheese'),2
+('curd', 'red/blush wine'),1
+('frozen meals', 'waffles'),1
+('berries', 'spread cheese'),2
+('condensed milk', 'white bread'),2
+('domestic eggs', 'sweet spreads'),1
+('ketchup', 'pip fruit'),1
+('ketchup', 'rolls/buns'),2
+('Instant food products', 'specialty bar'),1
+('shopping bags', 'spread cheese'),1
+('nuts/prunes', 'waffles'),1
+('frozen dessert', 'grapes'),1
+('canned fish', 'domestic eggs'),1
+('berries', 'chocolate'),1
+('citrus fruit', 'meat spreads'),1
+('meat spreads', 'pickled vegetables'),1
+('pickled vegetables', 'specialty chocolate'),2
+('meat spreads', 'specialty chocolate'),1
+('frozen meals', 'zwieback'),1
+('baking powder', 'vinegar'),1
+('canned fish', 'specialty chocolate'),1
+('rum', 'soda'),3
+('nut snack', 'whole milk'),1
+('nut snack', 'rolls/buns'),1
+('seasonal products', 'white bread'),1
+('curd', 'hard cheese'),4
+('female sanitary products', 'specialty chocolate'),1
+('salty snack', 'specialty chocolate'),5
+('ice cream', 'liquor (appetizer)'),1
+('liquor (appetizer)', 'misc. beverages'),1
+('herbs', 'semi-finished bread'),1
+('chewing gum', 'herbs'),1
+('chewing gum', 'semi-finished bread'),1
+('beef', 'vinegar'),2
+('domestic eggs', 'vinegar'),1
+('ice cream', 'pasta'),1
+('cat food', 'ice cream'),1
+('cat food', 'pasta'),1
+('cat food', 'hard cheese'),1
+('detergent', 'fish'),1
+('detergent', 'white bread'),1
+('detergent', 'napkins'),2
+('canned fish', 'margarine'),1
+('ham', 'sugar'),1
+('male cosmetics', 'soups'),1
+('soda', 'syrup'),2
+('cat food', 'salty snack'),1
+('brown bread', 'spices'),1
+('spices', 'white wine'),2
+('meat', 'seasonal products'),1
+('liquor (appetizer)', 'salty snack'),1
+('organic products', 'softener'),1
+('hygiene articles', 'organic products'),1
+('hygiene articles', 'softener'),1
+('cling film/bags', 'grapes'),1
+('candy', 'soft cheese'),1
+('frozen meals', 'grapes'),2
+('pasta', 'sliced cheese'),1
+('candles', 'root vegetables'),2
+('skin care', 'yogurt'),1
+('butter milk', 'flour'),1
+('brown bread', 'flour'),2
+('specialty bar', 'sugar'),1
+('finished products', 'softener'),1
+('Instant food products', 'pork'),1
+('Instant food products', 'detergent'),1
+('margarine', 'pet care'),1
+('frankfurter', 'rice'),1
+('beef', 'coffee'),2
+('frankfurter', 'seasonal products'),1
+('mustard', 'seasonal products'),1
+('frankfurter', 'spices'),2
+('spices', 'tropical fruit'),4
+('herbs', 'soups'),1
+('berries', 'finished products'),1
+('fruit/vegetable juice', 'ham'),1
+('fruit/vegetable juice', 'hard cheese'),2
+('berries', 'male cosmetics'),1
+('male cosmetics', 'tropical fruit'),1
+('butter', 'male cosmetics'),1
+('grapes', 'margarine'),1
+('grapes', 'specialty fat'),1
+('finished products', 'semi-finished bread'),1
+('rubbing alcohol', 'whole milk'),1
+('butter', 'rubbing alcohol'),1
+('curd', 'rubbing alcohol'),1
+('frozen meals', 'spread cheese'),1
+('canned fish', 'sugar'),1
+('canned fish', 'coffee'),1
+('processed cheese', 'specialty chocolate'),1
+('processed cheese', 'specialty bar'),1
+('curd', 'specialty chocolate'),3
+('fruit/vegetable juice', 'specialty chocolate'),3
+('butter', 'finished products'),2
+('curd', 'finished products'),2
+('grapes', 'red/blush wine'),1
+('grapes', 'long life bakery product'),2
+('flour', 'frozen vegetables'),2
+('bottled beer', 'flour'),1
+('seasonal products', 'turkey'),1
+('bottled water', 'detergent'),2
+('frozen meals', 'mustard'),1
+('baking powder', 'canned beer'),1
+('hamburger meat', 'hygiene articles'),1
+('beef', 'instant coffee'),2
+('bottled beer', 'light bulbs'),1
+('candy', 'cat food'),1
+('canned fish', 'root vegetables'),2
+('brown bread', 'hair spray'),1
+('roll products', 'turkey'),1
+('dishes', 'roll products'),1
+('cake bar', 'detergent'),1
+('frozen potato products', 'ketchup'),1
+('chocolate', 'frozen potato products'),1
+('frozen potato products', 'hygiene articles'),1
+('hygiene articles', 'ketchup'),1
+('chocolate', 'hygiene articles'),1
+('dog food', 'pet care'),1
+('dog food', 'shopping bags'),1
+('frozen potato products', 'specialty fat'),1
+('cake bar', 'sausage'),1
+('beverages', 'snack products'),1
+('pip fruit', 'red/blush wine'),1
+('condensed milk', 'red/blush wine'),1
+('flower (seeds)', 'honey'),1
+('cat food', 'chicken'),1
+('red/blush wine', 'semi-finished bread'),1
+('long life bakery product', 'pasta'),2
+('chocolate', 'pasta'),1
+('butter', 'frozen dessert'),1
+('nut snack', 'yogurt'),1
+('liquor (appetizer)', 'nut snack'),1
+('long life bakery product', 'nut snack'),1
+('brandy', 'liquor'),1
+('brandy', 'long life bakery product'),1
+('frozen potato products', 'turkey'),1
+('soda', 'turkey'),1
+('curd', 'seasonal products'),2
+('curd', 'female sanitary products'),1
+('female sanitary products', 'seasonal products'),1
+('kitchen towels', 'tropical fruit'),1
+('kitchen towels', 'whole milk'),1
+('kitchen towels', 'salty snack'),1
+('nuts/prunes', 'pork'),2
+('processed cheese', 'specialty vegetables'),1
+('beef', 'chewing gum'),1
+('chewing gum', 'soft cheese'),1
+('coffee', 'sauces'),1
+('mayonnaise', 'shopping bags'),2
+('soap', 'tropical fruit'),1
+('coffee', 'soap'),1
+('candy', 'soap'),1
+('canned beer', 'cookware'),1
+('flower (seeds)', 'whole milk'),2
+('sliced cheese', 'spread cheese'),1
+('frankfurter', 'ketchup'),1
+('ketchup', 'soda'),1
+('liquor (appetizer)', 'turkey'),1
+('shopping bags', 'turkey'),1
+('mayonnaise', 'white wine'),1
+('male cosmetics', 'soda'),2
+('male cosmetics', 'specialty chocolate'),1
+('male cosmetics', 'shopping bags'),1
+('baking powder', 'domestic eggs'),2
+('condensed milk', 'sliced cheese'),1
+('hard cheese', 'turkey'),1
+('curd cheese', 'pip fruit'),1
+('UHT-milk', 'curd cheese'),1
+('cooking chocolate', 'domestic eggs'),1
+('cooking chocolate', 'pastry'),1
+('cooking chocolate', 'margarine'),1
+('herbs', 'pickled vegetables'),1
+('berries', 'flour'),2
+('baking powder', 'berries'),1
+('detergent', 'oil'),2
+('instant coffee', 'meat'),1
+('instant coffee', 'tropical fruit'),1
+('soap', 'white bread'),1
+('cocoa drinks', 'pastry'),1
+('cocoa drinks', 'newspapers'),1
+('bottled beer', 'instant coffee'),1
+('cereals', 'pork'),1
+('beef', 'sugar'),3
+('chewing gum', 'syrup'),1
+('newspapers', 'syrup'),1
+('chocolate', 'pet care'),1
+('candy', 'pet care'),1
+('frozen vegetables', 'shopping bags'),2
+('baking powder', 'detergent'),1
+('red/blush wine', 'sparkling wine'),1
+('bottled water', 'brandy'),1
+('bottled water', 'whisky'),1
+('brandy', 'whisky'),2
+('canned fish', 'dessert'),1
+('bottled beer', 'brandy'),4
+('bottled beer', 'whisky'),1
+('brandy', 'chocolate'),1
+('chocolate', 'whisky'),1
+('chocolate', 'liquor'),1
+('liquor', 'specialty chocolate'),1
+('chocolate', 'nuts/prunes'),1
+('liqueur', 'other vegetables'),1
+('ice cream', 'liqueur'),1
+('liqueur', 'oil'),1
+('root vegetables', 'spices'),1
+('kitchen towels', 'root vegetables'),1
+('kitchen towels', 'spices'),1
+('curd cheese', 'frozen meals'),1
+('beverages', 'grapes'),1
+('canned fish', 'packaged fruit/vegetables'),1
+('domestic eggs', 'soups'),1
+('flour', 'soups'),1
+('candles', 'shopping bags'),1
+('popcorn', 'specialty chocolate'),1
+('dog food', 'frozen meals'),1
+('margarine', 'vinegar'),1
+('butter', 'long life bakery product'),1
+('butter', 'shopping bags'),1
+('flour', 'hamburger meat'),1
+('flour', 'hard cheese'),1
+('butter milk', 'napkins'),1
+('ketchup', 'tropical fruit'),1
+('ketchup', 'shopping bags'),1
+('meat', 'nuts/prunes'),1
+('canned beer', 'nuts/prunes'),1
+('beef', 'waffles'),2
+('soft cheese', 'specialty cheese'),1
+('margarine', 'soft cheese'),2
+('margarine', 'specialty cheese'),1
+('cocoa drinks', 'shopping bags'),1
+('dish cleaner', 'yogurt'),1
+('candles', 'dish cleaner'),1
+('margarine', 'waffles'),1
+('ice cream', 'specialty bar'),2
+('hard cheese', 'spread cheese'),2
+('canned beer', 'spread cheese'),1
+('red/blush wine', 'spread cheese'),1
+('brown bread', 'red/blush wine'),2
+('mayonnaise', 'whipped/sour cream'),1
+('cat food', 'dog food'),1
+('brown bread', 'sparkling wine'),1
+('hamburger meat', 'napkins'),1
+('condensed milk', 'newspapers'),2
+('male cosmetics', 'napkins'),1
+('prosecco', 'specialty bar'),1
+('prosecco', 'shopping bags'),1
+('cling film/bags', 'frankfurter'),1
+('cling film/bags', 'rolls/buns'),1
+('berries', 'specialty cheese'),1
+('roll products', 'yogurt'),1
+('coffee', 'salt'),1
+('salt', 'specialty bar'),1
+('dog food', 'onions'),1
+('candy', 'hygiene articles'),1
+('liquor (appetizer)', 'newspapers'),2
+('canned fish', 'white bread'),1
+('canned vegetables', 'onions'),1
+('baking powder', 'soft cheese'),1
+('baking powder', 'hard cheese'),1
+('bottled beer', 'seasonal products'),2
+('artif. sweetener', 'coffee'),1
+('misc. beverages', 'pet care'),2
+('liquor', 'waffles'),1
+('red/blush wine', 'waffles'),2
+('coffee', 'syrup'),1
+('spread cheese', 'white wine'),1
+('cling film/bags', 'root vegetables'),1
+('coffee', 'rice'),1
+('rice', 'specialty chocolate'),1
+('coffee', 'specialty chocolate'),2
+('newspapers', 'onions'),1
+('chicken', 'chocolate'),2
+('chicken', 'chocolate marshmallow'),1
+('chocolate', 'frozen vegetables'),1
+('chocolate marshmallow', 'frozen vegetables'),1
+('canned fish', 'chocolate'),1
+('butter milk', 'spices'),1
+('chocolate', 'herbs'),1
+('root vegetables', 'seasonal products'),1
+('dessert', 'popcorn'),1
+('misc. beverages', 'popcorn'),1
+('fruit/vegetable juice', 'popcorn'),1
+('female sanitary products', 'rolls/buns'),1
+('popcorn', 'soda'),2
+('beef', 'long life bakery product'),1
+('softener', 'tropical fruit'),1
+('pip fruit', 'softener'),1
+('frozen meals', 'softener'),1
+('frankfurter', 'pasta'),2
+('butter', 'frozen potato products'),1
+('condensed milk', 'meat'),1
+('detergent', 'dog food'),1
+('dog food', 'hygiene articles'),1
+('dog food', 'napkins'),1
+('organic sausage', 'pork'),1
+('curd', 'organic sausage'),1
+('flour', 'vinegar'),1
+('coffee', 'processed cheese'),1
+('photo/film', 'pip fruit'),1
+('margarine', 'photo/film'),1
+('pip fruit', 'skin care'),1
+('frankfurter', 'liquor (appetizer)'),1
+('liquor (appetizer)', 'napkins'),1
+('organic sausage', 'packaged fruit/vegetables'),1
+('beverages', 'frozen fish'),1
+('frozen fish', 'salt'),1
+('liver loaf', 'newspapers'),1
+('grapes', 'hair spray'),1
+('hair spray', 'pastry'),1
+('coffee', 'hair spray'),1
+('flower (seeds)', 'frozen vegetables'),1
+('chicken', 'pasta'),1
+('butter', 'specialty bar'),2
+('cream cheese', 'soft cheese'),1
+('cat food', 'frozen vegetables'),1
+('dog food', 'newspapers'),1
+('baking powder', 'misc. beverages'),1
+('cream cheese', 'dental care'),1
+('cocoa drinks', 'jam'),1
+('jam', 'soda'),1
+('cocoa drinks', 'soda'),1
+('canned fish', 'pet care'),1
+('frankfurter', 'misc. beverages'),1
+('tea', 'yogurt'),1
+('hygiene articles', 'tea'),1
+('beverages', 'chewing gum'),1
+('cookware', 'sausage'),1
+('cookware', 'rolls/buns'),1
+('chocolate marshmallow', 'pasta'),1
+('cake bar', 'sauces'),1
+('chocolate marshmallow', 'sauces'),1
+('potted plants', 'waffles'),1
+('cereals', 'tropical fruit'),1
+('butter milk', 'cereals'),1
+('brown bread', 'semi-finished bread'),2
+('dog food', 'semi-finished bread'),1
+('butter', 'spices'),1
+('grapes', 'liquor (appetizer)'),1
+('liquor (appetizer)', 'waffles'),1
+('brandy', 'nuts/prunes'),1
+('cleaner', 'soda'),2
+('curd', 'dishes'),1
+('frozen dessert', 'oil'),1
+('cleaner', 'rolls/buns'),1
+('frozen vegetables', 'seasonal products'),2
+('hygiene articles', 'seasonal products'),1
+('hamburger meat', 'rum'),2
+('potted plants', 'rum'),1
+('meat', 'mustard'),1
+('sauces', 'sausage'),2
+('Instant food products', 'frankfurter'),1
+('Instant food products', 'sausage'),1
+('candles', 'ice cream'),1
+('candles', 'white bread'),1
+('dishes', 'tropical fruit'),1
+('ice cream', 'processed cheese'),1
+('organic sausage', 'soda'),2
+('chewing gum', 'curd'),1
+('dog food', 'liquor'),1
+('dish cleaner', 'dog food'),1
+('bottled water', 'dish cleaner'),1
+('dish cleaner', 'liquor'),1
+('cake bar', 'yogurt'),1
+('white bread', 'white wine'),1
+('meat', 'napkins'),1
+('prosecco', 'soft cheese'),1
+('spices', 'white bread'),1
+('Instant food products', 'white bread'),2
+('Instant food products', 'spices'),1
+('brandy', 'tropical fruit'),1
+('bottled beer', 'frozen dessert'),1
+('baking powder', 'newspapers'),2
+('bottled beer', 'whipped/sour cream'),1
+('candles', 'newspapers'),1
+('ham', 'napkins'),2
+('grapes', 'napkins'),1
+('canned fish', 'cream cheese'),1
+('chicken', 'curd cheese'),1
+('fruit/vegetable juice', 'semi-finished bread'),1
+('grapes', 'seasonal products'),1
+('ice cream', 'liver loaf'),1
+('hamburger meat', 'specialty vegetables'),1
+('specialty vegetables', 'white bread'),1
+('pasta', 'specialty vegetables'),1
+('pip fruit', 'soups'),2
+('semi-finished bread', 'soups'),1
+('meat', 'vinegar'),1
+('tropical fruit', 'vinegar'),2
+('spices', 'vinegar'),1
+('UHT-milk', 'candy'),1
+('finished products', 'salty snack'),2
+('ham', 'semi-finished bread'),2
+('canned fish', 'fruit/vegetable juice'),1
+('canned fish', 'make up remover'),1
+('fruit/vegetable juice', 'make up remover'),1
+('mayonnaise', 'tidbits'),1
+('bottled water', 'mayonnaise'),1
+('bottled water', 'tidbits'),1
+('candy', 'ham'),1
+('candy', 'white bread'),1
+('mustard', 'organic sausage'),1
+('organic sausage', 'ready soups'),1
+('mustard', 'ready soups'),1
+('ready soups', 'soda'),1
+('canned beer', 'hard cheese'),1
+('house keeping products', 'rolls/buns'),1
+('house keeping products', 'light bulbs'),1
+('instant coffee', 'semi-finished bread'),1
+('chicken', 'instant coffee'),1
+('beverages', 'popcorn'),1
+('fruit/vegetable juice', 'rice'),1
+('flour', 'salty snack'),1
+('jam', 'newspapers'),1
+('cat food', 'frozen meals'),1
+('frozen meals', 'hair spray'),1
+('cat food', 'hair spray'),1
+('processed cheese', 'shopping bags'),1
+('grapes', 'popcorn'),1
+('dessert', 'margarine'),4
+('cream cheese', 'long life bakery product'),1
+('yogurt', 'zwieback'),1
+('grapes', 'misc. beverages'),1
+('frankfurter', 'syrup'),1
+('frozen fish', 'frozen fruits'),1
+('finished products', 'fish'),1
+('grapes', 'rum'),1
+('butter', 'rum'),1
+('red/blush wine', 'rum'),1
+('butter', 'flower (seeds)'),1
+('chocolate marshmallow', 'sausage'),1
+('beef', 'oil'),2
+('beef', 'sparkling wine'),1
+('coffee', 'oil'),2
+('oil', 'sparkling wine'),1
+('chocolate marshmallow', 'pip fruit'),1
+('pip fruit', 'specialty bar'),1
+('ice cream', 'sliced cheese'),1
+('liquor', 'nuts/prunes'),1
+('beverages', 'canned beer'),1
+('grapes', 'rice'),1
+('bottled water', 'frozen fish'),1
+('canned fish', 'salt'),1
+('butter milk', 'pickled vegetables'),1
+('cereals', 'yogurt'),1
+('cereals', 'specialty bar'),1
+('chocolate marshmallow', 'cream cheese'),1
+('brown bread', 'frozen fish'),2
+('frozen fish', 'rum'),1
+('brown bread', 'rum'),1
+('canned beer', 'rum'),1
+('frozen fish', 'liquor (appetizer)'),1
+('domestic eggs', 'liquor (appetizer)'),1
+('canned beer', 'chocolate marshmallow'),1
+('chocolate marshmallow', 'liquor (appetizer)'),1
+('semi-finished bread', 'soft cheese'),1
+('butter milk', 'canned beer'),1
+('grapes', 'newspapers'),1
+('dish cleaner', 'grapes'),1
+('dish cleaner', 'other vegetables'),1
+('dish cleaner', 'pastry'),1
+('canned beer', 'snack products'),1
+('frozen vegetables', 'pasta'),1
+('baking powder', 'flower (seeds)'),1
+('flower (seeds)', 'newspapers'),1
+('dessert', 'salt'),1
+('long life bakery product', 'white wine'),2
+('abrasive cleaner', 'yogurt'),1
+('butter milk', 'hamburger meat'),1
+('chewing gum', 'pickled vegetables'),1
+('sausage', 'soups'),1
+('UHT-milk', 'soups'),1
+('male cosmetics', 'pork'),1
+('fish', 'meat'),1
+('sauces', 'waffles'),1
+('newspapers', 'sauces'),1
+('photo/film', 'yogurt'),1
+('long life bakery product', 'photo/film'),1
+('photo/film', 'potted plants'),1
+('nuts/prunes', 'turkey'),1
+('house keeping products', 'liquor'),1
+('house keeping products', 'shopping bags'),1
+('sausage', 'specialty vegetables'),1
+('grapes', 'specialty vegetables'),1
+('baking powder', 'specialty vegetables'),1
+('dog food', 'frozen vegetables'),1
+('citrus fruit', 'vinegar'),1
+('cream cheese', 'vinegar'),1
+('butter', 'tidbits'),1
+('sliced cheese', 'tidbits'),1
+('skin care', 'whipped/sour cream'),1
+('dog food', 'skin care'),1
+('fruit/vegetable juice', 'skin care'),1
+('butter', 'soap'),1
+('bottled water', 'soap'),1
+('detergent', 'soap'),1
+('ham', 'salty snack'),1
+('newspapers', 'roll products'),1
+('chewing gum', 'zwieback'),1
+('baking powder', 'specialty cheese'),1
+('specialty cheese', 'waffles'),1
+('chocolate', 'specialty cheese'),2
+('butter milk', 'condensed milk'),1
+('napkins', 'red/blush wine'),1
+('organic products', 'sausage'),1
+('organic products', 'specialty chocolate'),1
+('pickled vegetables', 'specialty bar'),1
+('dental care', 'pickled vegetables'),1
+('dental care', 'specialty bar'),1
+('cereals', 'curd'),1
+('liver loaf', 'salty snack'),1
+('cake bar', 'liver loaf'),1
+('cake bar', 'root vegetables'),1
+('cooking chocolate', 'other vegetables'),1
+('cooking chocolate', 'rolls/buns'),1
+('cooking chocolate', 'fruit/vegetable juice'),1
+('candles', 'napkins'),1
+('sausage', 'zwieback'),1
+('candy', 'yogurt'),1
+('brown bread', 'dishes'),1
+('brandy', 'yogurt'),1
+('Instant food products', 'pasta'),1
+('bottled beer', 'specialty chocolate'),3
+('brandy', 'specialty chocolate'),2
+('brandy', 'skin care'),1
+('skin care', 'specialty chocolate'),1
+('sauces', 'yogurt'),1
+('margarine', 'sauces'),1
+('dishes', 'soap'),1
+('frozen meals', 'liver loaf'),1
+('frozen fish', 'semi-finished bread'),1
+('salty snack', 'semi-finished bread'),1
+('frankfurter', 'light bulbs'),1
+('Instant food products', 'cream cheese'),1
+('Instant food products', 'fruit/vegetable juice'),1
+('onions', 'salty snack'),2
+('hard cheese', 'misc. beverages'),1
+('specialty bar', 'specialty cheese'),1
+('pastry', 'roll products'),1
+('hard cheese', 'nuts/prunes'),1
+('nuts/prunes', 'processed cheese'),1
+('cream cheese', 'newspapers'),1
+('mayonnaise', 'semi-finished bread'),1
+('oil', 'popcorn'),1
+('artif. sweetener', 'fruit/vegetable juice'),1
+('artif. sweetener', 'shopping bags'),1
+('bottled water', 'chocolate marshmallow'),1
+('citrus fruit', 'nuts/prunes'),1
+('nuts/prunes', 'white bread'),1
+('bottled beer', 'tidbits'),1
+('dishes', 'hamburger meat'),1
+('condensed milk', 'ice cream'),1
+('frozen meals', 'nuts/prunes'),1
+('citrus fruit', 'house keeping products'),2
+('house keeping products', 'pip fruit'),1
+('berries', 'house keeping products'),1
+('cake bar', 'dessert'),1
+('coffee', 'ketchup'),1
+('sweet spreads', 'whipped/sour cream'),1
+('fruit/vegetable juice', 'nuts/prunes'),1
+('nuts/prunes', 'specialty chocolate'),1
+('pet care', 'spread cheese'),1
+('chicken', 'rice'),2
+('cream cheese', 'rice'),1
+('canned fish', 'napkins'),1
+('curd cheese', 'root vegetables'),1
+('curd cheese', 'processed cheese'),1
+('grapes', 'herbs'),1
+('canned vegetables', 'ham'),1
+('canned vegetables', 'sliced cheese'),1
+('hygiene articles', 'jam'),1
+('sausage', 'vinegar'),1
+('butter', 'vinegar'),1
+('hygiene articles', 'specialty bar'),1
+('butter milk', 'frozen dessert'),1
+('frozen dessert', 'shopping bags'),1
+('instant coffee', 'misc. beverages'),1
+('pip fruit', 'spread cheese'),1
+('liquor', 'rum'),1
+('seasonal products', 'semi-finished bread'),1
+('condensed milk', 'frozen dessert'),1
+('butter milk', 'photo/film'),1
+('canned fruit', 'curd'),1
+('brown bread', 'canned fruit'),1
+('tidbits', 'tropical fruit'),1
+('dessert', 'tidbits'),1
+('pastry', 'tidbits'),1
+('ham', 'sauces'),1
+('house keeping products', 'pastry'),1
+('cake bar', 'cream'),1
+('brown bread', 'vinegar'),1
+('canned vegetables', 'specialty chocolate'),1
+('chewing gum', 'rum'),1
+('finished products', 'pasta'),1
+('dental care', 'liquor (appetizer)'),1
+('beef', 'canned vegetables'),1
+('chicken', 'softener'),1
+('citrus fruit', 'curd cheese'),1
+('abrasive cleaner', 'citrus fruit'),1
+('curd cheese', 'house keeping products'),1
+('abrasive cleaner', 'house keeping products'),1
+('chewing gum', 'pork'),1
+('red/blush wine', 'sliced cheese'),1
+('Instant food products', 'meat'),1
+('long life bakery product', 'specialty bar'),1
+('butter', 'pickled vegetables'),1
