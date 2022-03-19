@@ -42,6 +42,12 @@ def task_b(rdd_a):
 def task_c(rdd_b):
     return rdd_b
 
+def get_rdd(spark, csv_file):
+    rdd_a = task_a(spark, csv_file)
+    rdd_b = task_b(rdd_a)
+    rdd_c = task_c(rdd_b)
+    return rdd_c
+
 if __name__ == "__main__":
     # print(reg_split('66.249.66.194 - - [22/Jan/2019:03:56:20 +0330] "GET /m/filter/b2,p6 HTTP/1.1" 200 19451 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "-"'))
 
@@ -52,7 +58,6 @@ if __name__ == "__main__":
     .getOrCreate()  
     
     csv_file = 'small.log'
-    rdd_a = task_a(spark, csv_file)
-    rdd_b = task_b(rdd_a)
-    print(rdd_b.collect())
+    rdd_c = get_rdd(spark, csv_file)
+    print(rdd_c.collect())
 
