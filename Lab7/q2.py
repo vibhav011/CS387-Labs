@@ -15,7 +15,7 @@ def reg_split(x):
         x = x.strip()
         # print(x)
         rm = re.findall(r'"(.*?)"', x)[0]
-        x = re.sub(r'"(.*?)"', '', x, 1)
+        x = re.sub(r'\"(.*?)\"', '', x, 1)
         x = x.strip()
         # print(x)
         rc = re.findall(r'\s*(.*?)\s+', x)[0]
@@ -28,7 +28,35 @@ def reg_split(x):
         return [None, None, None, None, None]
 
 def clean(x):
-    print(x)
+    host_pattern = re.compile("\d+\.\d+\.\d+.\d+")
+    if not host_pattern.match(x[0]):
+        # print("host not matching")
+        return 1
+    
+    # print(x[1])
+    time_pattern = re.compile("\[\d\d/[A-Z][a-z][a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]")
+    # print(re.findall("\[\d\d/[A-Z][a-z][a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]",x[1]))
+    if not time_pattern.match(x[1]):
+        # print("time not matching")
+        return 1
+    
+    method_pattern = re.compile(r"\bGET\b|\bPOST\b|\bPUT\b|\bPATCH\b|\bDELETE\b .*")
+    # print(x[2])
+    # print(re.findall(r"\bGET\b|\bPOST\b|\bPUT\b|\bPATCH\b|\bDELETE\b .*", x[2]))
+    if not method_pattern.match(x[2]):
+        # print("method not matching")
+        return 1
+
+    response_pattern = re.compile(r"[1 2 3 4 5]\d\d")
+    if not response_pattern.match(x[3]):
+        # print("response not matching")
+        return 1
+    
+    length_pattern = re.compile("\d+")
+    if not length_pattern.match(x[4]):
+        #print("length not matching")
+        return 1
+    
     return 0
 
 def task_a(spark, csv_file):
@@ -44,7 +72,10 @@ def task_b(rdd_a):
     return rdd
 
 def task_c(rdd_b):
-    rdd_c = rdd_b.map(lambda x: clean(x))
+    rdd_temp = rdd_b.map(lambda x: clean(x))
+    bad_count = rdd_temp.reduce(lambda x,y: x+y)
+    rdd_c = rdd_b.filter(lambda x: not clean(x))
+    print("Number of bad Rows : ", bad_count)
     return rdd_c
 
 
@@ -63,7 +94,5 @@ if __name__ == "__main__":
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()  
 
-    csv_file = 'small.text'
+    csv_file = 'archive/access.log'
     rdd_c = get_rdd(spark, csv_file)
-    print(rdd_c.collect())
-
