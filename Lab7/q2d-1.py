@@ -20,7 +20,7 @@ def part_b(df):
 
 
 def part_c(df):
-    pass
+    
 
 def part_d(df):
     pass

@@ -28,19 +28,19 @@ def reg_split(x):
         return [None, None, None, None, None]
 
 def clean(x):
-    host_pattern = re.compile("\d+\.\d+\.\d+.\d+")
+    host_pattern = re.compile("\d{1,3}\.\d{1,3}\.\d{1,3}.\d{1,3}")
     if not host_pattern.match(x[0]):
         # print("host not matching")
         return 1
     
     # print(x[1])
-    time_pattern = re.compile("\[\d\d/[A-Z][a-z][a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]")
+    time_pattern = re.compile("\[\d\d/[A-Z a-z][A-Z a-z][A-Z a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]")
     # print(re.findall("\[\d\d/[A-Z][a-z][a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]",x[1]))
     if not time_pattern.match(x[1]):
         # print("time not matching")
         return 1
     
-    method_pattern = re.compile(r"\bGET\b|\bPOST\b|\bPUT\b|\bPATCH\b|\bDELETE\b .*")
+    method_pattern = re.compile(r"[A-Z]* .*")
     # print(x[2])
     # print(re.findall(r"\bGET\b|\bPOST\b|\bPUT\b|\bPATCH\b|\bDELETE\b .*", x[2]))
     if not method_pattern.match(x[2]):
