@@ -20,10 +20,14 @@ def part_b(df):
 
 
 def part_c(df):
-    
+    print("Frequent Hosts:")
+    df.groupBy("Remote Host").count().show()
+    return
 
 def part_d(df):
-    pass
+    print("Unique hosts:")
+    print(df.groupBy("Remote Host").count().count())
+    return
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
