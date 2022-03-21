@@ -1,8 +1,8 @@
 from pyspark.sql import *
 from pyspark.sql.functions import *
-from pyspark.sql.types import IntegerType
+from pyspark.sql.types import IntegerType, StringType
 import matplotlib.pyplot as plt
-import re, os
+import re, os, time
 
 def reg_split(x):
     try:
@@ -92,7 +92,7 @@ def get_rdd(spark, csv_file):
 def part_a(df):
     with open('task-d/a.txt', 'w') as f:
         f.write("HTTP status analysis:\n")
-        f.write(df.groupBy("Response Code").count().toPandas().to_string(index=False))
+        f.write(df.groupBy("Response Code").count().cache().toPandas().to_string(index=False))
         
 def part_b(df):
     df_temp = df.groupBy("Response Code").count().toPandas()
@@ -103,7 +103,7 @@ def part_b(df):
 def part_c(df):
     with open('task-d/c.txt', 'w') as f:
         f.write("Frequent Hosts:\n")
-        f.write(df.groupBy("Remote Host").count().toPandas().to_string(index=False))
+        f.write(df.groupBy("Remote Host").count().cache().toPandas().to_string(index=False))
 
 def part_d(df):
     with open('task-d/d.txt', 'w') as f:
@@ -117,7 +117,7 @@ def changeFormat(x):
 
 def part_e(df, to_print=True):
     df = df.withColumn("Request Timestamp", df['Request Timestamp'].substr(2, 11)) \
-        .groupBy("Request Timestamp").agg(countDistinct("Remote Host")).toPandas()
+        .groupBy("Request Timestamp").cache().agg(countDistinct("Remote Host")).toPandas()
     
     df.rename(columns = {'Request Timestamp':'day', 'count(Remote Host)':'hosts'}, inplace = True)
     
@@ -138,7 +138,7 @@ def part_f(df):
     fig.savefig("task-d/f.jpg")
 
 def part_g(df):
-    df = df.filter(df['Response Code'] >= 400).groupBy('Remote Host').count().toPandas().sort_values('count', ascending=False).head(5)
+    df = df.filter(df['Response Code'] >= 400).groupBy('Remote Host').count().cache().toPandas().sort_values('count', ascending=False).head(5)
     with open("task-d/g.txt", "w") as f:
         f.write("Failed HTTP Clients:\n")
         f.write(df[['Remote Host']].to_string(index=False, header=False))
@@ -160,7 +160,7 @@ def part_i(df):
     w = Window.partitionBy("day").orderBy(col("count").desc())
 
     df = df.withColumn("day", df['Request Timestamp'].substr(2, 11)) \
-           .withColumn("hour", format_string("%s:00",df['Request Timestamp'].substr(14, 2))) \
+           .withColumn("hour", format_string("%02d:00",df['Request Timestamp'].substr(14, 2).cast(IntegerType())+1)) \
            .groupBy("day", "hour").count().withColumn("row",row_number().over(w))\
            .filter(col("row") == 1).drop("row").toPandas()
     
@@ -185,7 +185,7 @@ def part_j(df):
 
 if __name__ == "__main__":
     # print(reg_split('66.249.66.194 - - [22/Jan/2019:03:56:20 +0330] "GET /m/filter/b2,p6 HTTP/1.1" 200 19451 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "-"'))
-
+    t1 = time.time()
     spark = SparkSession \
     .builder \
     .appName("PySpark create RDD example") \
@@ -197,15 +197,20 @@ if __name__ == "__main__":
     rdd_c = get_rdd(spark, csv_file)
 
     df = rdd_c.toDF()
+    t2 = time.time()
+    print(t2-t1)
     if not os.path.exists('task-d'):
         os.makedirs('task-d')
     part_a(df)
+    t3 = time.time()
+    print(t3-t2)
     part_b(df)
-    part_c(df)
-    part_d(df)
-    part_e(df)
-    part_f(df)
-    part_g(df)
-    part_h(df)
-    part_i(df)
-    part_j(df)
+    # part_c(df)
+    # part_d(df)
+    # part_e(df)
+    # part_f(df)
+    # part_g(df)
+    # part_h(df)
+    # part_i(df)
+    # part_j(df)
+    print(time.time()-t3)
