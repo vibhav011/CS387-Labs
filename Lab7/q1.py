@@ -32,7 +32,7 @@ rdd21 = rdd1.map(lambda x: (x,1))
 rdd2 = rdd21.reduceByKey(lambda x,y: x+y)
 
 lines = rdd2.map(toCSVLine)
-lines.saveAsTextFile('./count.csv')
+lines.toDF().toPandas().to_csv('./count.csv')
 top5_lst = rdd2.top(5, key=val)
 
 for pair_counts in top5_lst:

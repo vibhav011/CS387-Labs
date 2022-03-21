@@ -40,7 +40,7 @@ def clean(x):
         # print("time not matching")
         return 1
     
-    method_pattern = re.compile(r"[A-Z]* .*")
+    method_pattern = re.compile(r"[A-Z]+ .*")
     # print(x[2])
     # print(re.findall(r"\bGET\b|\bPOST\b|\bPUT\b|\bPATCH\b|\bDELETE\b .*", x[2]))
     if not method_pattern.match(x[2]):
