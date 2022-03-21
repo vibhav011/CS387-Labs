@@ -1,5 +1,6 @@
 import argparse
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import *
 # importing pandas library
 import pandas as pd
 # importing matplotlib library
@@ -7,27 +8,25 @@ import matplotlib.pyplot as plt
 from q2 import get_rdd
 
 def part_a(df):
-    print(df.groupBy("Response Code").count().show())
-    return
-
+    with open('task-d/a.txt', 'w') as f:
+        f.write("HTTP status analysis:\n")
+        f.write(df.groupBy("Response Code").count().toPandas().to_string(index=False))
+        
 def part_b(df):
     df_temp = df.groupBy("Response Code").count().toPandas()
     tot = df.count()
-    print(df_temp)
-
     plt.pie(df_temp["count"]/tot, labels=df_temp["Response Code"], autopct='%.1f')
-    plt.show()
-
+    plt.savefig('task-d/b.jpg')
 
 def part_c(df):
-    print("Frequent Hosts:")
-    df.groupBy("Remote Host").count().show()
-    return
+    with open('task-d/c.txt', 'w') as f:
+        f.write("Frequent Hosts:\n")
+        f.write(df.groupBy("Remote Host").count().toPandas().to_string(index=False))
 
 def part_d(df):
-    print("Unique hosts:")
-    print(df.groupBy("Remote Host").count().count())
-    return
+    with open('task-d/d.txt', 'w') as f:
+        f.write("Unique hosts:\n")
+        f.write(df.agg(countDistinct("Remote Host")).toPandas().to_string(index=False))
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -51,4 +50,9 @@ if __name__ == "__main__":
     elif args.part == 'c':
         part_c(df)
     elif args.part == 'd':
+        part_d(df)
+    elif args.part == 'all':
+        part_a(df)
+        part_b(df)
+        part_c(df)
         part_d(df)
