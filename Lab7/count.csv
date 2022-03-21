@@ -1,0 +1,56 @@
+Item1,Item2,Count
+citrus fruit,semi-finished bread,1
+citrus fruit,margarine,1
+margarine,semi-finished bread,1
+tropical fruit,yogurt,2
+pip fruit,yogurt,1
+cream cheese,pip fruit,1
+cream cheese,yogurt,1
+other vegetables,whole milk,1
+condensed milk,other vegetables,1
+condensed milk,whole milk,1
+butter,whole milk,2
+whole milk,yogurt,2
+rice,whole milk,1
+butter,yogurt,2
+butter,rice,1
+rice,yogurt,1
+UHT-milk,other vegetables,1
+other vegetables,rolls/buns,1
+bottled beer,other vegetables,1
+UHT-milk,rolls/buns,1
+UHT-milk,bottled beer,1
+bottled beer,rolls/buns,1
+other vegetables,tropical fruit,1
+tropical fruit,white bread,1
+bottled water,tropical fruit,2
+other vegetables,white bread,1
+bottled water,other vegetables,1
+bottled water,white bread,1
+citrus fruit,tropical fruit,1
+citrus fruit,whole milk,1
+butter,citrus fruit,1
+citrus fruit,curd,1
+citrus fruit,yogurt,1
+citrus fruit,flour,1
+bottled water,citrus fruit,1
+tropical fruit,whole milk,1
+butter,tropical fruit,1
+curd,tropical fruit,1
+flour,tropical fruit,1
+curd,whole milk,1
+flour,whole milk,1
+bottled water,whole milk,1
+butter,curd,1
+butter,flour,1
+bottled water,butter,1
+curd,yogurt,1
+curd,flour,1
+bottled water,curd,1
+flour,yogurt,1
+bottled water,yogurt,1
+bottled water,flour,1
+frankfurter,rolls/buns,1
+butter,sugar,1
+butter,fruit/vegetable juice,1
+fruit/vegetable juice,sugar,1
