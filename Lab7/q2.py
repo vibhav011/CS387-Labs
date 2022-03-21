@@ -69,6 +69,7 @@ def task_a(spark, csv_file):
 def task_b(rdd_a):
     rdd = rdd_a.map(lambda x: reg_split(x.value))
     cols = ['Remote Host', 'Request Timestamp', 'Request Method', 'Response Code', 'Response Length']
+    # print(rdd.top(5))
     df  = rdd.toDF(cols)
     rdd = df.rdd
     return rdd
@@ -92,19 +93,18 @@ def get_rdd(spark, csv_file):
 def part_a(df):
     with open('task-d/a.txt', 'w') as f:
         f.write("HTTP status analysis:\n")
-        df.cache()
-        f.write(df.groupBy("Response Code").count().cache().toPandas().to_string(index=False))
+        f.write(df.groupBy("Response Code").count().toPandas().sort_values("Response Code").to_string(index=False))
         
 def part_b(df):
-    df_temp = df.groupBy("Response Code").count().toPandas()
-    tot = df.count()
+    df_temp = df.groupBy("Response Code").count().toPandas().sort_values('count', ascending=False).head(5)
+    tot = df_temp.agg({'count': 'sum'}).to_dict()['count']
     plt.pie(df_temp["count"]/tot, labels=df_temp["Response Code"], autopct='%.1f')
     plt.savefig('task-d/b.jpg')
 
 def part_c(df):
     with open('task-d/c.txt', 'w') as f:
         f.write("Frequent Hosts:\n")
-        f.write(df.groupBy("Remote Host").count().cache().toPandas().to_string(index=False))
+        f.write(df.groupBy("Remote Host").count().toPandas().to_string(index=False))
 
 def part_d(df):
     with open('task-d/d.txt', 'w') as f:
@@ -118,7 +118,7 @@ def changeFormat(x):
 
 def part_e(df, to_print=True):
     df = df.withColumn("Request Timestamp", df['Request Timestamp'].substr(2, 11)) \
-        .groupBy("Request Timestamp").cache().agg(countDistinct("Remote Host")).toPandas()
+        .groupBy("Request Timestamp").agg(countDistinct("Remote Host")).toPandas()
     
     df.rename(columns = {'Request Timestamp':'day', 'count(Remote Host)':'hosts'}, inplace = True)
     
@@ -139,7 +139,7 @@ def part_f(df):
     fig.savefig("task-d/f.jpg")
 
 def part_g(df):
-    df = df.filter(df['Response Code'] >= 400).groupBy('Remote Host').count().cache().toPandas().sort_values('count', ascending=False).head(5)
+    df = df.filter(df['Response Code'] >= 400).groupBy('Remote Host').count().toPandas().sort_values('count', ascending=False).head(5)
     with open("task-d/g.txt", "w") as f:
         f.write("Failed HTTP Clients:\n")
         f.write(df[['Remote Host']].to_string(index=False, header=False))
@@ -186,25 +186,22 @@ def part_j(df):
 
 if __name__ == "__main__":
     # print(reg_split('66.249.66.194 - - [22/Jan/2019:03:56:20 +0330] "GET /m/filter/b2,p6 HTTP/1.1" 200 19451 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "-"'))
-    t1 = time.time()
     spark = SparkSession \
     .builder \
     .appName("PySpark create RDD example") \
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()  
 
-    csv_file = 'access.log'
-    # csv_file = '/Users/vibhavaggarwal/Downloads/access.log'
+    csv_file = './access.log'
     rdd_c = get_rdd(spark, csv_file)
 
     df = rdd_c.toDF()
-    t2 = time.time()
-
+    # df.cache()
+    
     if not os.path.exists('task-d'):
         os.makedirs('task-d')
+    
     part_a(df)
-    t3 = time.time()
-
     part_b(df)
     part_c(df)
     part_d(df)
@@ -214,3 +211,4 @@ if __name__ == "__main__":
     part_h(df)
     part_i(df)
     part_j(df)
+    
