@@ -3,8 +3,11 @@ from pyspark.sql import SparkSession
 def make_pairs(lst):
     pairs = []
     try:
-        for i in range(1, int(lst[0])):
-            for j in range(i+1, int(lst[0])):
+        num = int(lst[0])
+        lst = lst[1:num+1]
+        lst = list(set(lst))
+        for i in range(0, num):
+            for j in range(i+1, num):
                 if lst[i] is not None and lst[j] is not None:
                     if lst[i] < lst[j]:
                         pairs.append((lst[i], lst[j])) 
@@ -24,8 +27,7 @@ def toList(data):
     arr.append(data[1])
     return arr
 
-def val(x):
-    return x[1]
+
 
 spark = SparkSession \
 .builder \
@@ -35,13 +37,10 @@ spark = SparkSession \
   
 df = spark.read.csv('./groceries - groceries.csv')
 rdd1 = df.rdd.flatMap(make_pairs) # 1.a
-rdd21 = rdd1.map(lambda x: (x,1))
-rdd2 = rdd21.reduceByKey(lambda x,y: x+y) # 1.b
+df2 = rdd1.toDF().groupBy('_1', '_2').count()
+df2 = df2.orderBy('count',ascending=False)
 
 
-rdd2.map(toList).toDF(['Item1', 'Item2', 'Count']).toPandas().to_csv('./count.csv', index=False)
-top5_lst = rdd2.top(5, key=val)
-
-for pair_counts in top5_lst: # 1.c
-    print(pair_counts[0])
-
+df2.toPandas().to_csv('./count.csv', index=False, header=False) # 1.b
+for item in df2.take(5):
+    print("('", item._1, "','", item._2,"')", sep="") # 1.c
