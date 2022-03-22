@@ -190,7 +190,7 @@ if __name__ == "__main__":
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()
     
-    csv_file = '/Users/vibhavaggarwal/Downloads/access.log'
+    csv_file = './access.log'
     rdd_c = get_rdd(spark, csv_file)
 
     df = rdd_c.toDF()
