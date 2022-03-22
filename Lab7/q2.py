@@ -1,8 +1,8 @@
 from pyspark.sql import *
 from pyspark.sql.functions import *
-from pyspark.sql.types import IntegerType, StringType
+from pyspark.sql.types import IntegerType
 import matplotlib.pyplot as plt
-import re, os, time
+import re, os
 
 def reg_split(x):
     try:
@@ -11,19 +11,19 @@ def reg_split(x):
         rh = re.findall(r'(.*?)\s', x)[0]
         x = re.sub(r'(.*?)\s(?!-)', '', x, 1)
         x = x.strip()
-        # print(x)
+
         rt = re.findall(r'(\[.*?\])', x)[0]
         x = re.sub(r'(\[.*?\])', '', x, 1)
         x = x.strip()
-        # print(x)
+
         rm = re.findall(r'"(.*?)"', x)[0]
         x = re.sub(r'\"(.*?)\"', '', x, 1)
         x = x.strip()
-        # print(x)
+
         rc = re.findall(r'\s*(.*?)\s+', x)[0]
         x = re.sub(r'\s*(.*?)\s+', '', x, 1)
         x = x.strip()
-        # print(x)
+
         rl = re.findall(r'\s*(.*?)\s+', x)[0]
         return [rh, rt, rm, rc, rl]
     except:
@@ -32,31 +32,24 @@ def reg_split(x):
 def clean(x):
     host_pattern = re.compile("\d{1,3}\.\d{1,3}\.\d{1,3}.\d{1,3}")
     if not host_pattern.match(x[0]):
-        # print("host not matching")
         return 1
     
-    # print(x[1])
     time_pattern = re.compile("\[\d\d/[A-Z a-z][A-Z a-z][A-Z a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]")
-    # print(re.findall("\[\d\d/[A-Z][a-z][a-z]/\d\d\d\d:\d\d:\d\d:\d\d [\+ \-]\d\d\d\d\]",x[1]))
+
     if not time_pattern.match(x[1]):
-        # print("time not matching")
         return 1
     
     method_pattern = re.compile(r"[A-Z]* .*")
-    # print(x[2])
-    # print(re.findall(r"\bGET\b|\bPOST\b|\bPUT\b|\bPATCH\b|\bDELETE\b .*", x[2]))
+
     if not method_pattern.match(x[2]):
-        # print("method not matching")
         return 1
 
     response_pattern = re.compile(r"[1 2 3 4 5]\d\d")
     if not response_pattern.match(x[3]):
-        # print("response not matching")
         return 1
     
     length_pattern = re.compile("\d+")
     if not length_pattern.match(x[4]):
-        #print("length not matching")
         return 1
     
     return 0
@@ -69,7 +62,6 @@ def task_a(spark, csv_file):
 def task_b(rdd_a):
     rdd = rdd_a.map(lambda x: reg_split(x.value))
     cols = ['Remote Host', 'Request Timestamp', 'Request Method', 'Response Code', 'Response Length']
-    # print(rdd.top(5))
     df  = rdd.toDF(cols)
     rdd = df.rdd
     return rdd
@@ -192,53 +184,31 @@ def part_j(df):
 
 
 if __name__ == "__main__":
-    # print(reg_split('66.249.66.194 - - [22/Jan/2019:03:56:20 +0330] "GET /m/filter/b2,p6 HTTP/1.1" 200 19451 "-" "Mozilla/5.0 (Linux; Android 6.0.1; Nexus 5X Build/MMB29P) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/41.0.2272.96 Mobile Safari/537.36 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)" "-"'))
     spark = SparkSession \
     .builder \
     .appName("PySpark create RDD example") \
     .config("spark.some.config.option", "some-value") \
-    .getOrCreate()  
-    t = time.time()
+    .getOrCreate()
+    
     csv_file = '/Users/vibhavaggarwal/Downloads/access.log'
     rdd_c = get_rdd(spark, csv_file)
 
     df = rdd_c.toDF()
-    # df.cache()
-    t0 = time.time()
-    print("get ", t0-t)
+
+    df = df.drop('Request Method')
+    df.cache()
+   
     if not os.path.exists('task-d'):
         os.makedirs('task-d')
     
-    
-    t1 = time.time()
     df_cache_a = part_a(df)
-    t2 = time.time()
-    print("a ", t2-t1)
     part_b(df_cache_a)
-    t3 = time.time()
-    print("b ", t3-t2)
     df_cache_c = part_c(df)
-    t4 = time.time()
-    print("c ", t4-t3)
     part_d(df_cache_c)
-    t5 = time.time()
-    print("d ", t5-t4)
     df_cache_e = part_e(df)
-    t6 = time.time()
-    print("e ", t6-t5)
     part_f(df_cache_e)
-    t7 = time.time()
-    print("f", t7-t6)
     part_g(df)
-    t8 = time.time()
-    print("g", t8-t7)
     part_h(df)
-    t9 = time.time()
-    print("h", t9-t8)
     part_i(df)
-    t10 = time.time()
-    print("i", t10-t9)
     part_j(df)
-    t11 = time.time()
-    print("j", t11-t10)
-    # print("h i j", time.time()-t8)
+    
