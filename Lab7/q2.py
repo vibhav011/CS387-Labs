@@ -199,7 +199,7 @@ if __name__ == "__main__":
     .config("spark.some.config.option", "some-value") \
     .getOrCreate()  
     t = time.time()
-    csv_file = './accesss.log'
+    csv_file = '/Users/vibhavaggarwal/Downloads/access.log'
     rdd_c = get_rdd(spark, csv_file)
 
     df = rdd_c.toDF()
@@ -233,6 +233,12 @@ if __name__ == "__main__":
     t8 = time.time()
     print("g", t8-t7)
     part_h(df)
+    t9 = time.time()
+    print("h", t9-t8)
     part_i(df)
+    t10 = time.time()
+    print("i", t10-t9)
     part_j(df)
-    print("h i j", time.time()-t8)
+    t11 = time.time()
+    print("j", t11-t10)
+    # print("h i j", time.time()-t8)
